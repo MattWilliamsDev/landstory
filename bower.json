@@ -1,0 +1,18 @@
+{
+  "name": "landstory",
+  "version": "0.0.0",
+  "authors": [
+    "Matt Williams <matt.williams@exacttarget.com>"
+  ],
+  "description": "Landstoryla.com",
+  "license": "MIT",
+  "homepage": "landstoryla.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
