@@ -1,1 +1,1 @@
-<p id="footer">901 n. east street, indianapolis, indiana 46202. Tel: 317 951 0000 &nbsp;|&nbsp; <?php include 'copyright.php'; ?> &nbsp;|&nbsp; <a href="mailto:info@landstoryla.com">info@landstoryla.com</a></p>
+<p id="footer">901 N. East St, Indianapolis, IN 46202. Tel: 317.951.0000 &nbsp;|&nbsp; <?php include 'copyright.php'; ?> &nbsp;|&nbsp; <a href="mailto:info@landstoryla.com">info@landstoryla.com</a></p>
