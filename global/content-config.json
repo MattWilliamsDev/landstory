@@ -1,0 +1,22 @@
+{
+	"header": {}
+	, "footer": {}
+	, "topnav": {}
+	, "news": {}
+	, "certifications": {}
+	, "projects": {}
+	, "story": {}
+	, "homepage": {}
+	, "employment": {
+		"content": "<p>We reward creative thinking, attention to detail, strong writing skills, client development, personal initiative and hard work. We are committed to continuing education, personal and professional well being and keeping balance in life. Our office environment is comfortable, stimulating and full of energy. We value the environment, and embrace the principles of sound sustainable planning.</p><p>Our projects are diverse in scale, ranging from the revitalization of downtowns and historic main streets, waterfront master planning, parks and greenways master planning and design and we are fortunate to collaborate with some of the best design consultants available.</p><p>If you are interested in this professional way of life, and having some fun along the way, please submit your resume to:</p>"
+		, "contactName": "Joann Green"
+		, "email": "jgreen@landstoryla.com"
+	}
+	, "contact_us": {
+		"phone": "317.951.0000"
+		, "fax": "317.951.0119"
+		, "email": "info@landstoryla.com"
+		, "facebook": "//facebook.com/landstoryla"
+		, "linkedin": "//linkedin.com/company/landstory"
+	}
+}

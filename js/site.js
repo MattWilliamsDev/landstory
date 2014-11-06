@@ -5,8 +5,8 @@
 	INIT sIFR
 	================================================================================ */
 	
-		var demi = { src: '/swf/demi.swf' };
-		sIFR.activate(demi);
+		// var demi = { src: '/swf/demi.swf' };
+		// sIFR.activate(demi);
 		
 		
 /*	////////////////////////////////////////////////////////////////////////////////
@@ -61,34 +61,30 @@ $(document).ready(function() {
 	sIFR CONFIG
 	================================================================================ */
 
-		sIFR.replace(demi, {
-		  selector: 'h2'
-		 ,wmode: 'transparent'
-		 ,offsetTop: 2
-		 ,tuneHeight: 0
-		  ,css: '.sIFR-root { color: #a8aa23; }, a { color: #a8aa23; text-decoration:none; }, a:hover { color: #a8aa23; text-decoration:underline;}, a:visited { color: #a8aa23; text-decoration:none; }'
-		});
+		// sIFR.replace(demi, {
+		//   selector: 'h2'
+		//  ,wmode: 'transparent'
+		//  ,offsetTop: 2
+		//  ,tuneHeight: 0
+		//   ,css: '.sIFR-root { color: #a8aa23; }, a { color: #a8aa23; text-decoration:none; }, a:hover { color: #a8aa23; text-decoration:underline;}, a:visited { color: #a8aa23; text-decoration:none; }'
+		// });
 		
+		// sIFR.replace(demi, {
+		//   selector: '#home #brandpromise'
+		//  ,wmode: 'transparent'
+		//  ,offsetTop: 2
+		//  ,tuneHeight: 0
+		//   ,css: '.sIFR-root { color: #5e6e65; leading: 6px; }'
+		// });
 		
-		
-		sIFR.replace(demi, {
-		  selector: '#home #brandpromise'
-		 ,wmode: 'transparent'
-		 ,offsetTop: 2
-		 ,tuneHeight: 0
-		  ,css: '.sIFR-root { color: #5e6e65; leading: 6px; }'
-		});
-		
-		
-		
-		sIFR.replace(demi, {
-		  selector: 'h3'
-		 ,wmode: 'transparent'
-		 ,offsetTop: 2
-		 ,tuneHeight: 0
-		  ,css: '.sIFR-root { color: #a8aa23; }, a { color: #a8aa23; text-decoration:none; }, a:hover { color: #a8aa23; text-decoration:underline;}, a:visited { color: #a8aa23; text-decoration:none; }'
-		  ,onRelease: function(fi) { toggleFlash(fi) }
-		});
+		// sIFR.replace(demi, {
+		//   selector: 'h3'
+		//  ,wmode: 'transparent'
+		//  ,offsetTop: 2
+		//  ,tuneHeight: 0
+		//   ,css: '.sIFR-root { color: #a8aa23; }, a { color: #a8aa23; text-decoration:none; }, a:hover { color: #a8aa23; text-decoration:underline;}, a:visited { color: #a8aa23; text-decoration:none; }'
+		//   ,onRelease: function(fi) { toggleFlash(fi) }
+		// });
 		
 		
 /*	////////////////////////////////////////////////////////////////////////////////
@@ -198,14 +194,6 @@ $(document).ready(function() {
 			$('#intro').remove();
 		}
 	
-	
-		
-	//$('#intro').fadeIn("slow").fadeTo(1500, 1).fadeTo("slow", 0, showContainer);
-	
-	
-
-		
-		
 		var counter = 0;
 			$("#news dd").each(function() {	
 				$(this).attr('id', 'newsitem' + counter);
@@ -213,18 +201,18 @@ $(document).ready(function() {
 			});	
 		
 		$("#news dt a").each(function() {					   
-				$(this).click(function(event) {	
-					event.preventDefault();
-					var nextitem = $(this).parent().next('dd').attr('id');
-						$(this).parent().siblings('dd').each(function() {
-																	  
-								if ( $(this).attr('id') != nextitem ) {
-									$(this).slideUp('normal')
-								} else {
-									$(this).slideToggle('normal')
-								}
-						});
-				});					   
+			$(this).click(function(event) {	
+				event.preventDefault();
+				var nextitem = $(this).parent().next('dd').attr('id');
+				$(this).parent().siblings('dd').each(function() {
+														  
+					if ( $(this).attr('id') != nextitem ) {
+						$(this).slideUp('normal')
+					} else {
+						$(this).slideToggle('normal')
+					}
+				});
+			});					   
 		});
 		
 		
@@ -238,43 +226,43 @@ $(document).ready(function() {
 	OUR STAFF SLIDING PANELS
 	================================================================================ */
 	
-	if ( $('body').attr('class') == 'ourstaff' ) {
+	// if ( $('body').attr('class') == 'ourstaff' ) {
 		
-		var currentPanel;
-			if (location.hash) { 
-				currentPanel = location.hash.substring(1);
-			} else {
-				currentPanel = 'joann_g';
-			}
+	// 	var currentPanel;
+	// 		if (location.hash) { 
+	// 			currentPanel = location.hash.substring(1);
+	// 		} else {
+	// 			currentPanel = 'joann_g';
+	// 		}
 	
-		$(".ourstaff .panel").each(function() {	
+	// 	$(".ourstaff .panel").each(function() {	
 									   
-				if ( $(this).attr('id') != currentPanel ) {
-					$(this).children('dl').hide();
-				}					   
-		});
+	// 			if ( $(this).attr('id') != currentPanel ) {
+	// 				$(this).children('dl').hide();
+	// 			}					   
+	// 	});
 		
 		
-		$("#sidenav .ourstaff ul li a").each(function() {					   
-				$(this).click(function(event) {	
-					event.preventDefault();
-						hrefHash = $(this).attr("href");
-						//setTimeout( setHash, 1000 );
-							$(hrefHash).siblings().children('dl').slideUp(1000);
-							$(hrefHash).children('dl').slideToggle(1000);
-				});					   
-		});
+	// 	$("#sidenav .ourstaff ul li a").each(function() {					   
+	// 			$(this).click(function(event) {	
+	// 				event.preventDefault();
+	// 					hrefHash = $(this).attr("href");
+	// 					//setTimeout( setHash, 1000 );
+	// 						$(hrefHash).siblings().children('dl').slideUp(1000);
+	// 						$(hrefHash).children('dl').slideToggle(1000);
+	// 			});					   
+	// 	});
 		
 		
-	}
+	// }
 	
 	
-	function toggleFlash(fi) {
-		var h = fi.getAncestor();
-		var currentToggle = $(h).parent();
-			$(currentToggle).siblings().children('dl').slideUp(1000);
-			$(currentToggle).children('dl').slideToggle(1000);
-	}
+	// function toggleFlash(fi) {
+	// 	var h = fi.getAncestor();
+	// 	var currentToggle = $(h).parent();
+	// 		$(currentToggle).siblings().children('dl').slideUp(1000);
+	// 		$(currentToggle).children('dl').slideToggle(1000);
+	// }
 	
 	function setHash() {
 		window.location.hash = hrefHash;

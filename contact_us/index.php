@@ -37,7 +37,7 @@
 				<?php include 'sidenav.php'; ?>
 				<div id="main"  style="margin-bottom: 48px;">
 					<h2><a href="/contact_us">CONTACT US</a></h2>
-					<img src="../images/captions/location.jpg" width="699" height="335" style="margin-bottom: 20px;" />
+					<img src="../images/building_new.jpg" width="699" height="446" style="margin-bottom: 20px;" />
 					
 					<div class="row">
 						<div class="col-md-4">
@@ -45,13 +45,14 @@
 								901 N. East St<br/>
 								Indianapolis, Indiana 46202<br/>
 								<abbr title="phone">P:</abbr> 317.951.0000<br/>
-								<abbr title="fax">F:</abbr> 317.951.0119<br/>
 								<a href="mailto:info@landstoryla.com">info@landstoryla.com</a>
 							</address>
 						</div>
 						
 						<div class="col-md-6">
 							<div id="gmap"></div>
+							<br>
+							<a href="//www.google.com/maps/place/901+N+East+St+46202" class="maps-link" target="_blank">View on Google Maps</a>
 						</div>
 
 						<div class="col-md-2">

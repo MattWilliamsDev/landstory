@@ -62,7 +62,6 @@
 					Indianapolis, Indiana 46202
 				</li>
 				<li>P 317.951.0000</li>
-				<li>F 317.951.0119</li>
 				<li class="last"><a href="mailto:info@landstoryla.com">info@landstoryla.com</a></li>
 			</ul>
         </div>
