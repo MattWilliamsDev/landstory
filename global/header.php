@@ -8,7 +8,7 @@
 <script type="text/javascript" src="/bower_components/handlebars/handlebars.min.js"></script>
 <!-- <script type="text/javascript" src="/js/jquery-1.3.2.js"></script> -->
 <script type="text/javascript" src="/js/jquery.cycle.all.js"></script>
-<!-- <script type="text/javascript" src="/js/sifr.js"></script> -->
+<script type="text/javascript" src="/js/sifr.js"></script>
 <script type="text/javascript" src="/js/jcookie-min.js"></script>
 <script type="text/javascript" src="/js/site.js"></script>
 

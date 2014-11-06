@@ -1,205 +1,148 @@
-/*	////////////////////////////////////////////////////////////////////////////////
+/**
+ * INIT sIFR
+ */
 
-    --------------------------------------------------------------------------------
-	
-	INIT sIFR
-	================================================================================ */
-	
-		// var demi = { src: '/swf/demi.swf' };
-		// sIFR.activate(demi);
+// var demi = { src: '/swf/demi.swf' };
+// sIFR.activate(demi);
 		
 		
-/*	////////////////////////////////////////////////////////////////////////////////
+/**
+ * CALLED BY CYCLE PAGER
+ */
 
-    --------------------------------------------------------------------------------
-	
-	CALLED BY CYCLE PAGER
-	================================================================================ */	
-	
-		function onAfter(curr, next, opts) {
-			var index = opts.currSlide;
-				/*if (index == 0 ) {
-					$('#prev').attr('class', 'disabled');
-				} else {
-					$('#prev').attr('class', 'enabled');
-				}
-					if (index == opts.slideCount - 1) {
-						$('#next').attr('class', 'disabled');
-					} else {
-						$('#next').attr('class', 'enabled');
-					}*/
-				$('#pageNum').html( (opts.currSlide +1) + ' / ' + opts.slideCount );
-		}
+function onAfter( curr, next, opts ) {
+	var index = opts.currSlide;
+	$( '#pageNum' ).html( ( opts.currSlide + 1 ) + ' / ' + opts.slideCount );
+}
 
+/**
+ * DOCUMENT READY
+ */
 
-
-/*	////////////////////////////////////////////////////////////////////////////////
-
-    --------------------------------------------------------------------------------
-	
-	DOCUMENT READY
-	================================================================================ */
-	
-
-$(document).ready(function() {
-						   			   
-		
-/*	////////////////////////////////////////////////////////////////////////////////
-
-    --------------------------------------------------------------------------------
-	
-	VARIABLES
-	================================================================================ */
+$( document ).ready( function() {
+	// VARIABLES
 	var hrefHash;
 
-
-
-/*	////////////////////////////////////////////////////////////////////////////////
-
-    --------------------------------------------------------------------------------
+	// sIFR CONFIG
+	// sIFR.replace(demi, {
+	//   selector: 'h2'
+	//  ,wmode: 'transparent'
+	//  ,offsetTop: 2
+	//  ,tuneHeight: 0
+	//   ,css: '.sIFR-root { color: #a8aa23; }, a { color: #a8aa23; text-decoration:none; }, a:hover { color: #a8aa23; text-decoration:underline;}, a:visited { color: #a8aa23; text-decoration:none; }'
+	// });
 	
-	sIFR CONFIG
-	================================================================================ */
-
-		// sIFR.replace(demi, {
-		//   selector: 'h2'
-		//  ,wmode: 'transparent'
-		//  ,offsetTop: 2
-		//  ,tuneHeight: 0
-		//   ,css: '.sIFR-root { color: #a8aa23; }, a { color: #a8aa23; text-decoration:none; }, a:hover { color: #a8aa23; text-decoration:underline;}, a:visited { color: #a8aa23; text-decoration:none; }'
-		// });
-		
-		// sIFR.replace(demi, {
-		//   selector: '#home #brandpromise'
-		//  ,wmode: 'transparent'
-		//  ,offsetTop: 2
-		//  ,tuneHeight: 0
-		//   ,css: '.sIFR-root { color: #5e6e65; leading: 6px; }'
-		// });
-		
-		// sIFR.replace(demi, {
-		//   selector: 'h3'
-		//  ,wmode: 'transparent'
-		//  ,offsetTop: 2
-		//  ,tuneHeight: 0
-		//   ,css: '.sIFR-root { color: #a8aa23; }, a { color: #a8aa23; text-decoration:none; }, a:hover { color: #a8aa23; text-decoration:underline;}, a:visited { color: #a8aa23; text-decoration:none; }'
-		//   ,onRelease: function(fi) { toggleFlash(fi) }
-		// });
-		
-		
-/*	////////////////////////////////////////////////////////////////////////////////
-
-    --------------------------------------------------------------------------------
+	// sIFR.replace(demi, {
+	//   selector: '#home #brandpromise'
+	//  ,wmode: 'transparent'
+	//  ,offsetTop: 2
+	//  ,tuneHeight: 0
+	//   ,css: '.sIFR-root { color: #5e6e65; leading: 6px; }'
+	// });
 	
-	GALLERY CYCLE
-	================================================================================ */
-		
-		 $('#gallery').each(function() {
-										   
-				$(this).cycle({ 
-				fx:    'fade', 
-				speed:	1000,
-				timeout:  6000,
-				 prev:   '#prev', 
-				 next:   '#next',
-				 after:   onAfter,
-				 //pager:  '#pager',
-				 nowrap:  0,
-				pagerAnchorBuilder: function(idx, slide) { 
-				 // return selector string for existing anchor 
+	// sIFR.replace(demi, {
+	//   selector: 'h3'
+	//  ,wmode: 'transparent'
+	//  ,offsetTop: 2
+	//  ,tuneHeight: 0
+	//   ,css: '.sIFR-root { color: #a8aa23; }, a { color: #a8aa23; text-decoration:none; }, a:hover { color: #a8aa23; text-decoration:underline;}, a:visited { color: #a8aa23; text-decoration:none; }'
+	//   ,onRelease: function(fi) { toggleFlash(fi) }
+	// });
+
+	/**
+	 * GALLERY CYCLE
+	 */	
+	 $( '#gallery' ).each( function() {							   
+		$( this ).cycle({ 
+			fx:    'fade'
+			, speed:	1000
+			, timeout:  6000
+			, prev:   '#prev' 
+			, next:   '#next'
+			, after:   onAfter
+			, nowrap:  0
+			, pagerAnchorBuilder: function( idx, slide ) { 
+				// return selector string for existing anchor
 				return '#nav li:eq(' + idx + ') a'; 
-				} 
-				});
-				
-				$(this).hover(function() {
-					$(this).cycle('pause');
-				},function() {
-					$(this).cycle('resume');
-					});
-				
-			});
+			}
+		});
+		
+		$( this ).hover( function() {
+			$( this ).cycle( 'pause' );
+		}
+		, function() {
+			$( this ).cycle( 'resume' );
+		});
+	});
 		
 
-/*	////////////////////////////////////////////////////////////////////////////////
-
-    --------------------------------------------------------------------------------
-	
-	NAV
-	================================================================================ */
-	
-	$("#topnav li").each(function() {					 						 
-		$(this).hover(
+	/**
+	 * NAV
+	 */
+	$( '#topnav li' ).each( function() {					 						 
+		$( this ).hover(
 			function() {			   
-				$(this).children('ul').show();
-				$(this).children('.bg').show();
-				$(this).children('.bg').height( $(this).children('ul').height() );
-				$(this).children('.bg').width( $(this).children('ul').width() );
-			},
-			function() {			   
-				$(this).children('ul').hide();
-				$(this).children('.bg').hide();
+				$( this ).children( 'ul' ).show();
+				$( this ).children( '.bg' ).show();
+				$( this ).children( '.bg' ).height( $( this ).children( 'ul' ).height() );
+				$( this ).children( '.bg' ).width( $( this ).children( 'ul' ).width() );
+			}
+			, function() {			   
+				$( this ).children( 'ul' ).hide();
+				$( this ).children( '.bg' ).hide();
 			}
 			
 		);	
 	});
 	
 	
-/*	////////////////////////////////////////////////////////////////////////////////
-
-    --------------------------------------------------------------------------------
-	
-	SECONDARY NAV
-	================================================================================ */
-	$("#sidenav li").each(function() {						   
-		var section = $('body').attr('id');
-		var project = $('body').attr('class');
-		var thisClass = $(this).attr('class');
-			if (thisClass.indexOf(section) != -1 || thisClass.indexOf(project) != -1) {
+	/**
+	 * SECONDARY NAV
+	 */
+	$( '#sidenav li' ).each( function() {						   
+		var section = $( 'body' ).attr( 'id' );
+		var project = $( 'body' ).attr( 'class' );
+		var thisClass = $( this ).attr( 'class' );
+			if ( thisClass.indexOf( section ) != -1 || thisClass.indexOf( project ) != -1 ) {
 				thisClass += " active";
-				$(this).attr('class', thisClass);
+				$( this ).attr( 'class', thisClass );
 			} 	
 	});
 	
 
-/*	////////////////////////////////////////////////////////////////////////////////
-
-    --------------------------------------------------------------------------------
-	
-	HOMEPAGE
-	================================================================================ */
-	
+	/**
+	 * HOMEPAGE
+	 */
 	function showContainer() {
-		$('#intro').remove();
+		$( '#intro' ).remove();
 	}
 	
 	function fadeOutIntro() {
-		$('#intro').fadeTo(2500, 0, showContainer);
+		$( '#intro' ).fadeTo( 2500, 0, showContainer );
 	}
 	
-	if ( $('body').attr('id') == 'home' ) {
+	if ( $( 'body' ).attr( 'id' ) == 'home' ) {
 		
 		//jQuery.jCookie('initlogo',null);
 		
 		if ( jQuery.jCookie('initlogo') != 'true' ) {
-			
 			var date = new Date();
-				date.setTime(date.getTime() + (1 * 24 * 60 * 60 * 1000));
+			date.setTime( date.getTime() + ( 1 * 24 * 60 * 60 * 1000 ) );
 				
-			jQuery.jCookie('initlogo','true', date);
+			jQuery.jCookie( 'initlogo','true', date );
 			
-			
-			$('#intro .logo').fadeIn("slow").fadeTo(3500, 1, fadeOutIntro);
+			$( '#intro .logo' ).fadeIn( 'slow' ).fadeTo( 3500, 1, fadeOutIntro );
 			
 		} else {
-			$('#intro').remove();
+			$( '#intro' ).remove();
 		}
 	
 		var counter = 0;
-			$("#news dd").each(function() {	
-				$(this).attr('id', 'newsitem' + counter);
+			$( '#news dd' ).each( function() {	
+				$( this ).attr( 'id', 'newsitem' + counter );
 				counter++;
 			});	
-		
+
 		$("#news dt a").each(function() {					   
 			$(this).click(function(event) {	
 				event.preventDefault();
@@ -214,18 +157,12 @@ $(document).ready(function() {
 				});
 			});					   
 		});
-		
-		
 	}
 	
 	
-/*	////////////////////////////////////////////////////////////////////////////////
-
-    --------------------------------------------------------------------------------
-	
-	OUR STAFF SLIDING PANELS
-	================================================================================ */
-	
+	/**
+	 * OUR STAFF SLIDING PANELS
+	 */
 	// if ( $('body').attr('class') == 'ourstaff' ) {
 		
 	// 	var currentPanel;
@@ -252,10 +189,6 @@ $(document).ready(function() {
 	// 						$(hrefHash).children('dl').slideToggle(1000);
 	// 			});					   
 	// 	});
-		
-		
-	// }
-	
 	
 	// function toggleFlash(fi) {
 	// 	var h = fi.getAncestor();
@@ -268,26 +201,11 @@ $(document).ready(function() {
 		window.location.hash = hrefHash;
 	}
 	
-/*	////////////////////////////////////////////////////////////////////////////////
+	/**
+	 * THUMB GRIDS
+	 */
+	$( 'ul.grid li:nth-child(3n)' ).each( function() {						   
+		$( this ).css( 'margin-right', '0' );
+	});
 
-    --------------------------------------------------------------------------------
-	THUMB GRIDS
-	================================================================================ */
-	
-	$("ul.grid li:nth-child(3n)").each(
-		function() {						   
-			$(this).css('margin-right', '0');
-		}
-	);
-	
-	
-	
-	
-/*	////////////////////////////////////////////////////////////////////////////////
-
-    --------------------------------------------------------------------------------
-	
-	END DOCUMENT READY
-	================================================================================ */
-	
-});
+}); // DOCUMENT READY

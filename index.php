@@ -64,6 +64,38 @@
 				<li>P 317.951.0000</li>
 				<li class="last"><a href="mailto:info@landstoryla.com">info@landstoryla.com</a></li>
 			</ul>
-        </div>
-    </body>
+			<p id="pager" class="clearfix"><a id="prev" href="#">&lt;</a><a id="next" href="#">&gt;</a><span id="pageNum">/</span></p>
+			<p id="brandpromise">Landstory is a single discipline landscape architecture firm committed to interpreting each client's unique story, delivering creative, distinctive and sustainable design, a high level of technical competence and a return on their investment.</p>
+		</div>
+		<dl id="news">
+			<H2>NEWS HIGHLIGHTS</H2>
+			<dt><a href="#">Announcing Our New Location</a></dt>
+			<dd class="active"><p>Landstory proudly announces our new location as of June 28th, 2011 - 901 N. East Street, Indianapolis, IN 46202</p></dd>
+			
+			<dt><a href="#">Speedway Trails Grant</a></dt>
+			<dd><p>$500,000 in Transportation Enhancement funding was awarded to the Town of Speedway in the spring of 2011 for their segment of the B&amp;O Trail. Landstory prepared the trail concept and subsequent funding application for the Speedway Trails Association.</p></dd>
+			
+			<dt><a href="#">Outstanding Overall Achievement Award</a></dt>
+			<dd style="height:400px;"><p><strong>University Avenue Corridor Study - Outstanding Overall Achievement Award for a non-TMA MPO</strong>
+Landstory is pleased to announce the University Avenue Corridor Study, Urbana, Illinois received an Outstanding Overall Achievement Award from the Association of Metropolitan Planning Organizations.  The comprehensive redevelopment plan focused on University Avenue, a critical transportation link for the region, extending between Urbana and Champaign.  Landstory made recommendations for zoning, architecture, streetscape design and miscellaneous transportation related improvement. The Landstory Team involved the public in identifying key issues and opportunities, integrated existing land use and transportation plans, formulated an overall vision and development concept, prepared cost estimates and an action plan for implementation.</p></dd>
+			
+			
+			<dt><a href="#">Active Landstory Projects</a></dt>
+			
+			<dd>
+				<ul style="list-style:circle; margin-left: 6px; padding-left: 6px;">
+					<li style="list-style:circle; margin-left: 6px; padding-left: 6px;">University of Indianapolis Residence Hall; Indianapolis, Indiana</li>
+					<li style="list-style:circle; margin-left: 6px; padding-left: 6px;">Dunes Kankakee Trail; Porter County, Indiana</li>
+					<li style="list-style:circle; margin-left: 6px; padding-left: 6px;">Madison Avenue Gateway; Muncie, Indiana</li>
+					<li style="list-style:circle; margin-left: 6px; padding-left: 6px;">Olio Road Round-a-bout; Noblesville, Indiana</li>
+					<li style="list-style:circle; margin-left: 6px; padding-left: 6px;">Lewis &amp; Clark Trail; Clarksville, Indiana</li>
+					<li style="list-style:circle; margin-left: 6px; padding-left: 6px;">Miller Valentine Properties; Bloomington, Columbus &amp; Lawrenceburg, Indiana</li>
+				</ul>
+			</dd>
+		</dl>
+	
+		<?php include 'global/footer.php'; ?>
+	</div>
+</div>
+</body>
 </html>
