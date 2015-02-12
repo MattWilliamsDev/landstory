@@ -1,0 +1,122 @@
+{{# if name }}
+<h2 class="name">
+	{{ fullName }}<br>
+	<small>{{# each qualifications }}{{ . }} {{/ each }}</small>
+</h2>
+
+<dl class="personal-bio dl-horizontal">
+	<dt>Email</dt>
+	<dd>
+		<ul class="email">
+			<li>
+				<a class="email-address" href="mailto:{{ email }}">{{ email }}</a>
+			</li>
+		</ul>
+	</dd>
+
+	{{# if intro }}
+	<dt>A little about {{ name.first }}</dt>
+	<dd>
+		<p>
+			{{{ intro }}}
+		</p>
+	</dd>
+	{{/ if }}
+
+	{{# if education }}
+	<dt>Education</dt>
+	<dd>
+		<ul class="education">
+			{{# each education}}
+			<li>
+				{{ degree }}, {{ school }} - {{ year }}
+			</li>
+			{{/ each }}
+		</ul>
+	</dd>
+	{{/ if }}
+	
+	{{# if registration }}
+	<dt>Registrations</dt>
+	<dd>
+		<ul class="registration">
+			{{# each registration }}
+			<li>
+				{{ title }}{{# if state }}, {{ state }}{{/ if }}{{# if year }} - {{ year }}{{/ if }}
+			</li>
+			{{/ each }}
+		</ul>
+	</dd>
+	{{/ if }}
+	
+	{{# if participation }}
+	<dt>Community Participation</dt>
+	<dd>
+		<ul class="participation">
+			{{# each participation }}
+			<li>
+				{{ program }}{{# if year }}, {{ year }}{{/ if }}
+			</li>
+			{{/ each }}
+		</ul>
+	</dd>
+	{{/ if }}
+	
+	{{# if projects }}
+	<dt>Significant Projects</dt>
+	<dd>
+		<ul class="projects">
+			{{# each projects }}
+			<li>
+				<strong>{{{ name }}}</strong> - {{ location }}
+			</li>
+			{{/ each }}
+		</ul>
+	</dd>
+	{{/ if }}
+	
+	{{# if awards }}
+	<dt>Design Awards</dt>
+	<dd>
+		<ul class="awards">
+			{{# each awards }}
+			<li>
+				<strong>{{ name }}</strong><br>
+				{{{ project }}} - {{ year }}
+			</li>
+			{{/ each }}
+		</ul>
+	</dd>
+	{{/ if }}
+
+	{{# if qa }}
+		<dt>Q&amp;A</dt>
+		<dd>
+			<ul>
+				{{# each qa }}
+				<li>
+					<strong>{{{ question }}}:</strong> {{{ answer }}}
+				</li>
+				{{/ each }}
+			</ul>
+		</dd>
+	{{/ if }}
+
+	{{# if other }}
+		{{# each other }}
+		<dt>{{ category }}</dt>
+		<dd>
+			<ul class="other">
+				{{# each items }}
+				<li>
+					{{ name }} - {{ location }} - {{ year }}
+				</li>
+				{{/ each }}
+			</ul>
+		</dd>
+		{{/ each }}
+	{{/ if }}
+</dl>
+{{ else }}
+<h3>Select a staff member on the left to see their information</h3>
+{{/ if }}

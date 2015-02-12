@@ -1,0 +1,31 @@
+.ss-list li {
+  list-style: none;
+}
+.ss-list .people .list-person,
+#sidenav li .ss-list .people .list-person {
+	border: 1px dotted #333;
+	border-width: 0 0 1px 0;
+	padding: 10px 5px;
+	background: none;
+	cursor: pointer;
+}
+.ss-list .people .list-person:first-child
+, #sidenav li .ss-list .people .list-person:first-child {
+  	
+}
+.ss-list .people .list-person:last-child,
+#sidenav li .ss-list .people .list-person:last-child {
+	border-bottom: none;
+}
+
+.staffstories .ss-content .name, 
+.personal-bio {
+	margin-top: 20px;
+}
+.personal-bio dt,
+.personal-bio dd {
+	/*margin: 10px 0;*/
+}
+.personal-bio:first-child {
+  	margin-top: 0;
+}
