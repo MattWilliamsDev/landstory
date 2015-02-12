@@ -21,25 +21,14 @@
 				</ul>	
 				<p id="pager" class="clearfix"><a id="prev" href="#">&lt;</a><a id="next" href="#">&gt;</a><span id="pageNum">/</span></p>
 				<p class="storyline">
-				History seeps out of every pore of the architectural fabric in downtown Corydon, the first state capitol of Indiana.  The Landstory planning team charged with highlighting this heritage,  identified ways to celebrate and enhance Corydon's heritage as the first state capitol.  To knit the various parts of state owned historic sites together, a plan was prepared to interconnect the existing historic sites and structures.
-				
-				
-				
-				
-				  Not only did we look back but forward to improving the storytelling and interpretation of these important cultural elements as part of the celebration planned for the 2016 Bicentennial of Indiana.  Tell your friends, tell your neighbors, as this should make for a memorable Hoosier experience!! 
-				
-				
-				
+					History seeps out of every pore of the architectural fabric in downtown Corydon, the first state capitol of Indiana.  The Landstory planning team charged with highlighting this heritage,  identified ways to celebrate and enhance Corydon's heritage as the first state capitol.  To knit the various parts of state owned historic sites together, a plan was prepared to interconnect the existing historic sites and structures.  Not only did we look back but forward to improving the storytelling and interpretation of these important cultural elements as part of the celebration planned for the 2016 Bicentennial of Indiana.  Tell your friends, tell your neighbors, as this should make for a memorable Hoosier experience!!
 				</p>
 				<ul class="left">
 					<li>Master Plan for the First State Capitol Building and Square, First Governor’s Residence, First State Office Building and the Constitution Elm Memorial</li>
-					
 					<li class="last">Process included site assessment and analysis, program definition, concept development and implementation strategies</li>
 				</ul>
 				<ul class="right">
-					
-					<li class="last">Plan included recommendations for capitol projects, wayfinding and connectivity elements, visitation and revenue enhancement; pedestrian enhancement, traffic calming features, drop off and parking facilities
-Implementation in time for the 2016 Indiana bicentennial events</li>
+					<li class="last">Plan included recommendations for capitol projects, wayfinding and connectivity elements, visitation and revenue enhancement; pedestrian enhancement, traffic calming features, drop off and parking facilities. Implementation in time for the 2016 Indiana bicentennial events</li>
 				</ul>
 				
 		</div>

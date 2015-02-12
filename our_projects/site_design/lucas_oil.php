@@ -24,8 +24,7 @@
 				<p id="pager" class="clearfix"><a id="prev" href="#">&lt;</a><a id="next" href="#">&gt;</a><span id="pageNum">/</span></p>
 				
 				<p class="storyline">
-				Are you ready for some football!?  We were, but not without telling the story about Alexander Ralston's original vision and layout for downtown Indianapolis developed in 1825.  The orientation of Lucas Oil Stadium and surrounding site reinforces and commemorates the mile-square and historic diagonal streets that radiated from the Monument Circle, once upon a time. Formerly Kentucky Avenue, development took over, eliminating the right-of-way.  The current diagonal orientation of the stadium allows for striking views of central downtown for stadium spectators.  A silver lining?  You bet.  And the site design respects the urban grid, allowing for a tree-lined, comfortable experience for pedestrians.  We could go on...  
-				
+					Are you ready for some football!?  We were, but not without telling the story about Alexander Ralston's original vision and layout for downtown Indianapolis developed in 1825.  The orientation of Lucas Oil Stadium and surrounding site reinforces and commemorates the mile-square and historic diagonal streets that radiated from the Monument Circle, once upon a time. Formerly Kentucky Avenue, development took over, eliminating the right-of-way.  The current diagonal orientation of the stadium allows for striking views of central downtown for stadium spectators.  A silver lining?  You bet.  And the site design respects the urban grid, allowing for a tree-lined, comfortable experience for pedestrians.  We could go on...
 				</p>
 				
 				

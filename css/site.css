@@ -10,6 +10,7 @@ a {
 	text-decoration: none;
 }
 a:hover {
+	color: #2a6496;
 	text-decoration: underline;
 }
 img {
@@ -23,6 +24,20 @@ body {
 	color: #5e6e65;
 	text-align: center;
 }
+
+.circle-list,
+.circle-list li {
+	list-style: circle;
+	margin-left: 6px;
+	padding-left: 6px;
+}
+
+.section-title {
+	text-transform: capitalize;
+}
+
+
+
 
 /* ////////////////////////////////////////////////////////////////////////////////
 
@@ -96,6 +111,9 @@ SIDE NAV
 	display: block;
 	font-weight: bold;
 }
+.ourstaff #sidenav li ul {
+	display: block;
+}
 #sidenav li ul {
 	display: none;
 }
@@ -123,18 +141,19 @@ SIDE NAV
 	padding: 4px 0;
 	background: none;
 }
-#sidenav li.active ul li a {
+#sidenav li.active ul.project-list li a {
 	background: none;
 	border-bottom: none;
 	padding: 0 12px 0 24px;
 	font-weight: normal;
 	color: #5e6e65;
 }
-#sidenav li.active ul li.active a {
+/*#sidenav li.active ul.project-list li.active a {
 	background: #a8aa23;
 	color: #FFF;
-}
-#sidenav li.active ul li.last {
+}*/
+#sidenav li.active ul li.last,
+#sidenav li.active ul li:last-child {
 	border-bottom: 1px solid #aeb6b2;
 }
 #content #main {
@@ -155,6 +174,13 @@ SIDE NAV
 	list-style: disc outside url("../images/bullet.gif");
 	padding: 6px 0 48px 0;
 }
+#main ul.left .list-heading,
+#main ul.right .list-heading {
+	list-style: none;
+	padding-top: 0;
+	margin: -10px 0 0 0;
+}
+
 #main dl.left dt, #main dl.right dt {
 	font-weight: bold;
 	padding: 6px 0;
@@ -173,7 +199,10 @@ SIDE NAV
 	color: #5e6e65;
 	border-bottom: 1px dotted #aeb6b2;
 }
-#main .left li.last, #main .right li.last {
+#main .left li.last,
+#main .right li.last,
+#main .left li:last-child,
+#main .right li:last-child {
 	border-bottom: none;
 }
 #main .left li ul li, #main .right li ul li {
@@ -184,6 +213,10 @@ SIDE NAV
 }
 #main #gallery {
 	height: 312px;
+}
+#main #gallery li img {
+	height: 304px;
+	width: 701px;
 }
 #pager {
 	height: 34px;
@@ -242,14 +275,14 @@ OUR STAFF
 	margin-bottom: 20px;
 	padding-top: 10px;
 }
-#ourstory dt, #collaboration dt, #ourcertifications dt, #grant_writing dt {
+#collaboration dt, #ourcertifications dt, #grant_writing dt {
 	float: left;
 	width: 140px;
 	margin-right: 1px;
 	padding: 20px 0;
 	font-weight: bold;
 }
-#ourstory dd, #collaboration dd, #ourcertifications dd, #grant_writing dd {
+#collaboration dd, #ourcertifications dd, #grant_writing dd {
 	border-top: 1px dotted #aeb6b2;
 	padding: 20px 0 10px 160px;
 }
@@ -274,8 +307,31 @@ CONTACT US / EMPLOYMENT / NEWS HIGHLIGHTS
 .employment p, #newspage p {
 	padding-bottom: 10px;
 }
-.brand_promise blockquote {
-	padding: 20px;
+
+.testimonials dt {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.testimonials blockquote {
+	font-size: 12px;
+}
+
+.testimonials blockquote footer .author {
+	/*display: inline-block;*/
+}
+
+.testimonials .project-name {
+	font-size: 14px;
+	font-weight: bold;
+	/*border-top: 1px dotted #aeb6b2;*/
+	padding-top:20px;
+}
+
+#ourstory.brand-promise .author {
+	/*font-weight: bold;*/
+	/*padding-left:20px;*/
 }
 
 /* ////////////////////////////////////////////////////////////////////////////////
@@ -329,12 +385,59 @@ table {
 --------------------------------------------------------------------------------
 HOMEPAGE
 ================================================================================ */
+#home .panel-default .panel-heading {
+	background: #aeb6b2 url(../images/wht_arrow.gif) no-repeat bottom right;
+	color: #fff;
+	padding: 6px 8px;
+	font-weight: bold;
+	line-height: 1em;
+	margin-top: 2px;
+}
+
+#home .panel-default .panel-heading a {
+	font-size: 12px;
+}
+
+#home .panel-default .panel-heading a:hover {
+	text-decoration: underline;
+	color: #fff;
+}
+
+.center-cropped {
+  width: 620px;
+  height: 304px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+
+/* Set the image to fill its parent and make transparent */
+.center-cropped img {
+  min-height: 100%;
+  min-width: 100%;
+  /* IE 8 */
+  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+  /* IE 5-7 */
+  filter: alpha(opacity=0);
+  /* modern browsers */
+  opacity: 0;
+}
+
+#home #pager a,
+#home #pager span {
+	margin-top: -10px;
+}
+
+#home .panel-default .panel-body {
+	font-size: 11px;
+}
+
 #home #container {
 	/* display: none;
 	*/
 }
 #home #intro .logo {
-	display: none;
+	/*display: none;*/
 	background: #fff url(../images/home/intro.gif) no-repeat center center;
 	width: 100%;
 	height: 100%;
@@ -390,18 +493,18 @@ HOMEPAGE
 	display: block;
 }
 #home #gallery {
-	height: 331px;
+	height: 306px;
 }
 #home #pager {
 	border-bottom: none;
 }
 #home #gallery img {
-	height: 329px;
+	height: 304px;
 }
 #home #gallery p {
 	position: absolute;
 	left: 52px;
-	top: 331px;
+	top: 306px;
 	width: 516px;
 	line-height: 24px;
 	height: 24px;
@@ -431,8 +534,17 @@ THUMB GRIDS
 #main ul.grid li {
 	float: left;
 	margin-right: 8px;
-	width: 228px;
-	height: 180px;
+	width: 220px;
+	height: 260px;
+}
+#main ul.grid li.thumb-list {
+	height: auto;
+	width: 220px;
+	height: 260px;
+}
+#main .grid .thumb-list img {
+	width: 220px;
+	height: 98px;
 }
 #main ul.grid a {
 	color: #5e6e65;

@@ -21,10 +21,10 @@
 				</ul>	
 				<p id="pager" class="clearfix"><a id="prev" href="#">&lt;</a><a id="next" href="#">&gt;</a><span id="pageNum">/</span></p>
 				<p class="storyline">
-				Population growth in Noblesville is occurring exponentially. In support of their vision for continued future growth and prosperity, Landstory developed a modern, sustainable concept for the designs of the Union Chapel corridor and round-a-bout landscapes, combining traditional materials with contemporary forms.  Low-maintenance native plant materials placed in large, geometric and sweeping masses provide a vision for a proud community. 
+					Population growth in Noblesville is occurring exponentially. In support of their vision for continued future growth and prosperity, Landstory developed a modern, sustainable concept for the designs of the Union Chapel corridor and round-a-bout landscapes, combining traditional materials with contemporary forms.  Low-maintenance native plant materials placed in large, geometric and sweeping masses provide a vision for a proud community. 
 				</p>
 				<ul class="left">
-					<li class="last">New roundabout at 166th Street, Town, Country, and Pleasant Streets </li>
+					<li class="last">New roundabout at 166th Street, Town, Country, and Pleasant Streets</li>
 				</ul>
 				<ul class="right">
 					<li class="last">Creative alignment of  sidewalks, decorative crosswalks and landscaped islands</li>

@@ -1,101 +1,124 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-		<meta name="keywords" content="" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="/css/site.css" rel="stylesheet" type="text/css" media="all" />
-
-		<style type="text/css">
-		#under-construction .logo {
-			background: #fff url(images/home/intro.gif) no-repeat bottom center;
-			width: 100%;
-			height: 500px;
-		}
-		
-		#under-construction {
-			/*display: none;
-			background: #fff url(images/home/intro.gif) no-repeat center center;	*/
-			background: #fff;
-			position: absolute;
-			z-index: 199;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-		}
-
-		#hours {
-			margin-top: 30px;
-		}
-
-		.notice {
-			font-size: 16px;
-			font-weight: bold;
-			margin: 30px 0;
-		}
-		</style>
-
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-        <div id="under-construction">
-        	<div class="logo"></div>
-        	
-        	<p class="notice">
-        		This page is currently under construction. Check back soon to see all of the updates!
-        	</p>
-
-        	<ul id="hours">
-				<li>
-					901 N. East Street<br/>
-					Indianapolis, Indiana 46202
-				</li>
-				<li>P 317.951.0000</li>
-				<li class="last"><a href="mailto:info@landstoryla.com">info@landstoryla.com</a></li>
-			</ul>
-			<p id="pager" class="clearfix"><a id="prev" href="#">&lt;</a><a id="next" href="#">&gt;</a><span id="pageNum">/</span></p>
-			<p id="brandpromise">Landstory is a single discipline landscape architecture firm committed to interpreting each client's unique story, delivering creative, distinctive and sustainable design, a high level of technical competence and a return on their investment.</p>
-		</div>
-		<dl id="news">
-			<H2>NEWS HIGHLIGHTS</H2>
-			<dt><a href="#">Announcing Our New Location</a></dt>
-			<dd class="active"><p>Landstory proudly announces our new location as of June 28th, 2011 - 901 N. East Street, Indianapolis, IN 46202</p></dd>
-			
-			<dt><a href="#">Speedway Trails Grant</a></dt>
-			<dd><p>$500,000 in Transportation Enhancement funding was awarded to the Town of Speedway in the spring of 2011 for their segment of the B&amp;O Trail. Landstory prepared the trail concept and subsequent funding application for the Speedway Trails Association.</p></dd>
-			
-			<dt><a href="#">Outstanding Overall Achievement Award</a></dt>
-			<dd style="height:400px;"><p><strong>University Avenue Corridor Study - Outstanding Overall Achievement Award for a non-TMA MPO</strong>
-Landstory is pleased to announce the University Avenue Corridor Study, Urbana, Illinois received an Outstanding Overall Achievement Award from the Association of Metropolitan Planning Organizations.  The comprehensive redevelopment plan focused on University Avenue, a critical transportation link for the region, extending between Urbana and Champaign.  Landstory made recommendations for zoning, architecture, streetscape design and miscellaneous transportation related improvement. The Landstory Team involved the public in identifying key issues and opportunities, integrated existing land use and transportation plans, formulated an overall vision and development concept, prepared cost estimates and an action plan for implementation.</p></dd>
-			
-			
-			<dt><a href="#">Active Landstory Projects</a></dt>
-			
-			<dd>
-				<ul style="list-style:circle; margin-left: 6px; padding-left: 6px;">
-					<li style="list-style:circle; margin-left: 6px; padding-left: 6px;">University of Indianapolis Residence Hall; Indianapolis, Indiana</li>
-					<li style="list-style:circle; margin-left: 6px; padding-left: 6px;">Dunes Kankakee Trail; Porter County, Indiana</li>
-					<li style="list-style:circle; margin-left: 6px; padding-left: 6px;">Madison Avenue Gateway; Muncie, Indiana</li>
-					<li style="list-style:circle; margin-left: 6px; padding-left: 6px;">Olio Road Round-a-bout; Noblesville, Indiana</li>
-					<li style="list-style:circle; margin-left: 6px; padding-left: 6px;">Lewis &amp; Clark Trail; Clarksville, Indiana</li>
-					<li style="list-style:circle; margin-left: 6px; padding-left: 6px;">Miller Valentine Properties; Bloomington, Columbus &amp; Lawrenceburg, Indiana</li>
-				</ul>
-			</dd>
-		</dl>
+<!doctype html>
+<html>
+<head>
+	<?php include 'global/header.php'; ?>
+	<?php require_once 'our_projects/data/project-data.php' ?>
+	<?php $_projects = getProjects() ?>
+</head>
+<body id="home">
+	<!-- <div id="intro">
+		<div class="logo"></div>
+	</div> -->
 	
-		<?php include 'global/footer.php'; ?>
+	<div id="container">
+		<?php include 'global/topnav.php'; ?>
+		<div id="content">
+			<div id="featured">
+				<h2>Featured Projects</h2>
+				<ul id="gallery">
+					<?php
+					$imgs = array(
+						'white_art_plaza'
+						, 'lucas_oil'
+						, 'legacy_trail'
+						, 'new_albany'
+						, 'irvington'
+						, 'mdcc'
+						);
+					foreach ( $imgs as $proj ):
+					?>
+						<li>
+							<div class="center-cropped" style="background-image: url('/lib/images/cropped/<?php echo $proj ?>.jpg')">
+								<a href="/our_projects/project.php?p=<?php echo $proj ?>">
+									<img src="/lib/images/cropped/<?php echo $proj ?>.jpg">
+								</a>
+								<p><?php echo $_projects->$proj->name ?> | <?php echo $_projects->$proj->location ?></p>
+							</div>
+						</li>
+					<?php endforeach ?>
+				</ul>
+				<p id="pager" class="clearfix"><a id="prev" href="#">&lt;</a><a id="next" href="#">&gt;</a><span id="pageNum">/</span></p>
+				<p id="brandpromise">Landstory is a single discipline landscape architecture firm committed to interpreting each client's unique story, delivering creative, distinctive and sustainable design, a high level of technical competence and a return on their investment.</p>
+			</div>
+
+			<div id="news">
+				<h2>News Highlights</h2>
+
+				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+					<?php include( 'news.php' ) ?>
+				
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapseAwards" aria-expanded="true" aria-controls="collapseAwards">
+									Awards
+								</a>
+							</h4>
+						</div>
+
+						<div id="collapseAwards" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingAwards">
+							<div class="panel-body">
+								<ul>
+									<li>
+										<strong>Outstanding Overall Achievement Award for a non-TMA MPO</strong>
+										<br>
+										<a href="/our_projects/project.php?p=university_ave">University Avenue Corridor Study</a>
+									</li>
+
+									<li>
+										<strong>Monumental Affair Award</strong>
+										<br>
+										<a href="/our_projects/project.php?p=jw_marriot">JW Marriot White Art Plaza</a>
+									</li>
+
+									<li>
+										<strong>Mid-America Trails &amp; Greenways State of Kentucky Award</strong>
+										<br>
+										<a href="/our_projects/project.php?p=legacy_trail">Lexington Legacy Trail</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab">
+							<h4 class="panel-title">
+								<a href="#collapseProjects" data-toggle="collapse" data-parent="#accordion">
+									Featured Landstory Projects
+								</a>
+							</h4>
+						</div>
+
+						<div id="collapseProjects" class="panel-collapse collapse" role="tabpanel">
+							<div class="panel-body">
+								<ul class="circle-list">
+									<li><a href="/our_projects/project.php?p=madison_ave">Madison Avenue Gateway</a> | Muncie, Indiana</li>
+									<li><a href="/our_projects/project.php?p=lewis_clark">Lewis &amp; Clark Trail</a> | Clarksville, Indiana</li>
+									<li><a href="/our_projects/project.php?p=main_street">Main Street Improvements Streetscape</a> | New Albany, Indiana</li>
+									<li><a href="/our_projects/project.php?p=iupui_lockfield_gardens">IUPUI Lockfield Green Recreational Area</a> | Indianapolis, Indiana</li>
+									<li><a href="/our_projects/project.php?p=iu_east_quadrangle">IU East Quadrangle Improvement</a> | Richmond, Indiana</li>
+									<li><a href="/our_projects/project.php?p=brownsburg_trail">Green Street Trail &amp; Trailhead</a> | Brownsburg, Indiana</li>
+									<li><a href="/our_projects/project.php?p=corydon">Historic Sites Master Plan</a> | Corydon, Indiana</li>
+									<li><a href="/our_projects/project.php?p=tenth_st">10th Street Corridor</a> | Noblesville, Indiana</li>
+									<li><a href="/our_projects/project.php?p=terre_haute">Terre Haute CSO</a> | Terre Haute, Indiana</li>
+									<li><a href="/our_projects/project.php?p=mdcc">Medical Diagnosis Corporate Campus Site Design</a> | Indianapolis, Indiana</li>
+									<li><a href="/our_projects/project.php?p=fall_creek">Fall Creek Trail</a> | Indianapolis, Indiana</li>
+									<li><a href="/our_projects/project.php?p=cannelton">Downtown Revitalization Plan</a> | Cannelton, Indiana</li>
+									<li><a href="/our_projects/project.php?p=raccoon_lake">Raccoon Lake Trail &amp; State Recreational Area</a> | Rockville, IN</li>
+									<li><a href="/our_projects/project.php?p=hwy20">US Hwy 20 Corridor Study</a> | Portage, Indiana</li>
+									<li><a href="/our_projects/project.php?p=discovery_trail">Santa Claus‐Lincoln Discovery Trail</a> | Santa Claus, Indiana</li>
+									<li><a href="/our_projects/project.php?p=firestone">Firestone Reuse Site</a> | Noblesville, Indiana</li>
+									<li><a href="/our_projects/project.php?p=corydon">Corydon Capitol State Historic Site</a> | Corydon, Indiana</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		
+			<?php include 'global/footer.php'; ?>
+		</div>
 	</div>
-</div>
 </body>
 </html>

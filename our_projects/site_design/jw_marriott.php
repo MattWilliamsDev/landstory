@@ -27,13 +27,11 @@
 				</p>
 				<ul class="left">
 					<li>Landscape Architecture design for unique paving patterns reinforce views of significant, adjacent facilities</li>
-	
 					<li class="last">Landscape design is elegant but simplified through use of massing native and ornamental grasses and other plant material to enhance the pedestrian experience and allow views of the development</li>
 				</ul>
 				<ul class="right">
 					<li>Bosques of trees provide shade and orient visitors to entry points</li>
 					<li>Public Artist: Jeff Laramore</li>
-	
 					<li class="last">Surface land forms provide public greenspace and placement for public art</li>
 				</ul>
 				

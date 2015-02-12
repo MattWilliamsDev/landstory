@@ -24,23 +24,17 @@
 				</ul>	
 				<p id="pager" class="clearfix"><a id="prev" href="#">&lt;</a><a id="next" href="#">&gt;</a><span id="pageNum">/</span></p>
 				<p class="storyline">
-				Recognized for its rich Arts &amp; Crafts architecture and its significant location along the Old National Road (US 40), Landstory developed the concept for the streetscape to tell the story of this wonderful historic neighborhood.  Colors, images, forms reminiscent of the Arts &amp; Crafts movement were incorporated in all aspects of the design along with the original brick paved streets unearthed in the medians. Significant design elements include customized iron railings, lighting, fencing infused with art panels, signage and stylized crosswalks. Even before implementation,  developers got wind of the vision and moved forward with construction of a new Starbuck's along with several other projects throughout the commercial district.  In our world, that's called building faith.   
-				
+					Recognized for its rich Arts &amp; Crafts architecture and its significant location along the Old National Road (US 40), Landstory developed the concept for the streetscape to tell the story of this wonderful historic neighborhood.  Colors, images, forms reminiscent of the Arts &amp; Crafts movement were incorporated in all aspects of the design along with the original brick paved streets unearthed in the medians. Significant design elements include customized iron railings, lighting, fencing infused with art panels, signage and stylized crosswalks. Even before implementation,  developers got wind of the vision and moved forward with construction of a new Starbuck's along with several other projects throughout the commercial district.  In our world, that's called building faith.
 				</p>
 				<ul class="left">
 					<li>Conceptual streetscape plan for the Old National Road/US 40 in Irvington</li>
-	
 					<li>Roadway reconfiguration</li>
-					
-					<li>Architectural façade treatments</li>
-					
+					<li>Architectural facade treatments</li>
 					<li class="last">Medians</li>
 				</ul>
 				<ul class="right">
 					<li>Lighted crosswalks</li>
-	
 					<li>Design vocabulary celebrating Arts &amp; Crafts movement</li>
-					
 					<li class="last">Preparation of successful $1 million TE grant</li>
 				</ul>
 				

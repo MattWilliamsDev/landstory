@@ -23,12 +23,10 @@
 				</ul>	
 				<p id="pager" class="clearfix"><a id="prev" href="#">&lt;</a><a id="next" href="#">&gt;</a><span id="pageNum">/</span></p>
 				<p class="storyline">
-				The story of Lewis and Clark began with their epic expedition along the banks of the Ohio River in Clarksville Indiana.  This culturally rich area is also home to a vast collection of historically significant elements such as the Buffalo Trace, Native American settlements, pioneer camps, and one of the largest fossil beds in the country.  Not to mention the heroic story of George Rogers Clark, whose victories doubled the size of the United States during the Revolutionary War.  These made for lots of interesting stories to tell through interpretive signage, selective placement of trail nodes to optimize views, and gabion wall construction to showcase the geological assets of the region.  How about a trail experience that will exercise both the body AND the mind?  Take 6 parts history, 2 parts local involvement, and 1 part visionary design team to create a memorable trail through one of America’s most historically significant regions.
-				
+					The story of Lewis and Clark began with their epic expedition along the banks of the Ohio River in Clarksville Indiana.  This culturally rich area is also home to a vast collection of historically significant elements such as the Buffalo Trace, Native American settlements, pioneer camps, and one of the largest fossil beds in the country.  Not to mention the heroic story of George Rogers Clark, whose victories doubled the size of the United States during the Revolutionary War.  These made for lots of interesting stories to tell through interpretive signage, selective placement of trail nodes to optimize views, and gabion wall construction to showcase the geological assets of the region.  How about a trail experience that will exercise both the body AND the mind?  Take 6 parts history, 2 parts local involvement, and 1 part visionary design team to create a memorable trail through one of America’s most historically significant regions.
 				</p>
 				<ul class="left">
 					<li>1.5 mile trail along Ohio River connecting points of interest; Lewis and Clark Expedition, the Buffalo Trace and early Native American settlements.</li>
-	
 					<li class="last">Landstory is the prime consultant for the project team including archaeologists, environmental and civil engineers and land acquisition experts</li>
 				</ul>
 				<ul class="right">

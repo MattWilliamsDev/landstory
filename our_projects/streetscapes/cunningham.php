@@ -24,25 +24,17 @@
 				</ul>	
 				<p id="pager" class="clearfix"><a id="prev" href="#">&lt;</a><a id="next" href="#">&gt;</a><span id="pageNum">/</span></p>
 				<p class="storyline">
-				You can't look forward without looking back. This theme guided Landstory for the Cunningham Avenue Gateway Corridor Study project.  The original, natural landscape of this region was a tall grass prairie.  Large public art pieces and customized ornamentation consisting of abstracted forms of the original prairie grasses were incorporated into the design of planters, seat walls and lighting.  Our market analysis led to the realization that commercial development in Urbana was saturated and a rental housing shortage existed.  This observation served to guide design decisions relative to land use (more residential), building massing (two-story) and landscape character (deeper setbacks allowing for more greenspace).  As we often find in our work, the right answer can sometimes be the most unexpected one.  
-				
-				
-				
+					You can't look forward without looking back. This theme guided Landstory for the Cunningham Avenue Gateway Corridor Study project.  The original, natural landscape of this region was a tall grass prairie.  Large public art pieces and customized ornamentation consisting of abstracted forms of the original prairie grasses were incorporated into the design of planters, seat walls and lighting.  Our market analysis led to the realization that commercial development in Urbana was saturated and a rental housing shortage existed.  This observation served to guide design decisions relative to land use (more residential), building massing (two-story) and landscape character (deeper setbacks allowing for more greenspace).  As we often find in our work, the right answer can sometimes be the most unexpected one.
 				</p>
 				<ul class="left">
 					<li>2 mile corridor beautification study to increase redevelopment potential, expand multi-modal use, and enhance entry to downtown</li>
-	
 					<li>Extensive stakeholder and public input</li>
-					
 					<li>Market analysis</li>
-					
 					<li class="last">Recommendations for future land use, redevelopment potential and return on investment</li>
 				</ul>
 				<ul class="right">
 					<li>Public art</li>
-					
 					<li>Enhanced paving</li>
-					
 					<li class="last">Customized site design vocabulary</li>
 				</ul>
 				

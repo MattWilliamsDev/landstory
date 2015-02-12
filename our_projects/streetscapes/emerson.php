@@ -21,25 +21,21 @@
 				</ul>	
 				<p id="pager" class="clearfix"><a id="prev" href="#">&lt;</a><a id="next" href="#">&gt;</a><span id="pageNum">/</span></p>
 				<p class="storyline">
-				We all have our favorite stories to tell and this is one of ours.  Our two favorite "chapters" of the story... 1.  The creative, unique concept we developed for the streetscape and  2. The $1,000,000 in TE funding we helped the neighborhood secure.  One has to drive south on Emerson from I-70 to truly understand the existing diversity in scale, design and character along this major corridor in Indianapolis.  Proposed neighborhood entrances along Emerson Avenue, developed by Landstory, are flanked with customized masonry columns with three-dimensional elements designed to characterize the unique style and significant history of each neighborhood.  In addition, the Landstory team prepared a Transportation Enhancement application resulting in $1 million in funding...another service we are proud to offer to all of our clients.  "Show them the money."  
-				
+					We all have our favorite stories to tell and this is one of ours.  Our two favorite "chapters" of the story... 1.  The creative, unique concept we developed for the streetscape and  2. The $1,000,000 in TE funding we helped the neighborhood secure.  One has to drive south on Emerson from I-70 to truly understand the existing diversity in scale, design and character along this major corridor in Indianapolis.  Proposed neighborhood entrances along Emerson Avenue, developed by Landstory, are flanked with customized masonry columns with three-dimensional elements designed to characterize the unique style and significant history of each neighborhood.  In addition, the Landstory team prepared a Transportation Enhancement application resulting in $1 million in funding...another service we are proud to offer to all of our clients.  "Show them the money."
 				</p>
 				<ul class="left">
 					<li>Major gateway/entry elements at I-70 interchange</li>
-	
 					<li>I-70 bridge and lighting enhancements</li>
-					
-					<li>Minor gateway and entry features at street connections, 
-						corridor neighborhoods and institutions</li>
-					
-					<li class="last">Development of design vocabulary in recognition of unique 
-						neighborhood attributes</li>
+					<li>
+						Minor gateway and entry features at street connections, corridor neighborhoods and institutions
+					</li>
+					<li class="last">
+						Development of design vocabulary in recognition of unique neighborhood attributes
+					</li>
 				</ul>
 				<ul class="right">
 					<li>Improved connectivity</li>
-	
 					<li>Extensive public input</li>
-					
 					<li class="last">Preparation of successful $1 million TE grant</li>
 				</ul>
 				

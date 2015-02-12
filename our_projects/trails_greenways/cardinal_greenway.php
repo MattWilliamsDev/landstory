@@ -25,12 +25,12 @@
 				</ul>	
 				<p id="pager" class="clearfix"><a id="prev" href="#">&lt;</a><a id="next" href="#">&gt;</a><span id="pageNum">/</span></p>
 				<p class="storyline">
-				Anyone will tell you there are plenty of stories to be told along sixty miles of abandoned railroad corridor.  For Cardinal Greenway, Landstory incorporated an extensive interpretive signage component.  Several stories were told, educational facts shared, each in context to its location including a variety of headlines and pertinent local information including "Gone fishin'", a famous train wreck and talk of round barns long gone.  The combination of the interpretive education component and the unique trail design helped to garner Landstory a national award for Community Design by ASLA and the Rails-to-Trails Conservancy.  Happy trails, happy client happy Landstory.</p>
+					Anyone will tell you there are plenty of stories to be told along sixty miles of abandoned railroad corridor.  For Cardinal Greenway, Landstory incorporated an extensive interpretive signage component.  Several stories were told, educational facts shared, each in context to its location including a variety of headlines and pertinent local information including "Gone fishin'", a famous train wreck and talk of round barns long gone.  The combination of the interpretive education component and the unique trail design helped to garner Landstory a national award for Community Design by ASLA and the Rails-to-Trails Conservancy.  Happy trails, happy client happy Landstory.
+				</p>
 				
 				
 				<ul class="left">
 					<li>Plan consisted of the creation of a master plan for the largest trail in Indiana spanning 60 miles.  Project is an abandoned rail corridor traversing Wayne, Randolph, Henry, Delaware and Grant counties</li>
-						
 					<li class="last">Trail programming and alignment, trail head identification, design guidelines, infrastructure requirements, cost opinions and long term operational considerations</li>
 				</ul>
 				<ul class="right">
