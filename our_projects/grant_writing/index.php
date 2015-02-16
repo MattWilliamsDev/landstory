@@ -2,10 +2,12 @@
 	<a href="/our_projects">PROJECTS</a> / 
 	<a href="/our_projects/grant_writing">GRANT WRITING</a>
 </h2>					
-<p  style="padding-top:10px;">
-	Landstory helps their clients find money to pay for their projects. That's really all there is to it. A value we bring to our clients and they really, really appreciate it…and of course we appreciate the opportunity to help bring these projects to fruition.
-</p>
+
 <img src="/lib/images/cropped/irvington.jpg" width="701" height="304" />
+
+<p style="padding-top:10px;">
+	Landstory helps their clients find money to pay for their projects. That's really all there is to it. A value we bring to our clients and they really, really appreciate it...and of course we appreciate the opportunity to help bring these projects to reality.
+</p>
 
 <h2 style="margin-top: 20px;">Services include:</h2>
 <ul style="margin: 0 0 20px 0">

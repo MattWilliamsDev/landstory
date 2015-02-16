@@ -13,7 +13,7 @@
 		
 		<div id="main">
 			<h2><a href="/our_story">OUR STORY</a></h2>
-			<img src="../images/captions/ourstory.jpg" width="699" height="335" />
+			<img src="/lib/images/cropped/ourstorybanner.jpg" width="699" height="335" />
 			<dl>
 				<dt>
 					<p style="margin-top: 20px;">
@@ -22,19 +22,7 @@
 				</dt>
 				<dd class="first">
 					<p>
-						Landstory has been committed to the preservation and enhancement of our natural
-						environment since the firm's beginning in 1974. Under the leadership of Harvard educated
-						Claire Bennett, FASLA, the firm flourished as a small practice with a focus on large, estate
-						residential design and commercial landscape architecture design. It afforded Bennett the
-						opportunity to balance her time between two passions; the field of Landscape Architecture and
-						her family. Under this auspice, Joann Green, resigned from her position as Director of
-						Landscape Architecture for the Indianapolis office of HNTB in 1992, and joined Bennett as a
-						partner and vice-president. To compliment Bennett's background and experience, Joann
-						brought extensive large scale design, technical and management experience gained from 16
-						previous years of professional practice. She became sole owner in 1997 upon Bennett's
-						retirement and since then has led the Landstory team to provide outstanding, award-winning
-						design and exemplary customer service. The breadth of the firm's Landscape Architecture
-						expertise extends to the following areas:
+						Landstory has been committed to the preservation and enhancement of our natural environment since the firm's beginning in 1974. Under the leadership of Harvard-educated Claire Bennett, FASLA, the firm flourished as a small practice with a focus on large, estate residential design and commercial Landscape Architecture design. It afforded Bennett the opportunity to balance her time between two passions; the field of Landscape Architecture and her family. Under this auspice, Joann Green resigned from her position as Director of Landscape Architecture for the Indianapolis office of HNTB in 1992 and joined Bennett as a partner and vice-president. To compliment Bennett's background and experience, Joann brought extensive large scale design, technical and management experience gained from 16 previous years of professional practice. She became sole owner in 1997 upon Bennett's retirement and since then has led the Landstory team to provide outstanding, award-winning design and exemplary customer service. The breadth of the firm's Landscape Architecture expertise extends to the following areas:
 					</p>
 
 					<ul class="circle-list">
@@ -45,32 +33,6 @@
 						<li>Downtown Revitalization</li>
 						<li>Grant writing </li>
 					</ul>
-					
-					<!-- <p>Landstory, formerly known as CBA (Claire Bennett Associates), has been
-						committed to the preservation and enhancement of our natural environment
-						since the firm's beginning in l974. Under the leadership of Harvard educated
-						Claire Bennett, FASLA, the firm flourished as a small practice with a focus
-						on large, estate residential design and commercial landscape architecture
-						design.  It afforded Bennett the opportunity to balance her time between
-						two passions; the field of  Landscape Architecture and her family.   Under this auspice, Joann Green, resigned from her position
-						as Director of Landscape Architecture  for the Indianapolis office of HNTB in 1992,
-						 and joined Bennett as a partner and vice-president.   To compliment Bennett's
-						background and experience, Joann brought extensive larger scale design  and
-						technical and management experience gained from 16 previous years of professional
-						practice working for architecture and engineering firms. She became sole
-						owner of CBA in 1997 upon Bennett's retirement and since then has led the
-						CBA team to provide outstanding, award-winning design and exemplary customer
-						service. The breadth of the firm's Landscape Architecture expertise extends
-						to the following areas:
-					</p>
-					<ul>
-						<li>Site Design</li>
-						<li>Trails &amp; Greenways</li>
-						<li>Parks &amp; Recreation</li>
-						<li>Corridors &amp; Streetscapes</li>
-						<li>Master Planning</li>
-						<li>Grant writing</li>
-					</ul> -->
 				</dd>
 			</dl>
 		</div>

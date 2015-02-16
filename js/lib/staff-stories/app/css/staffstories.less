@@ -5,6 +5,20 @@ li {
 .ss-list {
 
 	.people {
+		
+		.qualifications {
+			span {
+				&:after {
+					content: ','
+				}
+
+				&:last-child {
+					&:after {
+						content: ','
+					}
+				}
+			}
+		}
 
 		.list-person {
 			border: 1px solid #c4c4c4;

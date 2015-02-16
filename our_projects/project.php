@@ -8,13 +8,27 @@
 	$projects = getProjects();
 	$p = $_REQUEST[ 'p' ];
 	$project = $projects->$p;
-	if ( !isset( $project ) ) {
-		foreach ( $projects as $key => $value ): 
-			if ( $p === $value->alias ) {
-				$project = $value;
-				$p = $key;
+	
+	if ( !isset( $project ) )
+	{
+		foreach ( $projects as $key => $value )
+		{
+			
+			if ( !is_array( $value->alias ) ) {
+				if ( $p === $value->alias ) {
+					$project = $value;
+					$p = $key;
+				}
+			} else {
+				foreach ( $value->alias as $alias ) {
+					if ( $p === $alias ) {
+						$project = $value;
+						$p = $key;
+					}
+				}
 			}
-		endforeach;
+	
+		}
 	}
 	$c = $project->category;
 	?>

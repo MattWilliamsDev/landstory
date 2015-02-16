@@ -38,7 +38,9 @@
 					<?php endforeach ?>
 				</ul>
 				<p id="pager" class="clearfix"><a id="prev" href="#">&lt;</a><a id="next" href="#">&gt;</a><span id="pageNum">/</span></p>
-				<p id="brandpromise">Landstory is a single discipline landscape architecture firm committed to interpreting each client's unique story, delivering creative, distinctive and sustainable design, a high level of technical competence and a return on their investment.</p>
+				<p id="brandpromise">
+					Landstory is a single discipline landscape architecture firm committed to interpreting each client's unique story, delivering creative, distinctive and sustainable design, a high level of technical competence and a return on investment.
+				</p>
 			</div>
 
 			<div id="news">
@@ -85,7 +87,7 @@
 						<div class="panel-heading" role="tab">
 							<h4 class="panel-title">
 								<a href="#collapseProjects" data-toggle="collapse" data-parent="#accordion">
-									Featured Landstory Projects
+									Featured Landstory projects
 								</a>
 							</h4>
 						</div>
@@ -95,7 +97,7 @@
 								<ul class="circle-list">
 									<li><a href="/our_projects/project.php?p=madison_ave">Madison Avenue Gateway</a> | Muncie, Indiana</li>
 									<li><a href="/our_projects/project.php?p=lewis_clark">Lewis &amp; Clark Trail</a> | Clarksville, Indiana</li>
-									<li><a href="/our_projects/project.php?p=main_street">Main Street Improvements Streetscape</a> | New Albany, Indiana</li>
+									<li><a href="/our_projects/project.php?p=new_albany">Main Street Improvements Streetscape</a> | New Albany, Indiana</li>
 									<li><a href="/our_projects/project.php?p=iupui_lockfield_gardens">IUPUI Lockfield Green Recreational Area</a> | Indianapolis, Indiana</li>
 									<li><a href="/our_projects/project.php?p=iu_east_quadrangle">IU East Quadrangle Improvement</a> | Richmond, Indiana</li>
 									<li><a href="/our_projects/project.php?p=brownsburg_trail">Green Street Trail &amp; Trailhead</a> | Brownsburg, Indiana</li>
@@ -105,8 +107,7 @@
 									<li><a href="/our_projects/project.php?p=mdcc">Medical Diagnosis Corporate Campus Site Design</a> | Indianapolis, Indiana</li>
 									<li><a href="/our_projects/project.php?p=fall_creek">Fall Creek Trail</a> | Indianapolis, Indiana</li>
 									<li><a href="/our_projects/project.php?p=cannelton">Downtown Revitalization Plan</a> | Cannelton, Indiana</li>
-									<li><a href="/our_projects/project.php?p=raccoon_lake">Raccoon Lake Trail &amp; State Recreational Area</a> | Rockville, IN</li>
-									<li><a href="/our_projects/project.php?p=hwy20">US Hwy 20 Corridor Study</a> | Portage, Indiana</li>
+									<li><a href="/our_projects/project.php?p=highway_20">US Hwy 20 Corridor Study</a> | Portage, Indiana</li>
 									<li><a href="/our_projects/project.php?p=discovery_trail">Santa Claus‐Lincoln Discovery Trail</a> | Santa Claus, Indiana</li>
 									<li><a href="/our_projects/project.php?p=firestone">Firestone Reuse Site</a> | Noblesville, Indiana</li>
 									<li><a href="/our_projects/project.php?p=corydon">Corydon Capitol State Historic Site</a> | Corydon, Indiana</li>

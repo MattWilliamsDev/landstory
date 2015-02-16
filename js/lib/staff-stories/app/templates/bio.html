@@ -1,7 +1,7 @@
 {{# if name }}
 <h2 class="name">
 	{{ fullName }}<br>
-	<small>{{# each qualifications }}{{ . }} {{/ each }}</small>
+	<small class="qualifications">{{# each qualifications }}<span>{{ . }}</span> {{/ each }}</small>
 </h2>
 
 <dl class="personal-bio dl-horizontal">
@@ -15,7 +15,7 @@
 	</dd>
 
 	{{# if intro }}
-	<dt>A little about {{ name.first }}</dt>
+	<dt>Bio</dt>
 	<dd>
 		<p>
 			{{{ intro }}}
@@ -89,19 +89,6 @@
 	</dd>
 	{{/ if }}
 
-	{{# if qa }}
-		<dt>Q&amp;A</dt>
-		<dd>
-			<ul>
-				{{# each qa }}
-				<li>
-					<strong>{{{ question }}}:</strong> {{{ answer }}}
-				</li>
-				{{/ each }}
-			</ul>
-		</dd>
-	{{/ if }}
-
 	{{# if other }}
 		{{# each other }}
 		<dt>{{ category }}</dt>
@@ -115,6 +102,21 @@
 			</ul>
 		</dd>
 		{{/ each }}
+	{{/ if }}
+
+	{{# if qa }}
+		<dt>
+			A little about {{ name.first }}
+		</dt>
+		<dd>
+			<ul>
+				{{# each qa }}
+				<li>
+					<strong>{{{ question }}}:</strong> {{{ answer }}}
+				</li>
+				{{/ each }}
+			</ul>
+		</dd>
 	{{/ if }}
 </dl>
 {{ else }}

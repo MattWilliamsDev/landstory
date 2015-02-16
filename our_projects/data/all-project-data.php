@@ -5,18 +5,20 @@ $GLOBALS['project_data'] = '{
 		"location": "Indianapolis, Indiana"
 		, "project_name": "JW Marriott White Art Plaza"
 		, "category": "site_design"
-		, "storyline": "Four hotels and a giant ballroom structure.  Our focus became the public plaza along West Washington Street.  Formed by the façades of the JW Marriot, the Fairfield Inn and Springhill Suites, three important Indiana symbols dominate; Indiana\'s state flower, tree and bird.   A forty foot, stylized red cardinal is placed prominently to one side. The cardinal and base is perched on a branch of our state tree, the Tulip Tree reflected in the decorative pavement.  Parallel to the street, facing the Fairfield Inn, is a segmented water wall depicting fields of our state flower, the peony.  The best view?  Seven floors up.  Check out the unique entrance to the JW. Plus, all the pavement joints are oriented to reinforce views of the adjacent, significant facilities including the Indiana State Office Building, the Eiteljorg Museum and White River State Park.  Fun stuff."
+		, "storyline": "When Indianapolis was selected to host the big game in 2011, new public spaces were needed for visitors and spectators alike. Our focus became the public plaza along West Washington Street. The plaza formed by the facades of the JW Marriott, Fairfield Inn and Springhill Suites, incorporated three important Indiana state symbols; the flower, tree and bird. A forty foot stylized red cardinal, the state bird, overlooks the plaza perched on a decorative tulip branch, the state tree. The tulip tree is reflected in the decorative pavement surrounding the cardinal sculpture. Parallel to the street is a segmented water wall depicting fields of peonies, the state flower. But for the best view go seven floors up and check out the unique entrance to the JW Marriott where the forms of the surface pavement are oriented to reinforce views of significant facilities nearby, including the Indiana State Office Building, the Eiteljorg Museum and White River State Park."
 		, "left": {
 			"items": [
-				"Landscape Architecture design for unique paving patterns reinforce views of significant, adjacent facilities"
-				, "Landscape design is elegant but simplified through use of massing native and ornamental grasses and other plant material to enhance the pedestrian experience and allow views of the development"
+				"Landscape design is elegant but simplified through use of massing native and ornamental grasses and other plant material to enhance the pedestrian experience and allow views of the development"
+				, "Bosques of trees provide shade and orient visitors to entry points"
+				, "Surface land forms provide public greenspace and placement for public art"
+				, "Public Artist: Jeff Laramore"
 			]
 		}
 		, "right": {
-			"items": [
-				"Bosques of trees provide shade and orient visitors to entry points"
-				, "Public Artist: Jeff Laramore"
-				, "Surface land forms provide public greenspace and placement for public art"
+			"heading": "Project Benefits &amp; Results"
+			, "items": [
+				"Furthers business by attracting visitors to tell the story about Indiana\'s state tree, bird and flower"
+				, "Provides income opportunities resulting from outdoor events and performances utilizing a raised platform as a stage"
 			]
 		}
 		, "images": [
@@ -42,19 +44,19 @@ $GLOBALS['project_data'] = '{
 				"uri": "/images/projects/site_design/jw_marriott/detail_5.jpg"
 			}
 		]
+		, "alias": [ "jw_marriott", "jw_marriot", "jw_mariott" ]
 	}
 	, "mdcc": {
 		"location": "Indianapolis, Indiana"
 		, "project_name": "Medical Diagnostic Corporate Campus"
 		, "category": "site_design"
-		, "storyline": "Sustainability without compromising design is one reason clients choose Landstory. Our experience and knowledge gave a large, international medical diagnostics company the advantage when it came to renovate their current corporate campus in Indianapolis. Rain gardens, bio-swales and subsurface detention and native plantings combined for a comprehensive and innovative storm water management solution."
+		, "storyline": "Sustainability without compromising design is one reason clients choose Landstory. Our experience and knowledge gave a large, international medical diagnostics company the advantage when it came to renovate their current corporate campus in Indianapolis. Rain gardens, bio-swales, subsurface detention and native plantings combined for a comprehensive and innovative storm water management solution. Landstory collaborated with a team of national firms and serves as the project\'s Landscape Architect of Record."
 		, "left": {
 			"items": [
 				"Bauhaus inspired conceptual designs for two courtyards and central common space"
 				, "Detailed design for courtyards formed by three contiguous new office buildings"
-				, "The central common space incorporates a large event lawn, custom shade canopy, outdoor dining court and native prairie planting all connected by sweeping walkways"
+				, "A central common space incorporates a large event lawn, custom shade canopy, outdoor dining court and native prairie planting all connected by sweeping walkways"
 				, "Integrated and sustainable storm water management solutions"
-				, "Collaborative efforts with a national architecture firm and other national consultants"
 			]
 		}
 		, "right": {
@@ -131,8 +133,10 @@ $GLOBALS['project_data'] = '{
 		, "right": {
 			"heading": "Project Benefits &amp; Results"
 			, "items": [
-				"Public plaza designed to proved direct accessibility via unique, camouflaged pedestrian and vehicular ramps, providing safe, expedient, and clearly visible means of ingress and egress to the building"
-				, "Perimeter security provided by use of large limestone boulders that double as seating. Large caliper shade trees augment the security while providing shade to the enhanced visitor experience. Ease of access promotes visitation by the physically disabled."
+				"Public plaza designed to provide direct accessibility via unique, camouflaged pedestrian and vehicular ramps for safe, expedient, and clearly visible means of ingress and egress to the building"
+				, "Perimeter security provided by use of large limestone boulders that double as seating"
+				, "Large caliper shade trees augment the security while providing shade"
+				, "Ease of access promotes visitation by the physically disabled"
 			]
 		}
 		, "alias": "lucas_oil_stadium"
@@ -166,11 +170,10 @@ $GLOBALS['project_data'] = '{
 		"location": "Richmond, Indiana"
 		, "project_name": "IU East Quadrangle"
 		, "category": "site_design"
-		, "storyline": "Indiana University East\'s renovated central space, The Quadrangle is the heart of campus, connecting Whitewater, Tom Raper, Hayes and Springwood Halls. The newly renovated quad area is a gathering place for students and faculty to meet with friends and colleagues, relax, and even study between classes. Landstory\'s design incorporates a custom steel shade structure, site furnishings, decorative concrete paving, lawn steps, accessible pedestrian access and low maintenance native plantings. Several art installations, shade trees and accent lighting add character and a sense of scale. Rain gardens were incorporated to mitigate surface storm drainage."
+		, "storyline": "Indiana University East\'s renovated central space, The Quadrangle, is the heart of campus connecting Whitewater, Tom Raper, Hayes and Springwood Halls. The newly renovated quad area is a gathering place for students and faculty to meet with friends and colleagues, relax, and even study between classes. Landstory\'s design incorporates a custom steel shade structure, site furnishings, decorative concrete paving, lawn steps, accessible pedestrian access and low maintenance native plantings. New shade trees and accent lighting add character and a sense of scale. Rain gardens were incorporated to mitigate surface storm drainage."
 		, "left": {
 			"items": [
-				"Landstory developed initial concept design, construction documents and provided construction oversight"
-				, "Close collaboration with university designers and users to maximize design potential while minimizing construction disruption"
+				"Close collaboration with university designers and staff to maximize design potential while minimizing construction disruption"
 				, "New improvements provide ADA access between new central space and adjacent buildings"
 			]
 		}
@@ -178,8 +181,8 @@ $GLOBALS['project_data'] = '{
 			"heading": "Project Benefits &amp; Results"
 			, "items": [
 				"Re-designed space provides solution to existing storm and surface drainage issues"
-				, "New amenities serves to improve overall campus appearance to attract future students"
-				, "Use of sustainable plan and hardscape materials to reduce long and short-term maintenance and operational costs"
+				, "New amenities serve to improve overall campus appearance and attract future students"
+				, "Use of sustainable materials reduces long and short-term maintenance and operational costs"
 			]
 		}
 		, "images": [
@@ -197,17 +200,20 @@ $GLOBALS['project_data'] = '{
 	}
 	, "capitol_state_historic_site": {
 		"location": "Corydon, Indiana"
-		, "project_name": "Corydon Capitol State Historic Site"
+		, "project_name": "Corydon Historic Sites Master Plan and Phase I"
 		, "category": "site_design"
-		, "storyline": "Corydon hosts hundreds of visitors every year as the first state capital of Indiana. And with all of those visitors it\'s necessary to have a well-connected, easy to maneuver city center. From wayfinding elements and visitor and school bus parking to pedestrian and traffic pattern assessment Landstory has been working on the Master Plan for Corydon. Landmarks include First State Capitol Building and Square, the First Governor\'s Residence, First State Office Building and the Constitution Elm Memorial. Our process included site assessment and analysis, program definition, concept development and Corydon Historic Sites Master Plan implementation strategies. Implementation of our plans and recommendations are to be completed by the 2016 Indiana Bicentennial events"
+		, "storyline": "<p><strong>Master Plan:</strong><br>Corydon hosts hundreds of visitors every year as the first state capital of Indiana. And with all of those visitors it\'s necessary to have a well-connected, easy to maneuver city center. Wayfinding elements, visitor and school bus parking and pedestrian and traffic pattern assessment were all components of a master plan study prepared in 2010 that included First State Capitol Building and Square, the First Governor\'s Residence, First State Office Building and the Constitution Elm Memorial. Our process included site assessment and analysis, program definition, concept development and implementation strategies.</p><p><strong>Phase I Implementation:</strong><br>Funding became a reality so the Landstory team worked closely with the newly formed Indiana State Museum and Historic Sites to identify their implementation priorities. It certainly was not a shock to learn the first project was going to be improvements to Indiana\'s first courthouse and surrounding historic town square...all in time for the state bicentennial celebration in 2016!</p>"
 		, "left": {
 			"items": [
-				"Landstory is currently assisting with design of Phase I site improvements as part of the First State Capitol site Master Plan"
+				"Redesigned courthouse entry plaza"
+				, "All new walks, lighting, electric power and native tree plantings"
 			]
 		}
 		, "right": {
 			"items": [
-				"Plan included recommendations for capital projects, wayfinding and connectivity elements. Visitation and revenue enhancements focused on pedestrian enhancement, traffic calming feature, drop off and parking facilities"
+				"Miscellaneous improvements to the gazebo"
+				, "New storage building"
+				, "Rain gardens to accommodate and mitigate on-site surface storm runoff and improve aesthetics"
 			]
 		}
 		, "images": [
@@ -218,13 +224,10 @@ $GLOBALS['project_data'] = '{
 				"uri": "corydon_1.jpg"
 			}
 			, {
-				"uri": "corydon_2.jpg"
-			}
-			, {
-				"uri": "corydon_3.jpg"
-			}
-			, {
 				"uri": "corydon_4.jpg"
+			}
+			, {
+				"uri": "corydon_downtown_3.jpg"
 			}
 		]
 	}
@@ -241,15 +244,16 @@ $GLOBALS['project_data'] = '{
 			]
 		}
 		, "right": {
-			"items": [
+			"heading": "Project Benefits &amp; Results"
+			, "items": [
 				"Implementation of park elements on former industrial site reused primarily for sewer plan improvements maximizes public visibility and use"
-				, "Integration of park improvements with sewer plant and improvements including modifications to sewer improvements such as treatment and storage to allow public use of site"
+				, "Park improvements with sewer plant and improvements including modifications to sewer improvements such as treatment and storage to allow public use of site"
 				, "Integration of existing water feature provides central focus of park improvements enabling needed water-based recreation"
 			]
 		}
 		, "images": [
 			{
-				"uri": "terrehaute.jpg"
+				"uri": "terre_haute_cso.jpg"
 			}
 			, {
 				"uri": "terrehaute_1.jpg"
@@ -264,13 +268,13 @@ $GLOBALS['project_data'] = '{
 				"uri": "terrehaute_4.jpg"
 			}
 		]
-		, "alias": "cso"
+		, "alias": [ "terre_haute", "cso" ]
 	}
 	, "hudnut_plaza": {
 		"location": "Indianapolis, Indiana"
 		, "project_name": "Hudnut Plaza"
 		, "category": "site_design"
-		, "storyline": "Like a tired pair of jeans, full of holes, faded, and out of style, the landscape of this important downtown Indianapolis space needed to be replaced.  Spurred on by the partial demolition of the plaza caused by construction of the new Simon Headquarters building, a new planting plan was developed.  New and improved, with low maintenance, native plants.   We can\'t think of a better place to experience a true urban garden and walk off one of the famous omelets and butter-soaked sour dough toast from neighboring Cafe Patachou."
+		, "storyline": "Like a tired pair of jeans, full of holes, faded, and out of style, the landscape of this important downtown Indianapolis space needed to be replaced.  Spurred on by the partial demolition of the plaza caused by construction of the Simon Headquarters building, a new planting plan was developed specifying low-maintenance, native plants.  We can\'t think of a better place to experience a true urban garden and walk off one of the famous omelets and butter-soaked sourdough toast from neighboring Cafe Patachou."
 		, "left": {
 			"items": [
 				"Reconstruction of the public garden in Hudnut Plaza, downtown Indianapolis"
@@ -304,7 +308,7 @@ $GLOBALS['project_data'] = '{
 		, "project_name": "White River State Park"
 		, "category": "parks_recreation"
 		, "category_display": "parks__recreation"
-		, "storyline": "There are not many cities in the U.S. that can boast having a state park right smack in the center of their downtown.  But Indianapolis can.  As a consultant to a national landscape architecture firm, Landstory contributed by bringing a local understanding and vision to the planning effort.   Our role was to make sure the values, the public vision and the local history were understood and appropriately translated as part of the Master Plan recommendations. The two initial site visits by the consultant team involved canoeing the White River and a subsequent bicycle trip from the Indianapolis Museum of Art to downtown, in a snow storm along the canal tow-path.  Still don\'t know who to blame for that, but it allowed us to view the study area from a unique perspective and broaden our understanding about the unique qualities of the White River and historic canal system.  Landstory was also responsible for the design and development of a number of details as part of the implementation including the canal walls, seating, lighting and landscape design.  In addition to all we learned about the White River and the tow-path, we also learned riding bicycles in the snow is not for the weak of heart."
+		, "storyline": "There are not many cities in the U.S. that can boast having a state park right smack in the center of their downtown.  But Indianapolis can.  As a consultant to a national Landscape Architecture firm, Landstory contributed by bringing a local understanding and vision to the planning effort.   Our role was to make sure the values, the public vision and the local history were understood and appropriately translated as part of the Master Plan recommendations. The two initial site visits by the consultant team involved canoeing the White River and a subsequent bicycle trip from the Indianapolis Museum of Art to downtown, in a snow storm along the canal tow-path.  Still don\'t know who to blame for that, but it allowed us to view the study area from a unique perspective and broaden our understanding about the unique qualities of the White River and historic canal system.  Landstory was also responsible for the design and development of a number of details as part of the implementation including the canal walls, seating, lighting and landscape design.  In addition to all we learned about the White River and the tow-path, we also learned riding bicycles in the snow is not for the weak of heart."
 		, "left": {
 			"items": [
 				"Landstory served as a consultant to a national Landscape Architectural firm for the Central Indianapolis Capital City Landing project"
@@ -386,7 +390,7 @@ $GLOBALS['project_data'] = '{
 		, "project_name": "Westfield Parks & Recreation Master Plan"
 		, "category": "parks_recreation"
 		, "category_display": "parks__recreation"
-		, "storyline": "When the growing city of Westfield, Indiana located 20 miles North of Indianapolis, needed a master plan for their Parks &amp; Recreation department they turned to Landstory. The firm\'s expertise in park and recreation planning combined with trails and greenways planning and design resulted in a strong park and recreation system plan identifying potential trails linking parks, neighborhoods and community destinations. Collaboration with the community involved an internet public opinion survey, stakeholder meetings, staff interviews and public input meetings with meaningful results. Facility recommendations included expansion of active and passive recreation opportunities, improved utilization of existing park lands, development of conservation areas, a regional park and a trail network for pedestrian connectivity."
+		, "storyline": "When the growing city of Westfield, Indiana, located 20 miles north of Indianapolis, needed a master plan for their Parks &amp; Recreation department they turned to Landstory. The firm\'s expertise in park and recreation planning combined with trails and greenways planning and design resulted in a strong park and recreation system plan identifying potential trails linking parks, neighborhoods and community destinations. Collaboration with the community involved an internet public opinion survey, stakeholder meetings, staff interviews and public input meetings...with meaningful results. Facility recommendations included expansion of active and passive recreation opportunities, improved utilization of existing park lands, development of conservation areas, a regional park and a trail network for pedestrian connectivity."
 		, "left": {
 			"items": [
 				"Operation recommendations: increased programming and promotion to increase park stature, specific staffing, general fund allocation and budget expenditure"
@@ -452,6 +456,19 @@ $GLOBALS['project_data'] = '{
 		, "category": "parks_recreation"
 		, "category_display": "parks__recreation"
 		, "storyline": "Community spaces can be for our four legged friends also. The City of Noblesville is in the process of converting an existing industrial brownfield site into the city\'s 1st Bark Park - a first of its kind in Noblesville! Landstory developed several park concepts for the city\'s first dog park with amenities including dog runs, rotation area, restroom building, gazebo, walking trails and parking."
+		, "left": {
+			"items": [
+				"Extensive, large hardwood shade trees, off-street parking, three access-controlled dog runs, restroom building, site furnishings, shade shelters, pet agility course and walking trails"
+				, "Rain gardens and bioswales collect and filter stormwater runoff"
+			]
+		}
+		, "right": {
+			"heading": "Project Benefits &amp; Results"
+			, "items": [
+				"Rotating three dog runs minimize turf damage and maintenance"
+				, "Revenue-producing"
+			]
+		}
 		, "images": [
 			{
 				"uri": "firestonereuse.jpg"
@@ -469,11 +486,19 @@ $GLOBALS['project_data'] = '{
 		, "project_name": "IUPUI Lockfield Gardens"
 		, "category": "parks_recreation"
 		, "category_display": "parks__recreation"
-		, "storyline": "Common green space is essential for college students to clear their minds after hours of tedious school work and as a place to go—away from the confines of the dorm room or apartment. The Lockfield Gardens at IUPUI campus in downtown Indianapolis provide much needed outdoor recreational space. Landstory\'s design for the space included a light half-court basketball and sand volleyball courts and open green areas for informal recreation, throwing the Frisbee or sunbathing. Custom, decorative concrete seating areas allow for impromptu student gatherings, study areas, checking Facebook or Instagram status or people watching. Fencing, rain gardens, site furnishings and plantings give structure to the space and enhance and serve to delineate the varied use areas."
+		, "storyline": "Common green space is essential for college students to clear their minds after hours of tedious school work and as a place to go—away from the confines of the dorm room or apartment. The Lockfield Gardens at IUPUI campus in downtown Indianapolis provide much needed outdoor recreational space. Landstory\'s design for the space included a lighted, half-court basketball and sand volleyball courts, open green areas for informal recreation and throwing the Frisbee or sunbathing. Custom, decorative concrete seating areas allow for impromptu student gatherings, study areas, Facebooking or Instagramming. Fencing, rain gardens, site furnishings and plantings give structure to the space and enhance and serve to delineate the varied use areas."
 		, "left": {
 			"items": [
 				"Collaborative effort with campus security and residential services included placement and operation of wired cameras, court access control and emergency phones"
 				, "Project was completed in the fall of 2014"
+			]
+		}
+		, "right": {
+			"heading": "Project Benefits &amp; Results"
+			, "items": [
+				"Project resulted in much needed outdoor recreation space adjacent to a new dormitory"
+				, "Project enables opportunities for expanded recreation activities and special event programming for unused existing green space"
+				, "Walkways replace and formalize former ‘cow paths\' used by pedestrians passing through space between adjacent parking and university facilities"
 			]
 		}
 		, "images": [
@@ -487,7 +512,10 @@ $GLOBALS['project_data'] = '{
 				"uri": "iupuilockfield_2.jpg"
 			}
 		]
-		, "alias": "lockfield_gardens"
+		, "alias": [
+			"lockfield_gardens"
+			, "iupui"
+		]
 	}
 	, "evansville_parks": {
 		"location": "Evansville, Indiana"
@@ -503,7 +531,8 @@ $GLOBALS['project_data'] = '{
 		}
 		, "right": {
 			"items": [
-				"Operational considerations include staff monitoring of facility adjustments for changing demographics and recreation trends"
+				"Recommended management efficiencies include staff monitoring and development of maintenance guidelines and checklists"
+				, "Facility adjustments encouraged in response to changing recreation trends and demographics"
 			]
 		}
 		, "images": [
@@ -569,12 +598,14 @@ $GLOBALS['project_data'] = '{
 		, "project_name": "New Albany Main Street Improvements"
 		, "category": "streetscapes"
 		, "category_display": "corridors__streetscapes"
-		, "storyline": "As they say, \"It\'s all in the details\". The City of New Albany engaged Landstory to develop vision for their historic main street corridor, Mansion Row. Broadened pedestrian ways included new sidewalks, planted medians, lighting, and gateway elements. Including custom designed gateway monuments, decorative pavement, custom address markers and landscape, Landstory delivered. Segments of original limestone curbs were excavated placed on their sides in the median as edge treatments to lend authenticity to the streetscape while preserving this important New Albany relic."
+		, "storyline": "As they say, \"It\'s all in the details\". The City of New Albany engaged Landstory to develop a vision for their historic main street corridor, Mansion Row. Broadened pedestrian ways included new sidewalks, planted medians, lighting, and gateway elements. Including custom designed gateway monuments, decorative pavement, custom address markers and landscape, Landstory delivered. Segments of original limestone curbs were excavated placed on their sides in the median as edge treatments to lend authenticity to the streetscape while preserving this important New Albany relic."
 		, "left": {
 			"items": [
 				"1-mile of streetscape improvements"
-				, "Custom gateway monuments"
+				, "Custom gateway monuments detailed with materials and patterns reminiscent of the surrounding arch and of New Albany\'s industrial past"
 				, "Brick crosswalks at 5th and 15th Streets"
+				, "Planted median"
+				, "LED lighting"
 			]
 		}
 		, "right": {
@@ -607,7 +638,21 @@ $GLOBALS['project_data'] = '{
 		, "project_name": "Noblesville 10th Street Corridor"
 		, "category": "streetscapes"
 		, "category_display": "corridors__streetscapes"
-		, "storyline": "Noblesville, Indiana selected a \'complete streets\' approach when developing a one-mile span of streets as the main entrance to the city\'s downtown. Landstory\'s conceptual plan incorporated narrow drive lanes and broader pedestrian ways which included new sidewalks, lighting, sustainable treatments for storm drainage, and a custom, major gateway element."
+		, "storyline": "Noblesville, Indiana selected a \"complete streets\" approach when developing this one-mile entry corridor to the city\'s downtown. Landstory\'s conceptual plan incorporated narrow drive lanes and broader pedestrian ways, new sidewalks, lighting, sustainable treatments for storm drainage, and a custom, major gateway element."
+		, "left": {
+			"items": [
+				"A new monument gateway feature will be installed at the new roundabout of south 10th Street, Greenfield Avenue and Christian Avenue"
+				, "The \"complete streets\" design will introduce new sidewalks, narrower vehicular travel lanes, street trees, sustainable treatments for storm drainage and lighting"
+			]
+		}
+		, "right": {
+			"heading": "Project Benefits &amp; Results"
+			, "items": [
+				"The improvements to south 10th Street will create a new entry into downtown Noblesville"
+				, "Increase in adjoining property values"
+				, "Potential catalyst for new development"
+			]
+		}
 		, "images": [
 			{
 				"uri": "10thst.jpg"
@@ -622,18 +667,22 @@ $GLOBALS['project_data'] = '{
 		, "project_name": "Irvington Neighborhood"
 		, "category": "streetscapes"
 		, "category_display": "corridors__streetscapes"
-		, "storyline": "Recognized for its rich Arts &amp; Crafts architecture and its significant location along the Old National Road (US 40), Landstory developed the concept for the streetscape to tell the story of this wonderful historic neighborhood.  Colors, images, forms reminiscent of the Arts &amp; Crafts movement were incorporated in all aspects of the design along with the original brick paved streets unearthed in the medians. Significant design elements include customized amenities, lighting, signage and stylized crosswalks. Before implementation, local developers got wind of the vision and moved forward with construction of a new Starbuck\'s along with several other projects throughout the commercial district. In our world, that\'s called building faith."
+		, "storyline": "Recognized for its rich arts &amp; crafts architecture and significant location along the Old National Road (US 40), Landstory developed the concept for the streetscape to tell the story of this wonderful historic neighborhood.  Colors, images, forms reminiscent of the Arts &amp; Crafts movement were incorporated in all aspects of the design along with the original brick paved streets unearthed in the medians. Significant design elements include customized amenities, lighting, signage and stylized crosswalks. Before implementation, local developers got wind of the vision and moved forward with construction of a new Starbuck\'s along with several other projects throughout the commercial district. In our world, that\'s called building faith."
 		, "left": {
 			"items": [
 				"New walks"
 				, "Landscaped medians"
 				, "Lighted crosswalks"
+				, "Unique adaptation of existing overhead lighting"
+				, "Design vocabulary celebrating Arts & Crafts movement"
+				, "Preparation of successful $1 million TE grant"
 			]
 		}
 		, "right": {
-			"items": [
-				"Design vocabulary celebrating Arts & Crafts movement"
-				, "Preparation of successful $1 million TE grant"
+			"heading": "Project Benefits &amp; Results"
+			, "items": [
+				"Broadened developer interest"
+				, "New retail and commercial businesses are city destination"
 			]
 		}
 		, "images": [
@@ -660,19 +709,19 @@ $GLOBALS['project_data'] = '{
 		, "project_name": "Madison Avenue"
 		, "category": "streetscapes"
 		, "category_display": "corridors__streetscapes"
-		, "storyline": "Custom design elements, including a large roundabout, walks, plantings and rain gardens bring new life to this south side gateway entry point to Muncie. Sustainable design and use of recycled and reused materials are maximized as symbols of revitalization and rebirth. Roundabout entry sign utilizes reused limestone sign panels from an existing sign."
+		, "storyline": "Custom design elements, including a large roundabout, walks, plantings and rain gardens bring new life to this south side gateway entry point to Muncie.  Sustainable design and use of recycled and reused materials are incorporated into this former deteriorating side of the city.  The new, landscaped roundabout and entry sign utilizes reused limestone sign panels from the former entrance sign."
 		, "left": {
 			"items": [
-				"Design elements include landscape planting, decorative lighting and way finding elements"
-				, "Improvements along a 1/2 Half mile of Madison Ave, a major corridor at Walnut Street, provides commercial reinvestment enhancement along corridor"
+				"Design elements include native landscape planting, decorative lighting and wayfinding elements"
+				, "Improvements on Madison Ave and Walnut Street provide commercial reinvestment potential along corridor"
 			]
 		}
 		, "right": {
 			"heading": "Project Benefits &amp; Results"
 			, "items": [
-				"Gateway improvements provide critical anchor to key economic development corridor leading to improved investment potential"
-				, "Roundabout integration and traffic signal removal in existing skews intersection to improve pedestrian and vehicular safety and traffic flow"
-				, "Demonstrates sustainable approach to design with extensive use of rain gardens to filter and manage surface drainage and adaptive reuse of limestone sign panels"
+				"Gateway improvements provide critical anchor for economic development corridor and improved investment potential"
+				, "Roundabout integration and traffic signal removal in existing intersection to improve pedestrian and vehicular safety and traffic flow"
+				, "Demonstrates sustainable approach to design; extensive use of rain gardens to filter and manage surface drainage; adaptive reuse of limestone sign panels"
 			]
 		}
 		, "images": [
@@ -685,6 +734,9 @@ $GLOBALS['project_data'] = '{
 			, {
 				"uri": "madisonave_2.jpg"
 			}
+			, {
+				"uri": "madisonave_3.jpg"
+			}
 		]
 		, "alias": "muncie_madison_ave"
 	}
@@ -693,18 +745,22 @@ $GLOBALS['project_data'] = '{
 		, "project_name": "US Highway 20 Corridor"
 		, "category": "streetscapes"
 		, "category_display": "corridors__streetscapes"
-		, "storyline": "A 3.5 mile segment along US Hwy 20 in Portage, Indiana has experienced, over time, a myriad of issues and slow degradation of the winding, four-lane federal truck route, undesirable land uses, very little if any, access control, pedestrian connectivity and aesthetics. Incompatible land uses include residential, commercial, and industrial applications. Many existing facilities are in a varied state of disrepair and deterioration and suffering from the scourge of neglect. Landstory was charged with developing the aesthetic vision for the corridor through the creation of design standards, application of complete streets methodologies, and identifying opportunities for local and regional pedestrian connectivity. Recommendations included ways to tell the area\'s unique story through pedestrian-friendly design and placement of gateways, hardscapes, landscapes, trails, sidewalks, miscellaneous furnishings, and signage. Protection and utilization of the intermittent natural areas and wetlands throughout the area were also critical in the recommendation."
+		, "storyline": "A 3.5 mile segment along US Hwy 20 in Portage, Indiana has experienced a myriad of issues and slow degradation of this winding, four-lane federal truck route.  Undesirable land uses, poor access control and pedestrian connectivity, and very little aesthetics qualities have plagued this corridor for many years.  Many existing facilities are in a varied state of disrepair and deterioration and suffering from the scourge of neglect. Landstory was charged with developing the aesthetic vision for the corridor through the creation of design standards, application of complete streets methodologies, and identifying opportunities for local and regional pedestrian connectivity. Recommendations included ways to tell the area\'s unique story through pedestrian-friendly design and placement of gateways, hardscapes, landscapes, trails, sidewalks, miscellaneous furnishings, and signage. Protection and utilization of the intermittent natural areas and wetlands throughout the area were also critical in the recommendation.  Protection and utilization of the intermittent natural areas and wetlands throughout the corridor were also critical in the recommendation."
 		, "left": {
-			"heading": "Project Benefits & Results"
-			, "items": [
+			"items": [
 				"Key parcels and properties identified for community to purchase and establish appropriate land uses/zoning"
-				, "Pedestrian connectivity potential identified"
+				, "Created design standards, application of complete streets methodologies, and identified opportunities for local and regional pedestrian connectivity"
+				, "Recommendations included pedestrian-friendly design and placement of gateways hardscape, landscape design, trails, sidewalks, miscellaneous furnishings and signage"
+				, "Protection and utilization of the intermittent natural areas and wetlands throughout the corridor"
 			]
 		}
 		, "right": {
-			"items": [
-				"Identification of areas suitable as gateways"
-				, "Design vernacular recommendations to lend a visual, aesthetic consistency throughout the corridor identified future improvements including signage, landscaping, lighting, crosswalks, &amp; public art"
+			"heading": "Project Benefits & Results"
+			, "items": [
+				"Pedestrian connectivity potential identified"
+				, "Identification of areas suitable as gateways"
+				, "Design vernacular recommendations to lend a visual, aesthetic consistency throught the corridor"
+				, "Future improvements included signage, landscaping, lighting, crosswalks and public art"
 			]
 		}
 		, "images": [
@@ -722,7 +778,7 @@ $GLOBALS['project_data'] = '{
 		, "project_name": "Cumberland Avenue Historic National Road Streetscape"
 		, "category": "streetscapes"
 		, "category_display": "corridors__streetscapes"
-		, "storyline": "Did you know that half of the Town of Cumberland is in Hancock County and the other half is in Marion County? Just a bit of trivia. The design of the new streetscape developed by Landstory recognizes the most important aspect of its continuity; Old National Road (US 40).  The incorporation of a central median commemorates the placement and alignment of the original Interurban rail line.  Furnishings, lighting and signage symbolize the varied modes of transportation responsible for bringing the Town of Cumberland into existence. Now the residents can cross the street safely and \"get to the other side\", all while being reminded of their rich history and unique, wonderful little downtown.  The Town of Cumberland is near and dear to us and we are grateful for our decade-long relationship."
+		, "storyline": "Did you know that half of the Town of Cumberland is in Hancock County and the other half is in Marion County?  Just a bit of trivia.  The design of the new streetscape developed by Landstory recognizes the most important aspect of its continuity; Old National Road (US 40).  The incorporation of a central median commemorates the placement and alignment of the original Interurban rail line.  Furnishings, lighting and signage symbolize the varied modes of transportation responsible for bringing the Town of Cumberland into existence. Now the residents can cross the street safely and \"get to the other side\", all while being reminded of their rich history and unique, wonderful little downtown."
 		, "left": {
 			"items": [
 				"Plan elements included use of shared right of way, rail corridor reuse, utility corridors and greenways to link existing community and parks to emerging development areas"
@@ -738,7 +794,7 @@ $GLOBALS['project_data'] = '{
 				"uri": "cumberland.jpg"
 			}
 			, {
-				"uri": "cumberland_2.jpg"
+				"uri": "cumberland_1.jpg"
 			}
 			, {
 				"uri": "cumberland_4.jpg"
@@ -837,17 +893,17 @@ $GLOBALS['project_data'] = '{
 		, "project_name": "Fall Creek Trail"
 		, "category": "trails_greenways"
 		, "category_display": "trails__greenways"
-		, "storyline": "The story here was a continuation of the other Indy Greenways trails and incorporated similar signage, materials and respect for the natural environment.     For this section, it was honoring the beauty and purpose of Fall Creek, a scenic, meandering waterway, and riparian corridor.  No other trail in Indianapolis offers anything as visually aesthetic or environmentally rich.  Customized seating double as chess boards.   Handicap accessible boat launches allow all to access and experience the creek and all its wonder. Small access areas offer parking and seating, mile-markers and other information.  Of significance is the opportunity it provides, bringing citizens of varying neighborhoods and cultures together... connecting."
+		, "storyline": "The story here was a continuation of the other Indy Greenways trails and incorporated similar signage, materials and respect for the natural environment.  For this trail segment it was honoring the beauty and purpose of Fall Creek, a scenic, meandering waterway and riparian corridor.  No other trail in Indianapolis offers anything as visually aesthetic or environmentally rich.  Customized seating double as chess boards.   Handicap accessible boat launches allow all to access and experience the creek and all its wonder. Small access areas offer parking and seating, mile-markers and other information.  Of significance is the opportunity it provides, bringing citizens of varying neighborhoods and cultures together... connecting."
 		, "left": {
 			"items": [
 				"Extension of Fall Creek Trail northeast between the Keystone Trailhead at 38th Street and Skiles Test Park"
-				, "Keystone trailhead improvements; chess tables, horseshoe pit, fishing pier and handicap accessible canoe launch"
+				, "Keystone Trailhead improvements; chess tables, horseshoe pit, fishing pier and handicap accessible canoe launch"
 			]
 		}
 		, "right": {
 			"items": [
 				"Interpretive signage"
-				, "Direct connection between Fall Creek Trail, Skiles Test Park and adjacent neighbor"
+				, "Direct connection between Fall Creek Trail, Skiles Test Park and adjacent neighborhood"
 			]
 		}
 		, "images": [
@@ -870,7 +926,7 @@ $GLOBALS['project_data'] = '{
 		, "project_name": "Lewis &amp; Clark Trail"
 		, "category": "trails_greenways"
 		, "category_display": "trails__greenways"
-		, "storyline": "The story of Lewis and Clark began with their epic expedition along the banks of the Ohio River in Clarksville Indiana.  This culturally rich area is also home to a vast collection of historically significant elements such as the Buffalo Trace, Native American settlements, pioneer camps, and one of the largest fossil beds in the country.  Not to mention the heroic story of George Rogers Clark, whose victories doubled the size of the United States during the Revolutionary War.  These made for lots of interesting stories to tell through interpretive signage, selective placement of trail nodes to optimize views, and gabion wall construction to showcase the geological assets of the region.  How about a trail experience that will exercise both the body AND the mind?  Take 6 parts history, 2 parts local involvement, and 1 part visionary design team to create a memorable trail through one of America\'s most historically significant regions."
+		, "storyline": "How about a trail experience that will exercise both the body AND the mind?  Take six parts history, two parts local involvement, and one part visionary design team to create a memorable trail through one of America\'s most historically significant regions. The story of Lewis and Clark began with their epic expedition along the banks of the Ohio River in Clarksville, Indiana.  This culturally rich area is also home to a vast collection of historically significant elements such as the Buffalo Trace, Native American settlements, pioneer camps and one of the largest fossil beds in the country.  Not to mention the heroic story of George Rogers Clark, whose victories doubled the size of the United States during the Revolutionary War.  These made for numerous interesting stories to tell through interpretive signage, selective placement of trail nodes and gabion wall construction."
 		, "left": {
 			"items": [
 				"1.5 mile trail along Ohio River connecting points of interest. Lewis and Clark Expedition, the Buffalo Trace and early Native American settlements"
@@ -881,7 +937,7 @@ $GLOBALS['project_data'] = '{
 		, "right": {
 			"heading": "Project Benefits &amp; Results"
 			, "items": [
-				"Trail provides critical link in regional multi-modal transportation network enabling direct rail connections to downtown Louisville, Kentucky to New Albany"
+				"Trail provides critical link in regional multi-modal transportation network enabling direct trail connections between downtown Louisville, Kentucky, Clarksville and New Albany"
 				, "Opportunity to tell stories of rich cultural significance, attracting visitors and expanding economic development potential"
 			]
 		}
@@ -914,7 +970,7 @@ $GLOBALS['project_data'] = '{
 		, "project_name": "Santa Claus-Lincoln Discovery Trail"
 		, "category": "trails_greenways"
 		, "category_display": "trails__greenways"
-		, "storyline": "World-famous Santa Claus, IN is known for its famous namesake and Holiday World theme park. It\'s a popular destination for family fun, especially during the holidays. The town of Santa Claus has invested in a 5-mile, multi-use trail that connects Santa Claus, Indiana and Lincoln Boyhood National Memorial as part of the American Discovery Trail. Potential trail themes include Lincoln boyhood heritage, Santa Claus culture and family entertainment. The trail design includes a trailhead, roadway crossing, node design and sustainable design elements including native plants, native stone and historic and interpretive \'storytelling\' opportunities."
+		, "storyline": "World-famous Santa Claus, IN is known for its famous namesake and Holiday World theme park. It\'s a popular destination for family fun, especially during the holidays.  The town of Santa Claus has invested in a plan for a 5-mile, multi-use trail to connect Santa Claus, Indiana and Lincoln Boyhood National Memorial as part of the American Discovery Trail.  Potential trail themes include Lincoln boyhood heritage, Santa Claus culture and family entertainment. The trail design includes a trailhead, roadway crossing, node design and sustainable design elements including native plants, native stone and historic and interpretive \'storytelling\' opportunities."
 		, "left": {
 			"items": [
 				"$4.5 million dollar project will be constructed by 2016"
@@ -922,7 +978,7 @@ $GLOBALS['project_data'] = '{
 		}
 		, "right": {
 			"items": [
-				"The trail will be broken down into three distinct corridors: Lincoln Heritage, Rural Highway and Town of Santa Claus."
+				"The trail will consist of three distinct corridors: Lincoln Heritage, Rural Highway, and Town of Santa Claus"
 			]
 		}
 		, "images": [
@@ -943,15 +999,18 @@ $GLOBALS['project_data'] = '{
 		, "project_name": "Dunes-Kankakee"
 		, "category": "trails_greenways"
 		, "category_display": "trails__greenways"
-		, "storyline": "An initial 1/2 mile of the Dunes-Kankakee regional trail was constructed along the Indiana National Lakeshore between the Porter County Visitor\'s Center. The Arts and Crafts movement is an important aspect of the regional heritage of Northern Indiana. Landstory mindfully incorporated those similar textures, forms and colors into the vernacular for the custom markers, signage, restroom buildings, trail monuments and pavement."
+		, "storyline": "An initial half mile of the Dunes-Kankakee regional trail was constructed along the Indiana National Lakeshore between the Porter County Visitor\'s Center and Dunes National Park. The Arts and Crafts movement is an important aspect of the regional heritage of Northern Indiana. Landstory mindfully incorporated those similar textures, forms and colors into the vernacular for the custom markers, signage, restroom buildings, trail monuments and pavement."
 		, "left": {
 			"items": [
 				"Project included the preparation of a Pattern Book to provide design guidelines and standards for all future trail segments relative to overall character-setting elements"
+				, "Initial trail segment was completed in early 2014"
 			]
 		}
 		, "right": {
-			"items": [
-				"Initial trail segment was completed in early 2014"
+			"heading": "Project Benefits &amp; Results"
+			, "items": [
+				"Design of overall trail vernacular in response to local historic Arts &amp; Crafts architecture"
+				, "Preparation of Design Guidelines document for reference as subsequent phases of trail are designed and implemented providing a consistent and unique character as an effective planning tool to develop trail program and cost implications"
 			]
 		}
 		, "images": [
@@ -960,9 +1019,6 @@ $GLOBALS['project_data'] = '{
 			}
 			, {
 				"uri": "duneskankakee_1.jpg"
-			}
-			, {
-				"uri": "duneskankakee_2.jpg"
 			}
 			, {
 				"uri": "duneskankakee_3.jpg"
@@ -1010,10 +1066,13 @@ $GLOBALS['project_data'] = '{
 		, "project_name": "Pennsy Trail"
 		, "category": "trails_greenways"
 		, "category_display": "trails__greenways"
-		, "storyline": "Landstory\'s plan for Cumberland, Indiana integrated Indianapolis\' regional alternative transportation network with the Hancock County trail system recommending routes for pedestrians and cyclists to navigate safely through multiple counties. Design elements included use of shared right of way, rail corridor reuse, utility corridors and greenways to link existing community and parks to emerging development areas. This was all done as part of a larger, long range connectivity transportation plan that includes one of Landstory\'s completed projects, the Cumberland Pennsy Trail."
+		, "storyline": "Landstory\'s plan for Cumberland, Indiana integrated Indianapolis\' regional alternative transportation network with the Hancock County trail system recommending routes for pedestrians and cyclists to navigate safely through multiple counties. Design elements included use of shared right of way, rail corridor reuse, utility corridors and greenways to link existing neighborhoods and parks with emerging development areas. This was all done as part of a larger, long range connectivity transportation plan that includes one of Landstory\'s completed projects, the Cumberland Pennsy Trail."
 		, "left": {
 			"items": [
-				"Multi-jurisdictional study area located in 3 townships and 2 counties"
+				"Design and implementation of 3-mile trail"
+				, "Integration with the streetscape improvements completed as part of the Historic National Road, US 40"
+				, "Design of customized signage, lighting and miscellaneous site furnishings"
+				, "Incorporation of public art to celebrate and enhance the unique character and history of Cumberland"
 			]
 		}
 		, "images": [
@@ -1027,10 +1086,10 @@ $GLOBALS['project_data'] = '{
 				"uri": "connectionstrail_3.jpg"
 			}
 			, {
-				"uri": "connectionstrail_4.jpg"
+				"uri": "connectionstrail_6.jpg"
 			}
 			, {
-				"uri": "connectionstrail_6.jpg"
+				"uri": "connectionstrail_7.jpg"
 			}
 		]
 		, "alias": "pennsy_trail"
@@ -1126,34 +1185,34 @@ $GLOBALS['project_data'] = '{
 	}
 	, "corydon": {
 		"location": "Corydon, Indiana"
-		, "project_name": "Corydon Downtown"
+		, "project_name": "Corydon Historic Sites Master Plan and Phase I"
 		, "category": "downtown_revitalization"
-		, "storyline": "Corydon hosts hundreds of visitors every year as the first state capital of Indiana. And with all of those visitors it\'s necessary to have a well-connected, easy to maneuver city center. From wayfinding elements and visitor and school bus parking to pedestrian and traffic pattern assessment Landstory has been working on the Master Plan for Corydon. Landmarks include First State Capitol Building and Square, the First Governor\'s Residence, First State Office Building and the Constitution Elm Memorial. Our process included site assessment and analysis, program definition, concept development and Corydon Historic Sites Master Plan implementation strategies. Implementation of our plans and recommendations are to be completed by the 2016 Indiana Bicentennial events"
+		, "storyline": "<p><strong>Master Plan:</strong><br>Corydon hosts hundreds of visitors every year as the first state capital of Indiana. And with all of those visitors it\'s necessary to have a well-connected, easy to maneuver city center. Wayfinding elements, visitor and school bus parking and pedestrian and traffic pattern assessment were all components of a master plan study prepared in 2010 that included First State Capitol Building and Square, the First Governor\'s Residence, First State Office Building and the Constitution Elm Memorial. Our process included site assessment and analysis, program definition, concept development and implementation strategies.</p><p><strong>Phase I Implementation:</strong><br>Funding became a reality so the Landstory team worked closely with the newly formed Indiana State Museum and Historic Sites to identify their implementation priorities. It certainly was not a shock to learn the first project was going to be improvements to Indiana\'s first courthouse and surrounding historic town square...all in time for the state bicentennial celebration in 2016!</p>"
 		, "left": {
 			"items": [
-				"Landstory is currently assisting with design of Phase I site improvements as part of the First State Capitol site Master Plan"
+				"Redesigned courthouse entry plaza"
+				, "All new walks, lighting, electric power and native tree plantings"
 			]
 		}
 		, "right": {
 			"items": [
-				"Plan included recommendations for capital projects, wayfinding and connectivity elements. Visitation and revenue enhancements focused on pedestrian enhancement, traffic calming feature, drop off and parking facilities"
+				"Miscellaneous improvements to the gazebo"
+				, "New storage building"
+				, "Rain gardens to accommodate and mitigate on-site surface storm runoff and improve aesthetics"
 			]
 		}
 		, "images": [
 			{
-				"uri": "corydon_downtown.jpg"
+				"uri": "corydon.jpg"
 			}
 			, {
-				"uri": "corydon_downtown_1.jpg"
+				"uri": "corydon_1.jpg"
 			}
 			, {
-				"uri": "corydon_downtown_2.jpg"
+				"uri": "corydon_4.jpg"
 			}
 			, {
 				"uri": "corydon_downtown_3.jpg"
-			}
-			, {
-				"uri": "corydon_downtown_4.jpg"
 			}
 		]
 		, "alias": "corydon_downtown"
@@ -1162,18 +1221,18 @@ $GLOBALS['project_data'] = '{
 		"location": "Cannelton, Indiana"
 		, "project_name": "Cannelton"
 		, "category": "downtown_revitalization"
-		, "storyline": "The picturesque, southern Indiana town of Cannelton, rests along the banks of the Ohio River. As with many small towns in the mid-west, Cannelton fell victim to local commercial disinvestment as government services left. The once bustling downtown was in need of a boost of life to help revitalize the business district. Because of their winning track record of working with small towns and cities around Indiana, Landstory was part of the planning team assisting the city with development of comprehensive recommendations for revitalizing their historic downtown. Analysis of existing conditions included identification of potential development opportunities, concept preparation, downtown revitalization, streetscape recommendations and an action plan. The proposed business district design concept and visual character featured a phased approach with preliminary budgets."
+		, "storyline": "The picturesque, southern Indiana town of Cannelton quietly rests along the banks of the Ohio River. As with many small remote towns, Cannelton fell victim to local commercial disinvestment as government services and industry left. The once bustling downtown was in need of a boost to help revitalize the business district. Because of our winning track record of working with small towns and cities around Indiana, Landstory was selected as part of the planning team to develop a plan for revitalizing their historic downtown. Analysis of existing conditions included identification of potential development opportunities, concept preparation, streetscape recommendations and an action plan. The proposed business district design concept and visual character featured a phased approach with preliminary budgets."
 		, "left": {
 			"items": [
 				"Facilitated steering committee and public input sessions"
 				, "Developed downtown revitalization concepts and implementation strategy"
-				, "Local research and detailed project area reconnaissance"
+				, "Creation of a central community/downtown gathering space"
 			]
 		}
 		, "right": {
 			"heading": "Project Benefits &amp; Results"
 			, "items": [
-				"Product and material recommendations include reuse of existing clay manufacturer\'s product as streetscape element to tell a local story"
+				"Product and material recommendations include reuse of local clay manufacturer\'s product as streetscape element to tell a local story"
 				, "Provision for a central outdoor gathering and special event venue space enables increased utilization and community economic development potential"
 				, "Implementation recommendations maximize public/private partnering opportunities"
 				, "Enhancements associated with future building development including setbacks, signage, parking, pedestrian and vehicular ingress and egress, connectivity, landscape treatments, lighting, service and dumpster placement and alignment"
@@ -1198,13 +1257,19 @@ $GLOBALS['project_data'] = '{
 		"location": "Crothersville, Indiana"
 		, "project_name": "Crothersville"
 		, "category": "downtown_revitalization"
-		, "storyline": "At 1.4 square miles and home to less than 2000 residence the small town of Crothersville, Indiana is known for its historic charm and hometown hospitality. Centrally located between Louisville, Kentucky and Indianapolis, Crothersville was looking to improve the quality of life for its residents while creating economic opportunities in the downtown business district. Landstory was part of a team of consultants responsible for the development of a comprehensive master plan. Landstory was responsible for analyzing and inventorying existing parks and open spaces throughout the town. Environmental recommendations included the creation of a Parks and Recreation Board, identification of community gateways, the creation of and expansion of a connected trail network, proposed location for a new community park and an establishment of a development ordinance."
+		, "storyline": "At 1.4 square miles and home to less than 2000 residents, the small town of Crothersville, Indiana is known for its historic charm and hometown hospitality. Centrally located between Louisville, Kentucky and Indianapolis, Crothersville was looking to improve the quality of life for its residents while looking for ways to expand their economic development potential in the downtown business district. Landstory was part of a team of consultants responsible for the development of a comprehensive master plan. Landstory\'s role was to analyze and inventory the existing parks and open spaces. Environmental recommendations included the creation of a Parks and Recreation Board, identification of community gateways, the creation and expansion of a connected trail network, a proposed location for a new community park and an establishment of a development ordinance."
 		, "left": {
+			"items": [
+				"Recommended creation of a Parks &amp; Recreation Board, identified opportunities for new community gateways, creation and expansion of parks and trail network and identified downtown streetscape improvements"
+				, "The master plan will enable the town to apply for federal and state funding for implementing plan recommendations"
+			]
+		}
+		, "right": {
 			"heading": "Project Benefits &amp; Results"
 			, "items": [
 				"Analyzed and inventoried existing parks and open spaces"
-				, "Recommended creation of a Parks &amp; Recreation Board, identified opportunities for new community gateways, creation and expansion of parks and trail network and identified downtown streetscape improvements"
-				, "The master plan will enable the town to apply for federal and state funding for implementing plan recommendations"
+				, "Recommended locations of new town gateways, new community park and trail network"
+				, "Prepared cross sections for the US 31 right-of-way through town including widened sidewalks, street trees, lighting, and on-street parking"
 			]
 		}
 		, "images": [
@@ -1223,7 +1288,7 @@ $GLOBALS['project_data'] = '{
 		"location": "Veedersburg, Indiana"
 		, "project_name": "Veedersburg"
 		, "category": "downtown_revitalization"
-		, "storyline": "Did you know that 10% of the original bricks laid at the Indianapolis Speedway were from Veedersburg, Indiana? The town once famous for its bricks but has since grown to a community of farmers, manufacturing and as is known as \"The Hub\" of Fountain County, an area due west of Indianapolis. Like many small towns across Indiana, Veedersburg wanted to rejuvenate the old downtown business district with improvements focused on enhancing the community connectivity to local, regional and cultural assets. Landstory implemented a study focused on these goals. Existing abandoned rail lines, once the lifeline of manufacturing in the area, were emphasized for their potential as local and regional connectors. Community cultural and historical elements would be highlighted by a Heritage Walk. And special attention was given to gateways into the town as a way to boost local and regional visibility of the rich history of Veedersburg."
+		, "storyline": "Did you know that 10% of the original bricks laid at the Indianapolis Speedway were from Veedersburg, Indiana? The town was once famous for its bricks but has since grown to a community of farmers, manufacturing but currently known as \"The Hub\" of Fountain County, due west of Indianapolis. Like many small towns in Indiana, Veedersburg wanted to rejuvenate their downtown business district with improvements focused on enhancing the community connectivity to local, regional and cultural assets. Landstory implemented a study focused on these goals. Existing abandoned rail lines, once the lifeline of manufacturing in the area, were emphasized for their connectivity potential. Community cultural and historical elements would be interpreted and highlighted by a Heritage Walk. And special attention was given to gateways into the town as a way to boost local and regional visibility of the rich history of Veedersburg."
 		, "left": {
 			"items": [
 				"Phased implementation plan was developed based on community input, establishment of priorities and funding potential"
@@ -1257,7 +1322,7 @@ $GLOBALS['project_data'] = '{
 		, "storyline": "You can\'t look forward without looking back. This theme guided Landstory for the Cunningham Avenue Gateway Corridor Study project.  The original, natural landscape of this region was a tall grass prairie.  Large public art pieces and customized ornamentation consisting of abstracted forms of the original prairie grasses were incorporated into the design of planters, seat walls and lighting.  Our market analysis led to the realization that commercial development in Urbana was saturated and a rental housing shortage existed.  This observation served to guide design decisions relative to land use (more residential), building massing (two-story) and landscape character (deeper setbacks allowing for more greenspace).  As we often find in our work, the right answer can sometimes be the most unexpected one."
 		, "left": {
 			"items": [
-				"2 mile corridor beautification study to increase redevelopment potential, expand multi-modal use, and enhance entry to downtown"
+				"2 mile corridor beautification study to increase redevelopment potential, expand multi-modal use and enhance entry to downtown"
 				, "Extensive stakeholder and public input"
 				, "Market analysis"
 				, "Recommendations for future land use, redevelopment potential and return on investment"
@@ -1272,9 +1337,6 @@ $GLOBALS['project_data'] = '{
 		}
 		, "images": [
 			{
-				"uri": "cunninghamave.jpg"
-			}
-			, {
 				"uri": "cunninghamave_1.jpg"
 			}
 			, {

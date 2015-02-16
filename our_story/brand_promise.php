@@ -12,7 +12,7 @@
 			<h2 class="section-title">
 				<a href="/our_story">Our Story</a>
 			</h2>
-			<img src="../images/captions/brand.jpg" width="699" height="335" />
+			<img src="/lib/images/cropped/testimoniesbanner.jpg" width="701" height="335" />
 			<dl class="testimonials">
 				<dt>Our Promise</dt>
 				<dd class="first">
@@ -28,7 +28,27 @@
 				
 				<dt>Testimonials</dt>
 				<dd>
+
 					<ul>
+						<li>
+							<h4 class="project-name">
+								Corydon, Vincennes and Lanier Historic Site Master Plans
+							</h4>
+							<blockquote>
+								<p>
+									"It has been a true pleasure working with Landstory... These projects were large in scope, incorporating architectural and landscape improvements, separated into phases, through a 30 year implementation period.  All were finished on time and within budget... Each staff member was professional, practical and patient... There were challenges unique to each plan... which were handled with ease.  The suggestions and concepts developed for each plan were excellent.<br/>
+									<br/>
+									The master plans were very well received and both communities expressed appreciation for the advanced planning.  Landstory worked very hard to incorporate our suggestions and gave us a product which we are proud to display."
+								</p>
+								<footer>
+									<span class="author">
+										Ms. Laura J. Minzes, Deputy Director, Historic Sites Structures and Real Estate<br/>
+										Indiana State Museums and Historic Sites
+									</span>
+								</footer>
+							</blockquote>
+						</li>
+
 						<li>
 							<blockquote>
 								<p>
@@ -49,8 +69,8 @@
 								<p>
 									"Clark Dietz has a long standing and excellent working relationship with Landstory. I personally had the
 									pleasure of working with them recently on the design and construction of a $2.6 million streetscape
-									project for the historic Mansion District in New Albany, Indiana. This project demonstrated their
-									understanding of the critical balance between the engineering, landscape architecture and budgetary
+									project for historic New Albany, Indiana. This project demonstrated their
+									understanding of the critical balance between the engineering, Landscape Architecture and budgetary
 									aspects of the project while creatively telling New Albany's story."
 								</p>
 								<footer>
@@ -161,24 +181,6 @@
 							</blockquote>
 						</li>
 
-						<li>
-							<h4 class="project-name">
-								Corydon, Vincennes and Lanier Historic Site Master Plans
-							</h4>
-							<blockquote>
-								<p>
-									"It has been a true pleasure working with Landstory... These projects were large in scope, incorporating architectural and landscape improvements, separated into phases, through a 30 year implementation period.  All were finished on time and within budget... Each staff member was professional, practical and patient... There were challenges unique to each plan... which were handled with ease.  The suggestions and concepts developed for each plan were excellent.<br/>
-									<br/>
-									The master plans were very well received and both communities expressed appreciation for the advanced planning.  Landstory worked very hard to incorporate our suggestions and gave us a product which we are proud to display."
-								</p>
-								<footer>
-									<span class="author">
-										Ms. Laura J. Minzes, Deputy Director, Historic Sites Structures and Real Estate<br/>
-										Indiana State Museums and Historic Sites
-									</span>
-								</footer>
-							</blockquote>
-						</li>
 					</ul>
 				</dd>
 				

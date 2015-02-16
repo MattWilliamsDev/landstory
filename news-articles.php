@@ -2,11 +2,11 @@
 
 $news_articles = json_decode('[
 	{
-		"title": "Landstory 40 Years in Business"
+		"title": "Landstory 40 years in business"
 		, "body": "We are pleased to announce Landstory\'s 40th year in business!   The firm began in Indianapolis in 1974 as Claire Bennett Associates. Since then we have brought our design expertise to hundreds of clients and projects. From the great state of Michigan to the Gulf of Mexico, Landstory has delivered unique, sustainable and innovative landscape architecture solutions. Now let\'s bring on the next 40!"
 	}
 	, {
-		"title": "Irvington - One of the Best Kept Secrets in Indianapolis!"
+		"title": "Irvington - One of the best kept secrets in Indianapolis!"
 		, "body": "Irvington is one of the best kept secrets in Indianapolis. But word is quickly spreading about this burgeoning, hip, quaint village. We like to think our design for the Washington Street Streetscape had something to do with that."
 		, "links": [
 			{
@@ -20,7 +20,7 @@ $news_articles = json_decode('[
 		]
 	}
 	, {
-		"title": "Planning a Trip to Lexington, KY?"
+		"title": "Planning a trip to Lexington, KY?"
 		, "body": "Planning a trip to Lexington, KY? Make a point to explore the Legacy Trail. This award-winning, 8-mile, multi-use trail, designed by Landstory in collaboration with Strand Associates, connects downtown Lexington and the Kentucky Horse Park.  Bring your bike, running shoes, skates or just your fine self and enjoy the great outdoors and beautiful country side of Kentucky. Landstory is currently working with Strand and the City of Lexington to extend the trail south to downtown Lexington and the recently completed Coolavin Park to Isaac Murphy Memorial Art Garden."
 		, "links": [
 			{
@@ -34,7 +34,7 @@ $news_articles = json_decode('[
 		]
 	}
 	, {
-		"title": "Look Out for These New Landstory Projects in Your Neighborhood"
+		"title": "Look out for these new landstory projects in your neighborhood"
 		, "body": ""
 		, "lists": [
 			{

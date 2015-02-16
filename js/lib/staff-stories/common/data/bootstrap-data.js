@@ -9,18 +9,22 @@ define( function( require ) {
                     , 'last': 'Green'
                     , 'middle': 'K.'
                 }
-                , 'intro': 'Joann Green is President and Owner of Landstory. A registered Landscape Architect in Indiana, Joann has been a principal Landscape Architect with Landstory since 1992. Her 36 years of experience extends to a broad array of project types (parks, trails, streetscapes, urban revitalization plans, large scale industrial and institutional site design for private and public sector clients on a local, state, regional and national level. She was born and raised in Indianapolis and holds a Landscape Architecture degree from Purdue University. Joann\'s background leading up to ownership of Landstory involved project management and department head positions with two large A&E firms in Indianapolis. She prides in being involved with every Landstory project providing design and technical oversight, project management and on-going client communications.'
+                , 'intro': 'Joann Green is President and Owner of Landstory. A registered Landscape Architect in Indiana, Joann has been a principal Landscape Architect with Landstory since 1992. Her 36 years of experience extends to a broad array of project types (parks, trails, streetscapes, urban revitalization plans, large scale industrial and institutional site design) for private and public sector clients on a local, state, regional and national level. Born and raised in Indianapolis, she holds a Landscape Architecture degree from Purdue University. Joann\'s background leading up to ownership of Landstory involved project management and department head positions with two large A&E firms in Indianapolis. She prides in being involved with every Landstory project providing design and technical oversight, project management and on-going client communications.'
                 , 'qa': [
                     {
-                        'question': 'First job'
-                        , 'answer': 'Stretch &amp; Sew, Indianapolis Beginning in 1971, the age of polyester knit!'
-                    }, {
-                        'question': 'One thing most people don\'t know about me'
-                        , 'answer': 'Played the guitar beginning at age 10 for 15 years.'
+                        'question': 'Why you\'re passionate about Landscape Architecture'
+                        , 'answer': 'The potential of its outcomes - environmental, social, aesthetic, cultural. Its ability to affect the environment and people\'s lives in a very direct, meaningful and positive way.'
                     }
                     , {
-                        'question': 'Favorite restaurant'
-                        , 'answer': 'Sakura, Indianapolis, &amp; Mayan Café, Louisville'
+                        'question': 'First job'
+                        , 'answer': 'Stretch & Sew, Indianapolis Beginning in 1971, the age of polyester knit!'
+                    }, {
+                        'question': 'One thing most people don\'t know about me'
+                        , 'answer': 'Played the guitar beginning at age 10 for 15 years.  For the last six years I\'ve become a metalsmith, designing and fabricating art jewelry.'
+                    }
+                    , {
+                        'question': 'Favorite restaurant(s)'
+                        , 'answer': 'Sakura, Indianapolis, & Mayan Café, Louisville'
                     }
                     , {
                         'question': 'Favorite travel'
@@ -29,10 +33,6 @@ define( function( require ) {
                     , {
                         'question': 'Best advice'
                         , 'answer': 'From my dad: \"It\'s not the mistakes you make, it\'s the grace to admit them, to do whatever it takes to fix them, and to have the willingness to learn from them\".'
-                    }
-                    , {
-                        'question': 'Why you\'re passionate about L'
-                        , 'answer': 'The potential of its outcomes - environmental, social, aesthetic, cultural. Its ability to affect the environment and people\'s lives in a very direct, meaningful and positive way.'
                     }
                 ]
                 , 'qualifications': [
@@ -56,11 +56,15 @@ define( function( require ) {
                 ]
                 , 'participation': [
                     {
-                        'program': 'Indianapolis Historic Preservation Commission'
-                        , 'year': '2010'
+                        'program': 'Arts Council of Indianapolis Public Art Selection Committee'
+                        , 'year': '2014 - present'
                     }
                     , {
-                        'program': 'Board of Registration for Architects &amp; Landscape Architects Indiana'
+                        'program': 'Indianapolis Historic Preservation Commission'
+                        , 'year': '2010 - present'
+                    }
+                    , {
+                        'program': 'Board of Registration for Architects & Landscape Architects Indiana'
                         , 'year': '2001 - 2008'
                     }
                     , {
@@ -68,25 +72,11 @@ define( function( require ) {
                         , 'year': '2002'
                     }
                     , {
-                        'program': 'Rotary Club, Member'
-                        , 'year': '2002'
-                    }
-                    , {
                         'program': 'Department of Capital Asset Management, Board Member'
                         , 'year': '1998 - 2000'
                     }
-                    , {
-                        'program': 'American Society of Landscape Architects, Member, Indiana Chapter'
-                        , 'year': '1977 - 2010'
-                    }
                 ]
-                , 'projects': [
-                    {
-                        'name': 'Beau Rivage Hotel &amp; Casino'
-                        , 'location': 'Biloxi, MS'
-                    }
-                ]
-                , 'awards': [
+                /*, 'awards': [
                     {
                         'name': 'A Monumental Affair Achievement Award'
                         , 'year': '2009'
@@ -95,12 +85,12 @@ define( function( require ) {
                     , {
                         'name': 'INASLA Merit Award'
                         , 'year': '2009'
-                        , 'project': 'I.U. Melvin &amp; Bren Simon Cancer Center'
+                        , 'project': 'I.U. Melvin & Bren Simon Cancer Center'
                     }
                     , {
                         'name': 'Team Monumental Award'
                         , 'year': '2008'
-                        , 'project': 'I.U. Melvin &amp; Bren Simon Cancer Center'
+                        , 'project': 'I.U. Melvin & Bren Simon Cancer Center'
                     }
                     , {
                         'name': 'National ASLA - Rails to Trails Conservancy'
@@ -132,7 +122,7 @@ define( function( require ) {
                         , 'year': '1997'
                         , 'project': 'White River State Park'
                     }
-                ]
+                ]*/
                 , 'other': [
                     {
                         'category': 'Recognition'
@@ -155,7 +145,7 @@ define( function( require ) {
                             {
                                 'name': 'Fifth Year Professional Practice Instructor'
                                 , 'location': 'Ball State University'
-                                , 'year': '1995'
+                                , 'year': '2001'
                             }
                             , {
                                 'name': 'Third Year Design Instructor'
@@ -175,6 +165,10 @@ define( function( require ) {
                 , 'intro': 'Doug holds a Bachelor\'s Degree in Landscape Architecture and a B.S. in Environmental design from Ball State University. Dough\'s extensive experience has afforded him a multitude of clients and projects large, small and everything in-between. His INDOT design capabilities include certifications as an Employee in Responsible Charge (ERC) and environmental certifications including NEPA training and Categorical Exclusion preparation credentials.'
                 , 'qa': [
                     {
+                        'question': 'Why you\'re passionate about LA'
+                        , 'answer': 'Opportunities to positively influence, nurture and improve people\'s quality of life.'
+                    }
+                    , {
                         'question': 'One thing people don\'t know about me'
                         , 'answer': 'I\'m an Army brat, born in Paris, France when my dad was stationed overseas and lived there for 7.'
                     }
@@ -190,12 +184,8 @@ define( function( require ) {
                         'question': 'Best advice'
                         , 'answer': '\'Many hands make light work\' and \'if you see something that needs to be done – do it.\''
                     }
-                    , {
-                        'question': 'Why you\'re passionate about LA'
-                        , 'answer': 'Opportunities to positively influence, nurture and improve people\'s quality of life.'
-                    }
                 ]
-                , 'qualifications': [ 'RLA', 'ASLA', 'CSI', 'LEED AP / Project Manager' ]
+                , 'qualifications': [ 'PLA', 'ASLA', 'CSI', 'LEED AP / Project Manager' ]
                 , 'email': 'ddecker@landstoryla.com'
                 , 'education': [
                     {
@@ -207,17 +197,29 @@ define( function( require ) {
                 , 'registration': [
                     {
                         'title': 'Registered Landscape Architect'
-                        , 'state': 'Indiana'
-                        , 'year': '1988'
+                        , 'state': 'Indiana & Illinois'
                     }
                     , {
-                        'title': 'Registered Landscape Architect'
-                        , 'state': 'South Carolina'
-                        , 'year': '1996'
-                    }
-                    , {
-                        'title': 'LEED AP'
+                        'title': 'LEED AP Registration'
                         , 'year': '2009'
+                    }
+                    , {
+                        'title': 'Certified Construction Document Technologist'
+                        , 'year': '2012'
+                    }
+                    , {
+                        'title': 'Certified INDOT NEPA Training and Decision-Making Process'
+                        , 'year': '2013'
+                        , 'state': 'Indiana'
+                    }
+                    , {
+                        'title': 'INDOT CE Process Training'
+                        , 'year': '2012'
+                        , 'state': 'Indiana'
+                    }
+                    , {
+                        'title': 'INDOT Employee-in-Responsible Charge (ERC)'
+                        , 'state': 'Indiana'
                     }
                 ]
                 , 'participation': [
@@ -228,21 +230,7 @@ define( function( require ) {
                         'program': 'Construction Specifications Institute, Member, Indianapolis Chapter'
                     }
                 ]
-                , 'projects': [
-                    {
-                        'name': 'Belmont Waste Water Treatment Plant'
-                        , 'location': 'Indianapolis, IN'
-                    }
-                    , {
-                        'name': 'Cass County Comprehensive Plan'
-                        , 'location': 'Cass County, IN'
-                    }
-                    , {
-                        'name': 'Catholic Cemeteries Master Plan'
-                        , 'location': 'Indianapolis, IN'
-                    }
-                ]
-                , 'awards': [
+                /*, 'awards': [
                     {
                         'name': 'A Monumental Affair Achievement Award'
                         , 'year': '2008'
@@ -251,12 +239,12 @@ define( function( require ) {
                     , {
                         'name': 'INASLA Merit Award'
                         , 'year': '2009'
-                        , 'project': 'I.U. Melvin &amp; Bren Simon Cancer Center'
+                        , 'project': 'I.U. Melvin & Bren Simon Cancer Center'
                     }
                     , {
                         'name': 'Team Monumental Award'
                         , 'year': '2008'
-                        , 'project': 'I.U. Melvin &amp; Bren Simon Cancer Center'
+                        , 'project': 'I.U. Melvin & Bren Simon Cancer Center'
                     }
                     , {
                         'name': 'INASLA Honor Award Design'
@@ -273,7 +261,7 @@ define( function( require ) {
                         , 'year': '1993'
                         , 'project': 'Fishers Town Center Development Plan'
                     }
-                ]
+                ]*/
             }
             , {
                 'name': {
@@ -285,6 +273,10 @@ define( function( require ) {
                 , 'intro': 'Shea graduated with a degree in Landscape Architecture from Ball State University in 2006. He moved to Atlanta, GA after graduation to work with HGOR, a landscape architecture firm, and joined Landstory ƒin early 2014. Shea recently became a licensed/registered Landscape Architect in Indiana.'
                 , 'qa': [
                     {
+                        'question': 'Why you\'re passionate about LA'
+                        , 'answer': 'I believe Landscape Architects have the unique ability to bring a big idea to the table and see it become reality. We strive for the successful design by reaching that perfect balance of social needs, environmental opportunities and economic focus. As stewards we create total environments, culminating into great places for people.'
+                    }
+                    , {
                         'question': 'One thing people don\'t know about me'
                         , 'answer': 'I was born and raised on our family dairy farm in Wolcott, Indiana'
                     }
@@ -294,19 +286,32 @@ define( function( require ) {
                     }
                     , {
                         'question': 'Favorite Indianapolis pizza'
-                        , 'answer': 'Jockamo\'s'
+                        , 'answer': 'Jockamo\'s Upper Crust'
                     }
                     , {
                         'question': 'Best advice'
                         , 'answer': 'If is worth doing, it\'s worth doing right. - Grandpa Hendress'
                     }
-                    , {
-                        'question': 'Why you\'re passionate about LA'
-                        , 'answer': 'I believe Landscape Architects have the unique ability to bring a big idea to the table and see it become reality. We strive for the successful design by reaching that perfect balance of social needs, environmental opportunities and economic focus. As stewards we create total environments, culminating into great places for people.'
-                    }
                 ]
                 , 'qualifications': [
                     'PLA'
+                ]
+                , 'registration': [
+                    {
+                        'title': 'Registered Landscape Architect'
+                        , 'state': 'Indiana'
+                    }
+                    , {
+                        'title': 'Registered Landscape Architect'
+                        , 'state': 'Kentucky'
+                    }
+                ]
+                , 'education': [
+                    {
+                        'school': 'Ball State University'
+                        , 'degree': 'Bachelor of Science - Landscape Architecture'
+                        , 'year': '2006'
+                    }
                 ]
             }
             , {
@@ -319,6 +324,10 @@ define( function( require ) {
                 , 'intro': 'Chris attended Purdue University. Boiler Up! He has gained valuable experience in the private and public sectors. Much of his work has focused on parks, trails, and streetscapes but he also brings design experience in the realm of public and private open space planning, master planned communities, and resorts. He\'s been involved in all stages of the design process including schematic design, design development and construction documentation. Chris takes pride in his technical ability, delivering our clients the highest quality documentation through implementation.'
                 , 'qa': [
                     {
+                        'question': 'Why you\'re passionate about LA'
+                        , 'answer': 'Growing up in The Woodlands, Texas, most days were spent with my brothers exploring on our bikes through the natural timberland landscape. It wasn\'t until much later when I was introduced to landscape architecture that I understood why The Woodlands was special and that as a landscape architect I have the opportunity to create the "sense of place", inherent in The Woodlands.'
+                    }
+                    , {
                         'question': 'One thing people don\'t know about me'
                         , 'answer': 'I have an affinity for 80\'s pop culture. Back to the Future, National Lampoon\'s Vacation, Nintendo, Dukes of Hazard, Hot for Teacher, Hypercolor tshirts, and Swatch watches.'
                     }
@@ -330,13 +339,26 @@ define( function( require ) {
                         'question': 'Favorite restaurant'
                         , 'answer': 'Fuddruckers\'s. To this day the smell takes be back to a time when everything was simpler'
                     }
-                    , {
-                        'question': 'Why you\'re passionate about LA'
-                        , 'answer': 'Growing up in The Woodlands, Texas, most days were spent with my brothers exploring on our bikes through the natural timberland landscape. It wasn\'t until much later when I was introduced to landscape architecture that I understood why The Woodlands was special and that as a landscape architect I have the opportunity to create the "sense of place", inherent in The Woodlands.'
-                    }
                 ]
                 , 'qualifications': [
                     'Project Manager'
+                ]
+                , 'participation': [
+                    {
+                        'program': 'ULI - Urban Land Institute'
+                    }
+                ]
+                , 'education': [
+                    {
+                        'school': 'Purdue University'
+                        , 'degree': 'Bachelor of Science - Landscape Architecture'
+                        , 'year': '2003'
+                    }
+                    , {
+                        'school': 'Indianapolis Department of Public Works'
+                        , 'degree': 'Construction Inspection Training'
+                        , 'year': '2013'
+                    }
                 ]
             }
             , {
@@ -349,6 +371,10 @@ define( function( require ) {
                 , 'intro': 'Jennifer graduated from Purdue University with a B.S. in Retail Management. She brings years of experience in marketing, project management and design to Landstory. Her love of historic preservation and the natural environment make working in Landscape Architecture fun and rewarding.'
                 , 'qa': [
                     {
+                        'question': 'Why you\'re passionate about LA'
+                        , 'answer': 'Landscape Architecture has a quiet way of creating balance and harmony in everyday spaces. I\'ve always been drawn to ways design can positively impact people\'s lives.'
+                    }
+                    , {
                         'question': 'My first job'
                         , 'answer': 'Hostess and table busser at Bob Evans in Brownsburg. I learned the value of hard work, making a dollar and to always straighten my place setting before I leave a restaurant.'
                     }
@@ -358,7 +384,14 @@ define( function( require ) {
                     }
                     , {
                         'question': 'Favorite quote'
-                        , 'answer': 'Be the change you want to see in the world'
+                        , 'answer': 'Whether you think you can, or you think you can\'t—you\'re right.'
+                    }
+                ]
+                , 'education': [
+                    {
+                        'school': 'Purdue University'
+                        , 'degree': 'Bachelor of Science - Retail Management'
+                        , 'year': '2003'
                     }
                 ]
                 , 'qualifications': [

@@ -46,25 +46,6 @@ function getCategories() {
 }
 
 /**
- * Shorthand function for format()
- * @param  string  $str     String to format
- * @param  boolean $ucfirst Should capitalize
- * @return string           Formatted string
- */
-function d ( $str, $ucfirst = true ) {
-	return format( $str, $ucfirst );
-}
-
-/**
- * Shorthand function for upper()
- * @param  string $str String to convert
- * @return string      Uppercase string
- */
-function u ( $str ) {
-	return upper( $str );
-}
-
-/**
  * Convert string to uppercase
  * @param  string $str String to convert
  * @return string      Uppercase string
@@ -95,6 +76,25 @@ function format ( $str, $ucfirst = true ) {
  */
 function formatCategoryName( $str ) {
 	return strpos( $str, '__' ) !== false ? ucwords( str_replace( '__', ' &amp; ', $str ) ) : ucwords( str_replace( '_', ' ', $str ) );
+}
+
+/**
+ * Shorthand function for format()
+ * @param  string  $str     String to format
+ * @param  boolean $ucfirst Should capitalize
+ * @return string           Formatted string
+ */
+function d ( $str, $ucfirst = true ) {
+	return format( $str, $ucfirst );
+}
+
+/**
+ * Shorthand function for upper()
+ * @param  string $str String to convert
+ * @return string      Uppercase string
+ */
+function u ( $str ) {
+	return upper( $str );
 }
 
 /**
