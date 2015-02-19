@@ -1,2 +1,9 @@
-/bower_components
 ftpsync.settings
+.phpintel/
+/bower_components
+/node_modules
+/js/lib/staffstories/bower_components
+/js/lib/staffstories/node_modules
+/lib/normalize
+/lib/new
+/lib/*.php

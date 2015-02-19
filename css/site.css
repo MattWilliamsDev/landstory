@@ -1,68 +1,88 @@
-	* { margin: 0; padding: 0; }
-	ul, li { list-style: none; }
-	a { color: #a8aa23; text-decoration: none; }
-	a:hover { text-decoration: underline; }
-	img { border: none; }
-	html, body {
+* {
+	margin: 0;
+	padding: 0;
+}
+ul, li {
+	list-style: none;
+}
+a {
+	color: #a8aa23;
+	text-decoration: none;
+}
+a:hover {
+	color: #2a6496;
+	text-decoration: underline;
+}
+img {
+	border: none;
+}
+/*html, body {
 	height: 100%;
-	}
-	
-	body {
+}*/
+body {
 	font: 12px/1.5em "Lucida Grande", Helvetica, Arial, sans-serif;
 	color: #5e6e65;
 	text-align: center;
-	}
-	
-/*	////////////////////////////////////////////////////////////////////////////////
+}
 
-    --------------------------------------------------------------------------------
-	TOP NAV
-	================================================================================ */	
-	
-	#topnav {
+.circle-list,
+.circle-list li {
+	list-style: circle;
+	margin-left: 6px;
+	padding-left: 6px;
+}
+
+.section-title {
+	text-transform: capitalize;
+}
+
+
+
+
+/* ////////////////////////////////////////////////////////////////////////////////
+
+--------------------------------------------------------------------------------
+TOP NAV
+================================================================================ */
+#topnav {
 	border-bottom: 1px solid #aeb6b2;
 	height: 26px;
 	position: absolute;
 	width: 100%;
 	z-index: 100;
-	}
-	
-	#topnav li {
+}
+#topnav li {
 	float: left;
 	position: relative;
 	margin-right: 2px;
 	width: 149px;
-	}
-	
-	#topnav li a {
+}
+#topnav li a {
 	display: block;
 	background: #aeb6b2 url(../images/wht_arrow.gif) no-repeat bottom right;
 	height: 24px;
 	line-height: 24px;
 	padding: 0 6px;
-	color:#fff;
+	color: #fff;
 	font-weight: bold;
-	}
-	
-	#topnav li ul {
+}
+#topnav li ul {
 	display: none;
-	/*margin-top: 3px;*/
+	/* margin-top: 3px;
+	*/
 	border-top: 3px solid #fff;
-	}
-	
-	#topnav li ul li {
+}
+#topnav li ul li {
 	float: none;
-	}
-	
-	#topnav li ul li a {
+}
+#topnav li ul li a {
 	background: none;
 	font-weight: normal;
 	height: auto;
 	line-height: 12px;
 	padding: 6px;
-	}
-	
-	#topnav .bg {
+}
+#topnav .bg {
 	margin-top: 3px;
 	background: #aeb6b2;
 	opacity: 0.7;
@@ -70,159 +90,143 @@
 	filter: alpha(opacity=70);
 	display: none;
 	position: absolute;
-	}
-	
-	
-/*	////////////////////////////////////////////////////////////////////////////////
+}
 
-    --------------------------------------------------------------------------------
-	SIDE NAV
-	================================================================================ */	
-	
-	#content #sidenav {
+/* ////////////////////////////////////////////////////////////////////////////////
+
+--------------------------------------------------------------------------------
+SIDE NAV
+================================================================================ */
+#content #sidenav {
 	float: left;
 	width: 220px;
 	padding-bottom: 48px;
-	}
-	
-	#sidenav li {
+}
+#sidenav li {
 	border-bottom: 1px solid #aeb6b2;
 	padding: 4px 12px;
 	background: url(../images/grn_arrow.gif) no-repeat bottom right;
-	}
-	
-	#sidenav li a {
+}
+#sidenav li a {
 	display: block;
 	font-weight: bold;
-	}
-	
-	#sidenav li ul {
+}
+.ourstaff #sidenav li ul {
+	display: block;
+}
+#sidenav li ul {
 	display: none;
-	}
-	
-	#sidenav li.title {
+}
+#sidenav li.title {
 	background: none;
-	}
-	
-	#sidenav li.title a {
+}
+#sidenav li.title a {
 	color: #5e6e65;
-	
-	}
-	
-	#sidenav li.active {
+}
+#sidenav li.active {
 	border-bottom: none;
 	padding: 0;
 	background: none;
-	}
-	
-	#sidenav li.active a {
+}
+#sidenav li.active a {
 	border-bottom: 1px solid #aeb6b2;
 	padding: 2px 12px;
 	background: url(../images/grn_arrow.gif) no-repeat bottom right;
-	}
-	
-	#sidenav li.active ul {
+}
+#sidenav li.active ul {
 	display: block;
-	}
-	#sidenav li.active ul li {
+}
+#sidenav li.active ul li {
 	border-bottom: 1px dotted #aeb6b2;
 	padding: 4px 0;
 	background: none;
-	}
-	
-	#sidenav li.active ul li a {
+}
+#sidenav li.active ul.project-list li a {
 	background: none;
 	border-bottom: none;
 	padding: 0 12px 0 24px;
 	font-weight: normal;
 	color: #5e6e65;
-	}
-	
-	#sidenav li.active ul li.active a {
+}
+/*#sidenav li.active ul.project-list li.active a {
 	background: #a8aa23;
 	color: #FFF;
-	}
-	
-	#sidenav li.active ul li.last {
+}*/
+#sidenav li.active ul li.last,
+#sidenav li.active ul li:last-child {
 	border-bottom: 1px solid #aeb6b2;
-	}
-	
-	
-	#content #main {
+}
+#content #main {
 	float: right;
 	width: 700px;
-	}
-	
-	.left { float:left; }
-	.right { float:right; }
-	
-	
-	#main .left,
-	#main .right {
+}
+.left {
+	float: left;
+}
+.right {
+	float: right;
+}
+#main .left, #main .right {
 	width: 340px;
 	color: #a8aa23;
-	}
-	
-	#main ul.left,
-	#main ul.right,
-	#main dl.left ul,
-	#main dl.right ul {
+}
+#main ul.left, #main ul.right, #main dl.left ul, #main dl.right ul {
 	list-style: disc outside url("../images/bullet.gif");
 	padding: 6px 0 48px 0;
-	}
-	
-	#main dl.left dt,
-	#main dl.right dt {
+}
+#main ul.left .list-heading,
+#main ul.right .list-heading {
+	list-style: none;
+	padding-top: 0;
+	margin: -10px 0 0 0;
+}
+
+#main dl.left dt, #main dl.right dt {
 	font-weight: bold;
 	padding: 6px 0;
 	border-bottom: 1px dotted #aeb6b2;
-	}
-	
-	#main .left li,
-	#main .right li {
+}
+#main .left li, #main .right li {
 	list-style: inherit;
 	margin-left: 12px;
 	padding-bottom: 6px;
 	color: #5e6e65;
-	}
-	
-	#main ul.left li,
-	#main ul.right li {
+}
+#main ul.left li, #main ul.right li {
 	list-style: inherit;
 	padding: 6px 0;
 	margin-left: 12px;
 	color: #5e6e65;
 	border-bottom: 1px dotted #aeb6b2;
-	}
-	
-	#main .left li.last,
-	#main .right li.last {
+}
+#main .left li.last,
+#main .right li.last,
+#main .left li:last-child,
+#main .right li:last-child {
 	border-bottom: none;
-	}
-	
-	#main .left li ul li,
-	#main .right li ul li {
+}
+#main .left li ul li, #main .right li ul li {
 	margin-left: 24px;
 	border-bottom: none;
 	padding: 3px 0;
 	list-style-type: circle;
-	}
-	
-	#main #gallery {
-		height: 312px;
-	}
-	
-	#pager {
+}
+#main #gallery {
+	height: 312px;
+}
+#main #gallery li img {
+	height: 304px;
+	width: 701px;
+}
+#pager {
 	height: 34px;
 	border-bottom: 1px solid #aeb6b2;
-	}
-	
-	#pager #pageNum {
+}
+#pager #pageNum {
 	float: right;
 	display: block;
-	}
-	
-	#pager #prev {
+}
+#pager #prev {
 	float: left;
 	display: block;
 	height: 24px;
@@ -230,198 +234,219 @@
 	background: url(../images/back_btn.gif) no-repeat center left;
 	text-indent: -9999px;
 	margin-right: 2px;
-	}
-	
-	#pager #prev.enabled {
+}
+#pager #prev.enabled {
 	background: url(../images/back_btn.gif) no-repeat center left;
-	}
-	
-	#pager #prev.disabled,
-	#pager #prev.disabled:hover {
+}
+#pager #prev.disabled, #pager #prev.disabled:hover {
 	background: url(../images/back_btn.gif) no-repeat bottom left;
-	}
-	
-	#pager #prev:hover {
+}
+#pager #prev:hover {
 	background: url(../images/back_btn.gif) no-repeat top left;
-	}
-	
-	#pager #next {
+}
+#pager #next {
 	float: left;
 	display: block;
 	height: 24px;
 	width: 24px;
 	background: url(../images/next_btn.gif) no-repeat center left;
 	text-indent: -9999px;
-	}
-	
-	#pager #next.enabled {
+}
+#pager #next.enabled {
 	background: url(../images/next_btn.gif) no-repeat center left;
-	}
-	
-	#pager #next.disabled,
-	#pager #next.disabled:hover {
+}
+#pager #next.disabled, #pager #next.disabled:hover {
 	background: url(../images/next_btn.gif) no-repeat bottom left;
-	}
-	
-	#pager #next:hover {
+}
+#pager #next:hover {
 	background: url(../images/next_btn.gif) no-repeat top left;
-	}
+}
 
-/*	////////////////////////////////////////////////////////////////////////////////
+/* ////////////////////////////////////////////////////////////////////////////////
 
-    --------------------------------------------------------------------------------
-	OUR STAFF
-	================================================================================ */	
-	
-	.ourstaff .intro {
-		padding-bottom: 20px;	
-	}
-	.ourstaff li h3 {
-		border-top: 1px solid #aeb6b2;
-		margin-bottom:20px;
-		padding-top: 10px;
-	}
-	
-	#ourstory dt,
-	#collaboration dt,
-	#ourcertifications dt,
-	#grant_writing dt {
-		float: left;
-		width: 140px;
-		
-		margin-right: 1px;
-		padding: 20px 0;
-		font-weight: bold;
-	}
-	#ourstory dd,
-	#collaboration dd,
-	#ourcertifications dd,
-	#grant_writing dd {
-		border-top: 1px dotted #aeb6b2;
-		padding: 20px 0 10px 160px;
-	}
-	
-	#ourstory dd.first,
-	#collaboration dd.first,
-	#ourcertifications dd.first,
-	#grant_writing dd.first {
-		border-top: none;
-	}
-	#ourstory dd li,
-	#ourstory dd p,
-	#collaboration dd li,
-	#collaboration dd p,
-	#ourcertifications dd p,
-	#ourcertifications dd li,
-	#grant_writing dd p,
-	#grant_writing dd li {
-		padding-bottom: 10px;
-	}
-	
-	.brand_promise #main li {
-		padding-bottom: 40px;
-	}
-	
-	.brand_promise #main ul.awards li {
-		padding-bottom: 10px;
-	}
-	
-	
-	
-/*	////////////////////////////////////////////////////////////////////////////////
-
-    --------------------------------------------------------------------------------
-	CONTACT US / EMPLOYMENT / NEWS HIGHLIGHTS
-	================================================================================ */	
-	
-	.employment p,
-	#newspage p {
+--------------------------------------------------------------------------------
+OUR STAFF
+================================================================================ */
+.ourstaff .intro {
+	padding-bottom: 20px;
+}
+.ourstaff li h3 {
+	border-top: 1px solid #aeb6b2;
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+#collaboration dt, #ourcertifications dt, #grant_writing dt {
+	float: left;
+	width: 140px;
+	margin-right: 1px;
+	padding: 20px 0;
+	font-weight: bold;
+}
+#collaboration dd, #ourcertifications dd, #grant_writing dd {
+	border-top: 1px dotted #aeb6b2;
+	padding: 20px 0 10px 160px;
+}
+#ourstory dd.first, #collaboration dd.first, #ourcertifications dd.first, #grant_writing dd.first {
+	border-top: none;
+}
+#ourstory dd li, #ourstory dd p, #collaboration dd li, #collaboration dd p, #ourcertifications dd p, #ourcertifications dd li, #grant_writing dd p, #grant_writing dd li {
 	padding-bottom: 10px;
-	}
-	
-	.brand_promise blockquote {
-	padding: 20px;	
-	}
-	
-/*	////////////////////////////////////////////////////////////////////////////////
+}
+.brand_promise #main li {
+	padding-bottom: 20px;
+}
+.brand_promise #main ul.awards li {
+	padding-bottom: 10px;
+}
 
-    --------------------------------------------------------------------------------
-	OUR PROJECTS / GRANT WRITING
-	================================================================================ */	
-	
-	p.storyline {
+/* ////////////////////////////////////////////////////////////////////////////////
+
+--------------------------------------------------------------------------------
+CONTACT US / EMPLOYMENT / NEWS HIGHLIGHTS
+================================================================================ */
+.employment p, #newspage p {
+	padding-bottom: 10px;
+}
+
+.testimonials dt {
+	font-size: 14px;
+	font-weight: bold;
+	margin-bottom: 20px;
+}
+
+.testimonials blockquote {
+	font-size: 12px;
+}
+
+.testimonials blockquote footer .author {
+	/*display: inline-block;*/
+}
+
+.testimonials .project-name {
+	font-size: 14px;
+	font-weight: bold;
+	/*border-top: 1px dotted #aeb6b2;*/
+	padding-top:20px;
+}
+
+#ourstory.brand-promise .author {
+	/*font-weight: bold;*/
+	/*padding-left:20px;*/
+}
+
+/* ////////////////////////////////////////////////////////////////////////////////
+
+--------------------------------------------------------------------------------
+OUR PROJECTS / GRANT WRITING
+================================================================================ */
+p.storyline {
 	padding: 16px 0;
 	border-bottom: 1px dotted #aeb6b2;
 	padding-left: 12px;
-	}
-	
-	
-	table th {
+}
+table th {
 	text-align: left;
-	}
-	
-	td, th {
+}
+td, th {
 	border-bottom: 1px dotted #aeb6b2;
 	padding: 10px 6px;
-	}
-	
-	th {
+}
+th {
 	border-bottom: 1px solid #aeb6b2;
 	padding: 10px 6px;
 	color: #a8aa23;
-	}
-	
-	.top th {
+}
+.top th {
 	border-right: 1px solid #fff;
 	background: #aeb6b2;
 	color: #fff;
 	padding: 3px 6px;
-	}
-	
-	table {
+}
+table {
 	padding-bottom: 48px;
-	}
-	
-	#grant_writing #main p,
-	#grant_writing #main h4,
-	#grant_writing #main ul,
-	#grant_writing #main img {
+}
+#grant_writing #main p, #grant_writing #main h4, #grant_writing #main ul, #grant_writing #main img {
 	padding-bottom: 10px;
-	}
-	
-	#grant_writing #main li{
+}
+#grant_writing #main li {
 	list-style: disc outside url("../images/bullet.gif");
 	padding: 3px 0;
 	margin-left: 12px;
 	color: #5e6e65;
-	}
-	
-	.our_qualifications #main li {
+}
+.our_qualifications #main li {
 	list-style: disc outside url("../images/bullet.gif");
 	margin-left: 12px;
 	color: #5e6e65;
-	}
-	
-/*	////////////////////////////////////////////////////////////////////////////////
+}
 
-    --------------------------------------------------------------------------------
-	HOMEPAGE
-	================================================================================ */
-	
-	#home #container {
+/* ////////////////////////////////////////////////////////////////////////////////
+
+--------------------------------------------------------------------------------
+HOMEPAGE
+================================================================================ */
+#home .panel-default .panel-heading {
+	background: #aeb6b2 url(../images/wht_arrow.gif) no-repeat bottom right;
+	color: #fff;
+	padding: 6px 8px;
+	font-weight: bold;
+	line-height: 1em;
+}
+
+#home .panel-default .panel-heading a {
+	font-size: 12px;
+	display: block;
+	padding: 5px 0;
+}
+
+#home .panel-default .panel-heading a:hover {
+	text-decoration: underline;
+	color: #fff;
+}
+
+.center-cropped {
+	width: 620px;
+	height: 304px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	overflow: hidden;
+}
+
+/* Set the image to fill its parent and make transparent */
+.center-cropped img {
+	min-height: 100%;
+	min-width: 100%;
+	/* IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	/* IE 5-7 */
+	filter: alpha(opacity=0);
+	/* modern browsers */
+	opacity: 0;
+}
+
+#home #pager a,
+#home #pager span {
+	margin-top: -10px;
+}
+
+#home .panel-default .panel-body {
+	font-size: 11px;
+}
+
+#home #container {
+	/* display: none;
+	*/
+}
+#home #intro .logo {
 	/*display: none;*/
-	}
-	
-	#home #intro .logo {
-	display: none;
 	background: #fff url(../images/home/intro.gif) no-repeat center center;
 	width: 100%;
 	height: 100%;
-	}
-	
-	#home #intro {
-	/*display: none;
-	background: #fff url(../images/home/intro.gif) no-repeat center center;	*/
+}
+#home #intro {
+	/* display: none;
+	background: #fff url(../images/home/intro.gif) no-repeat center center;
+	*/
 	background: #fff;
 	position: absolute;
 	z-index: 199;
@@ -429,21 +454,18 @@
 	left: 0;
 	width: 100%;
 	height: 100%;
-	}
-	
-	#featured {
+}
+#featured {
 	width: 620px;
 	float: left;
 	padding-bottom: 48px;
-	}
-	
-	#news {
+}
+#news {
 	width: 300px;
 	float: right;
 	padding-bottom: 48px;
-	}
-	
-	#news dt {
+}
+#news dt {
 	display: block;
 	background: #aeb6b2 url(../images/wht_arrow.gif) no-repeat bottom right;
 	color: #fff;
@@ -451,59 +473,47 @@
 	font-weight: bold;
 	line-height: 1em;
 	margin-top: 2px;
-	}
-	
-	#news dt a {
-	color: #fff;	
-	}
-	
-	#news dd {
+}
+#news dt a {
+	color: #fff;
+}
+#news dd {
 	display: none;
 	background: none;
 	font-size: 11px;
 	height: 253px;
-	}
-	
-	
-	#news dd p {
+}
+#news dd p {
 	padding: 10px 6px 0 6px;
-	}
-	
-	#news dd .jump {
+}
+#news dd .jump {
 	padding: 0 6px 20px 6px;
 	display: block;
-	}
-	
-	#news dd.active {
-	display: block;	
-	}
-	
-	#home #gallery {
-		height: 331px;
-	}
-	
-	#home #pager {
+}
+#news dd.active {
+	display: block;
+}
+#home #gallery {
+	height: 306px;
+}
+#home #pager {
 	border-bottom: none;
-	}
-	
-	
-	#home #gallery img {
-	height: 329px;
-	}
-	
-	#home #gallery p {
+}
+#home #gallery img {
+	height: 304px;
+}
+#home #gallery p {
 	position: absolute;
 	left: 52px;
-	top: 331px;
+	top: 306px;
 	width: 516px;
 	line-height: 24px;
 	height: 24px;
 	color: #fff;
 	background: #aeb6b2;
 	text-indent: 8px;
-	}
-	
-	#home #pageNum {
+}
+#home #pageNum {
 	background: #aeb6b2;
 	display: block;
 	height: 24px;
@@ -511,94 +521,93 @@
 	width: 50px;
 	text-align: center;
 	color: #fff;
-	}
-	
-	#home #brandpromise {
+}
+#home #brandpromise {
 	font-size: 16px;
 	padding-top: 20px;
-	}
-	
-	
-/*	////////////////////////////////////////////////////////////////////////////////
+}
 
-    --------------------------------------------------------------------------------
-	THUMB GRIDS
-	================================================================================ */	
-	
-	#main ul.grid li {
+/* ////////////////////////////////////////////////////////////////////////////////
+
+--------------------------------------------------------------------------------
+THUMB GRIDS
+================================================================================ */
+#main ul.grid li {
 	float: left;
 	margin-right: 8px;
-	width: 228px;
-	height: 180px;
-	}
-	
-	#main ul.grid a {
-	color: #5e6e65;	
+	width: 220px;
+	height: 260px;
+}
+#main ul.grid li.thumb-list {
+	height: auto;
+	width: 220px;
+	height: 260px;
+}
+#main .grid .thumb-list img {
+	width: 220px;
+	height: 98px;
+}
+#main ul.grid a {
+	color: #5e6e65;
 	font-weight: bold;
-	}
-	
-	
-	
-	#main ul.grid li span {
+}
+#main ul.grid li span {
 	display: block;
 	padding-top: 10px;
 	height: 43px;
 	border-bottom: 1px solid #aeb6b2;
 	background: url(../images/grn_arrow.gif) no-repeat bottom right;
-	}
-	
-	#main ul.grid {
-		padding-bottom:48px;
-	}
-	
-/*	////////////////////////////////////////////////////////////////////////////////
+}
+#main ul.grid {
+	padding-bottom: 48px;
+}
 
-    --------------------------------------------------------------------------------
-	HEADER
-	================================================================================ */	
-	h2 {
-	background: url(../images/grn_arrow.gif) no-repeat bottom right;
+/* ////////////////////////////////////////////////////////////////////////////////
+
+--------------------------------------------------------------------------------
+HEADER
+================================================================================ */
+h2 {
 	margin: 0 0 2px 0;
-	}
-	
-	h1 a {
+}
+
+#sidenav h2 {
+	background: url(../images/grn_arrow.gif) no-repeat bottom right;
+}
+
+h1 a {
 	display: block;
 	position: absolute;
 	top: 28px;
-	left:0;
+	left: 0;
 	text-indent: -9999px;
 	width: 264px;
-	height:84px;
+	height: 84px;
 	background: url(../images/logo.gif) no-repeat top left;
-	}
-	
-	#tagline {
+}
+#tagline {
 	position: absolute;
 	top: 28px;
-	right:0;
+	right: 0;
 	text-indent: -9999px;
 	width: 362px;
-	height:84px;
+	height: 84px;
 	background: url(../images/tagline.gif) no-repeat top left;
-	}
-	
-	#container {
+}
+#container {
 	width: 940px;
 	margin: 0 auto;
 	position: relative;
 	text-align: left;
 	margin-top: 12px;
-
-	}
-	
-	#content {
+}
+#content {
 	position: absolute;
 	top: 142px;
-	left:0;
+	left: 0;
 	width: 100%;
-	}
-	
-	#footer {
+}
+#footer {
 	border-top: 1px solid #ccc;
 	padding-top: 18px;
 	text-align: center;
@@ -606,129 +615,121 @@
 	text-transform: uppercase;
 	font-size: 10px;
 	clear: both;
-	}
-	
-/*	////////////////////////////////////////////////////////////////////////////////
+}
 
-    --------------------------------------------------------------------------------
-	MISC
-	================================================================================ */
-	
-	.fade {
+/* ////////////////////////////////////////////////////////////////////////////////
+
+--------------------------------------------------------------------------------
+MISC
+================================================================================ */
+.fade {
 	opacity: 0.6;
 	-moz-opacity: 0.6;
 	filter: alpha(opacity=60);
-	}
-	.clearfix:after {
-	content:".";
-	display:block;
-	height:0;
-	clear:both;
-	visibility:hidden;
-	}
-	.clearfix {display:inline-block;}
-	/* Hide from IE Mac \*/
-	.clearfix {display:block;}
-	/* End hide from IE Mac */
-
-
-/*	////////////////////////////////////////////////////////////////////////////////
-
-    --------------------------------------------------------------------------------
-	
-	scalable Inman Flash Replacement (sIFR) version 3.
-	
-	Copyright 2006 – 2008 Mark Wubben, <http://novemberborn.net/>
-	
-	Older versions:
-	* IFR by Shaun Inman
-	* sIFR 1.0 by Mike Davidson, Shaun Inman and Tomas Jogin
-	* sIFR 2.0 by Mike Davidson, Shaun Inman, Tomas Jogin and Mark Wubben
-	
-	See also <http://novemberborn.net/sifr3> and <http://wiki.novemberborn.net/sifr3>.
-	
-	This software is licensed and provided under the CC-GNU LGPL.
-	See <http://creativecommons.org/licenses/LGPL/2.1/>
-	
-	================================================================================ */
-	
-	
-	
-	@media screen {
-	.sIFR-flash {
-	visibility: visible !important;
-	margin: 0;
-	padding: 0;
-	}
-	  
-	.sIFR-replaced, .sIFR-ignore {
-	visibility: visible !important;
-	}
-	  
-	.sIFR-alternate {
-	position: absolute;
-	left: 0;
-	top: 0;
-	width: 0;
+}
+.clearfix:after {
+	content: ".";
+	display: block;
 	height: 0;
+	clear: both;
+	visibility: hidden;
+}
+.clearfix {
+	display: inline-block;
+}
+
+/* Hide from IE Mac \ */
+.clearfix {
 	display: block;
-	overflow: hidden;
-	}
-	  
-	.sIFR-replaced div.sIFR-fixfocus {
-	margin: 0pt; 
-	padding: 0pt; 
-	overflow: auto; 
-	letter-spacing: 0px; 
-	float: none;
-	}
-	}
+}
+
+/* End hide from IE Mac */
+/* ////////////////////////////////////////////////////////////////////////////////
+
+--------------------------------------------------------------------------------
 	
-	@media print {
+scalable Inman Flash Replacement (sIFR) version 3.
+	
+Copyright 2006 – 2008 Mark Wubben, <http://novemberborn.net/>
+	
+Older versions:* IFR by Shaun Inman
+* sIFR 1.0 by Mike Davidson, Shaun Inman and Tomas Jogin
+* sIFR 2.0 by Mike Davidson, Shaun Inman, Tomas Jogin and Mark Wubben
+	
+See also <http://novemberborn.net/sifr3> and <http://wiki.novemberborn.net/sifr3>.
+	
+This software is licensed and provided under the CC-GNU LGPL.
+See <http://creativecommons.org/licenses/LGPL/2.1/>
+	
+================================================================================ */
+	
+	
+	
+@media screen {
 	.sIFR-flash {
-	display    : none !important;
-	height     : 0;
-	width      : 0;
-	position   : absolute;
-	overflow   : hidden;
+		visibility: visible !important;
+		margin: 0;
+		padding: 0;
 	}
-	  
+	.sIFR-replaced, .sIFR-ignore {
+		visibility: visible !important;
+	}
 	.sIFR-alternate {
-	visibility : visible !important;
-	display    : block   !important;
-	position   : static  !important;
-	left       : auto    !important;
-	top        : auto    !important;
-	width      : auto    !important;
-	height     : auto    !important;
+		position: absolute;
+		left: 0;
+		top: 0;
+		width: 0;
+		height: 0;
+		display: block;
+		overflow: hidden;
 	}
+	.sIFR-replaced div.sIFR-fixfocus {
+		margin: 0pt;
+		padding: 0pt;
+		overflow: auto;
+		letter-spacing: 0px;
+		float: none;
 	}
-	
-	@media screen {
+}
+@media print {
+	.sIFR-flash {
+		display: none !important;
+		height: 0;
+		width: 0;
+		position: absolute;
+		overflow: hidden;
+	}
+	.sIFR-alternate {
+		visibility: visible !important;
+		display: block !important;
+		position: static !important;
+		left: auto !important;
+		top: auto !important;
+		width: auto !important;
+		height: auto !important;
+	}
+}
+@media screen {
 	.sIFR-active h2 {
-	visibility: hidden;
-	font-family: Arial;
-	font-size: 14px;
-	display: block;
+		visibility: hidden;
+		font-family: Arial;
+		font-size: 14px;
+		display: block;
 	}
-	
 	.sIFR-active h3 {
-	visibility: hidden;
-	font-family: Arial;
-	font-size: 14px;
-	display: block;
+		visibility: hidden;
+		font-family: Arial;
+		font-size: 14px;
+		display: block;
 	}
 	
-	/* used by "sIFR.useStyleCheck = true; in sifr-config.js"
-	see http://wiki.novemberborn.net/sifr3/DetectingCSSLoad */	 
-	
-	.sIFR-dummy { 
-	width: 0px;
-	height: 0px;
-	margin-left: 42px !important;
-	z-index: 0;
+	/* used by "sIFR.useStyleCheck = true;
+	in sifr-config.js"
+	see http://wiki.novemberborn.net/sifr3/DetectingCSSLoad */
+	.sIFR-dummy {
+		width: 0px;
+		height: 0px;
+		margin-left: 42px !important;
+		z-index: 0;
 	}
-	
-	
-	
-	}
+}

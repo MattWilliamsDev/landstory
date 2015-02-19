@@ -24,21 +24,15 @@
 				</ul>	
 				<p id="pager" class="clearfix"><a id="prev" href="#">&lt;</a><a id="next" href="#">&gt;</a><span id="pageNum">/</span></p>
 				<p class="storyline">
-				Karst formations, dry laid rock fences, a deep rooted equine heritage and one of the first urban growth boundaries in the nation.  An interesting mix for sure. The City of Lexington, Kentucky selected Landstory along with a team led by Strand Associates in the fall of 2008 to prepare a feasibility study and subsequent design for Legacy Trail, a 9.5 mile multi use trail traversing urban, sub-urban and rural landscapes. This trail extends between downtown Lexington and the Kentucky Horse Park while creating connections to a vast array of destinations including the YMCA, the Lexmark campus, several municipal parks, housing developments, Transylvania University and remarkably all in time for the Alltech FEI World Equestrian Games, held in the fall of 2010. Development of this unique trail included strategic use of land swapping, easements, and existing right of way.  Rock fences as an underlying theme helped to create a consistent trail character as it passed through a myriad of natural environments.  Inclusion of public art and custom furnishings make this trail a regional destination and one to be experienced by the thousands of visitors who turned out for the World Equestrian Games. 
-				
-				
-				
+					Karst formations, dry laid rock fences, a deep rooted equine heritage and one of the first urban growth boundaries in the nation.  An interesting mix for sure. The City of Lexington, Kentucky selected Landstory along with a team led by Strand Associates in the fall of 2008 to prepare a feasibility study and subsequent design for Legacy Trail, a 9.5 mile multi use trail traversing urban, sub-urban and rural landscapes. This trail extends between downtown Lexington and the Kentucky Horse Park while creating connections to a vast array of destinations including the YMCA, the Lexmark campus, several municipal parks, housing developments, Transylvania University and remarkably all in time for the Alltech FEI World Equestrian Games, held in the fall of 2010. Development of this unique trail included strategic use of land swapping, easements, and existing right of way.  Rock fences as an underlying theme helped to create a consistent trail character as it passed through a myriad of natural environments.  Inclusion of public art and custom furnishings make this trail a regional destination and one to be experienced by the thousands of visitors who turned out for the World Equestrian Games.
 				</p>
 				<ul class="left">
 					<li>9.5 miles of multi-use trail connecting the Kentucky Horse Park, home of the 2010 World Equestrian Games, downtown Lexington, and Isaac Murphy Park</li>
-	
 					<li class="last">Two major, trailheads near the Kentucky Horse Park and North Lexington YMCA</li>
 				</ul>
 				<ul class="right">
 					<li>Public art, a learning wall, interpretive signage, and gateway elements</li>
-					
 					<li>Public Artist: Jeff Laramore</li>
-					
 					<li class="last">Direct connections planned to the future Town Branch Trail and nearby residential neighborhoods, parks, Isaac Murphy Park and other civic destinations</li>
 				</ul>
 				

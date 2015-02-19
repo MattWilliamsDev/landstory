@@ -24,7 +24,7 @@
 				<p id="pager" class="clearfix"><a id="prev" href="#">&lt;</a><a id="next" href="#">&gt;</a><span id="pageNum">/</span></p>
 				
 				<p class="storyline">
-				Like a tired pair of jeans, full of holes, faded, and out of style, the landscape of this important downtown Indianapolis space needed to be replaced.  Spurred on by the partial demolition of the plaza caused by construction of the new Simon Headquarters building, a new planting plan was developed.  New and improved, with low maintenance, native plants.   We can't think of a better place to experience a true urban garden and walk off one of the famous omelets and butter-soaked sour dough toast from neighboring Cafe Patachou.
+					Like a tired pair of jeans, full of holes, faded, and out of style, the landscape of this important downtown Indianapolis space needed to be replaced.  Spurred on by the partial demolition of the plaza caused by construction of the new Simon Headquarters building, a new planting plan was developed.  New and improved, with low maintenance, native plants.   We can't think of a better place to experience a true urban garden and walk off one of the famous omelets and butter-soaked sour dough toast from neighboring Cafe Patachou.
 				</p>
 				
 				

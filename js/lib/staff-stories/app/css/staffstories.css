@@ -1,0 +1,30 @@
+li {
+  list-style: none;
+}
+
+.ss-list .people .list-person {
+  padding: 10px 5px;
+}
+
+#sidenav li.list-person {
+	background: none;
+	cursor: pointer;
+}
+
+#sidenav .ss-list .people .list-person:first-child {}
+
+#sidenav .ss-list .people .list-person:last-child {
+  border-bottom: none;
+}
+
+.personal-bio {
+	margin-top: 10px;
+}
+
+.personal-bio dt {
+  font-size: 12px;
+}
+
+.personal-bio:first-child {
+  margin-top: 0;
+}

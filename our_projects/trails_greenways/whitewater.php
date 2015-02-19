@@ -17,22 +17,19 @@
 				<ul id="gallery">
 					<li><img src="/images/projects/trails_greenways/whitewater/detail_1.jpg" /></li>
 					<li><img src="/images/projects/trails_greenways/whitewater/detail_2.jpg" /></li>
-					
 				</ul>	
 				<p id="pager" class="clearfix"><a id="prev" href="#">&lt;</a><a id="next" href="#">&gt;</a><span id="pageNum">/</span></p>
 				
 				<p class="storyline">
-				How does one adequately describe the beauty, the uniqueness, the unsurpassed historical significance of a place like the Gorge in Richmond Indiana?  Complete with expansive forested areas, a shallow, but beautiful meandering river, the Gorge extends all the way through Richmond and through downtown.  Formed originally by receding glaciers, the Gorge is still home to thousands of fossils dating back to the Ordovician Period attracting hundreds of visitors each year.  Did you know Hoagy Carmichael recorded his first version of "Stardust" in the Gorge which started the beginning of its unique place in jazz history?  A variety of mills once thrived in the area. We wish we could take full credit for the beauty of this trail project, but we can't.  What we can take credit for is the sensitive alignment and design of the trail, the protection of views, habitat, vegetation, the history, all while enhancing the trail users' experience.   </p>
-				
+					How does one adequately describe the beauty, the uniqueness, the unsurpassed historical significance of a place like the Gorge in Richmond Indiana?  Complete with expansive forested areas, a shallow, but beautiful meandering river, the Gorge extends all the way through Richmond and through downtown.  Formed originally by receding glaciers, the Gorge is still home to thousands of fossils dating back to the Ordovician Period attracting hundreds of visitors each year.  Did you know Hoagy Carmichael recorded his first version of "Stardust" in the Gorge which started the beginning of its unique place in jazz history?  A variety of mills once thrived in the area. We wish we could take full credit for the beauty of this trail project, but we can't.  What we can take credit for is the sensitive alignment and design of the trail, the protection of views, habitat, vegetation, the history, all while enhancing the trail users' experience.
+				</p>
 				
 				<ul class="left">
 					<li>5-mile paved trail in the Whitewater Valley Gorge, a unique natural area located adjacent to downtown Richmond, along the Whitewater River</li>
-	
 					<li class="last">An internationally renowned archaeological destination with fossils dating back to the Ordovician Period</li>
 				</ul>
 				<ul class="right">
 					<li>Trail connects to the Richmond leg of the Cardinal Greenway and the Starr Gennett area, known for its rich jazz music history</li>
-					
 					<li class="last">Existing fisherman's natural trail was retained along the river banks</li>
 				</ul>
 				

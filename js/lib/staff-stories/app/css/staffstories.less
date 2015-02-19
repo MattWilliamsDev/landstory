@@ -1,0 +1,45 @@
+li {
+	list-style: none;
+}
+
+.ss-list {
+
+	.people {
+		
+		.qualifications {
+			span {
+				&:after {
+					content: ','
+				}
+
+				&:last-child {
+					&:after {
+						content: ','
+					}
+				}
+			}
+		}
+
+		.list-person {
+			padding: 10px 5px;
+			
+			&:first-child {
+				border-bottom: none;
+			}
+		}
+	}
+}
+
+.ss-content {}
+
+.personal-bio {
+	
+	dt {
+		margin-top: 10px;
+		font-size: 12px;
+	}
+
+	&:first-child {
+		margin-top: 0;
+	}
+}

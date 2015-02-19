@@ -21,8 +21,7 @@
 				</ul>	
 				<p id="pager" class="clearfix"><a id="prev" href="#">&lt;</a><a id="next" href="#">&gt;</a><span id="pageNum">/</span></p>
 				<p class="storyline">
-				Considered the south gateway to Muncie, South Madison Avenue had fallen prey to expansive commercial blight and deterioration.  Landstory prepared a concept for a 4-block area including landscape enhancements, decorative crosswalks, a spherical round-a-bout, lighting and medians. Public art will highlight the corridor through a series of large stone pedestals depicting a lotus flower, a symbol of re-birth, in various stages of blooming.  We think that's a pretty compelling story, and the State of Indiana must have thought so too, because they received a handsome portion of stimulus funds to help make it happen.
-				
+					Considered the south gateway to Muncie, South Madison Avenue had fallen prey to expansive commercial blight and deterioration.  Landstory prepared a concept for a 4-block area including landscape enhancements, decorative crosswalks, a spherical round-a-bout, lighting and medians. Public art will highlight the corridor through a series of large stone pedestals depicting a lotus flower, a symbol of re-birth, in various stages of blooming.  We think that's a pretty compelling story, and the State of Indiana must have thought so too, because they received a handsome portion of stimulus funds to help make it happen.
 				</p>
 				<ul class="left">
 					<li>Recommendations for a 1/2 mile of Madison Avenue, a major corridor on the south side of Muncie</li>

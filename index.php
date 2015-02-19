@@ -1,70 +1,115 @@
-<!DOCTYPE html>
-<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
-<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8"> <![endif]-->
-<!--[if IE 8]>         <html class="no-js lt-ie9"> <![endif]-->
-<!--[if gt IE 8]><!--> <html class="no-js"> <!--<![endif]-->
-    <head>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title></title>
-        <meta name="description" content="">
-		<meta name="keywords" content="" />
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-		<link href="/css/site.css" rel="stylesheet" type="text/css" media="all" />
+<!doctype html>
+<html>
+<head>
+	<?php include 'global/header.php'; ?>
+	<?php require_once 'our_projects/data/project-data.php' ?>
+	<?php $_projects = getProjects() ?>
+</head>
+<body id="home">
+	<div id="intro">
+		<div class="logo"></div>
+	</div>
+	
+	<div id="container">
+		<?php include 'global/topnav.php'; ?>
+		<div id="content">
+			<div id="featured">
+				<h2>Featured Projects</h2>
+				<ul id="gallery">
+					<?php
+					$imgs = array(
+						'white_art_plaza'
+						, 'lucas_oil'
+						, 'legacy_trail'
+						, 'new_albany'
+						, 'irvington'
+						, 'mdcc'
+						);
+					foreach ( $imgs as $proj ):
+					?>
+						<li>
+							<div class="center-cropped" style="background-image: url('/lib/images/cropped/<?php echo $proj ?>.jpg')">
+								<a href="/our_projects/project.php?p=<?php echo $proj ?>">
+									<img src="/lib/images/cropped/<?php echo $proj ?>.jpg">
+								</a>
+								<p><?php echo $_projects->$proj->name ?> | <?php echo $_projects->$proj->location ?></p>
+							</div>
+						</li>
+					<?php endforeach ?>
+				</ul>
+				<p id="pager" class="clearfix"><a id="prev" href="#">&lt;</a><a id="next" href="#">&gt;</a><span id="pageNum">/</span></p>
+				<p id="brandpromise">
+					Landstory is a single discipline landscape architecture firm committed to interpreting each client's unique story, delivering creative, distinctive and sustainable design, a high level of technical competence and a return on investment.
+				</p>
+			</div>
 
-		<style type="text/css">
-		#under-construction .logo {
-			background: #fff url(images/home/intro.gif) no-repeat bottom center;
-			width: 100%;
-			height: 500px;
-		}
+			<div id="news">
+				<h2>News Highlights</h2>
+
+				<div class="panel-group" id="accordion" role="tablist" aria-multiselectable="true">
+					<?php include( 'news.php' ) ?>
+				
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab">
+							<h4 class="panel-title">
+								<a data-toggle="collapse" data-parent="#accordion" href="#collapseAwards" aria-expanded="true" aria-controls="collapseAwards">
+									Awards
+								</a>
+							</h4>
+						</div>
+
+						<div id="collapseAwards" class="panel-collapse collapse" role="tabpanel" aria-labelledby="headingAwards">
+							<div class="panel-body">
+								<ul>
+									<li>
+										<strong>Outstanding Overall Achievement Award for a non-TMA MPO</strong>
+										<br>
+										<a href="/our_projects/project.php?p=university_ave">University Avenue Corridor Study</a>
+									</li>
+
+									<li>
+										<strong>Monumental Affair Award</strong>
+										<br>
+										<a href="/our_projects/project.php?p=jw_marriot">JW Marriot White Art Plaza</a>
+									</li>
+
+									<li>
+										<strong>Mid-America Trails &amp; Greenways State of Kentucky Award</strong>
+										<br>
+										<a href="/our_projects/project.php?p=legacy_trail">Lexington Legacy Trail</a>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+					
+					<div class="panel panel-default">
+						<div class="panel-heading" role="tab">
+							<h4 class="panel-title">
+								<a href="#collapseProjects" data-toggle="collapse" data-parent="#accordion">
+									Featured Landstory projects
+								</a>
+							</h4>
+						</div>
+
+						<div id="collapseProjects" class="panel-collapse collapse" role="tabpanel">
+							<div class="panel-body">
+								<ul class="circle-list">
+									<li><a href="/our_projects/project.php?p=new_albany">Main Street Improvements Streetscape</a> | New Albany, Indiana</li>
+									<li><a href="/our_projects/project.php?p=mdcc">Medical Diagnosis Corporate Campus Site Design</a> | Indianapolis, Indiana</li>
+									<li><a href="/our_projects/project.php?p=white_art_plaza">JW Marriott White Art Plaza</a>  |  Indianapolis, Indiana</a></li>
+									<li><a href="/our_projects/project.php?p=legacy_trail">Legacy Trail</a> | Lexington, Kentucky</li>
+									<li><a href="/our_projects/project.php?p=lucas_oil">Lucas Oil Stadium</a>  | Indianapolis, Indiana</li>
+									<li><a href="/our_projects/project.php?p=irvington">Irvington Neighborhood</a> | Indianapolis, Indiana</li>
+								</ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		
-		#under-construction {
-			/*display: none;
-			background: #fff url(images/home/intro.gif) no-repeat center center;	*/
-			background: #fff;
-			position: absolute;
-			z-index: 199;
-			top: 0;
-			left: 0;
-			width: 100%;
-			height: 100%;
-		}
-
-		#hours {
-			margin-top: 30px;
-		}
-
-		.notice {
-			font-size: 16px;
-			font-weight: bold;
-			margin: 30px 0;
-		}
-		</style>
-
-        <!-- Place favicon.ico and apple-touch-icon.png in the root directory -->
-    </head>
-    <body>
-        <!--[if lt IE 7]>
-            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
-        <![endif]-->
-
-        <div id="under-construction">
-        	<div class="logo"></div>
-        	
-        	<p class="notice">
-        		This page is currently under construction. Check back soon to see all of the updates!
-        	</p>
-
-        	<ul id="hours">
-				<li>
-					901 N. East Street<br/>
-					Indianapolis, Indiana 46202
-				</li>
-				<li>P 317.951.0000</li>
-				<li>F 317.951.0119</li>
-				<li class="last"><a href="mailto:info@landstoryla.com">info@landstoryla.com</a></li>
-			</ul>
-        </div>
-    </body>
+			<?php include 'global/footer.php'; ?>
+		</div>
+	</div>
+</body>
 </html>
