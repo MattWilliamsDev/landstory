@@ -123,13 +123,13 @@ $( document ).ready( function() {
 	
 	if ( $( 'body' ).attr( 'id' ) == 'home' ) {
 		
-		//jQuery.jCookie('initlogo',null);
+		$.jCookie( 'initlogo', null );
 		
-		if ( jQuery.jCookie('initlogo') != 'true' ) {
+		if ( !$.jCookie( 'initlogo' ) ) {
 			var date = new Date();
 			date.setTime( date.getTime() + ( 1 * 24 * 60 * 60 * 1000 ) );
 				
-			jQuery.jCookie( 'initlogo','true', date );
+			$.jCookie( 'initlogo', true, date );
 			
 			$( '#intro .logo' ).fadeIn( 'slow' ).fadeTo( 3500, 1, fadeOutIntro );
 			
@@ -144,61 +144,12 @@ $( document ).ready( function() {
 		});	
 
 		$( '.article-title' ).each( function() {
-
 			$(this).on( 'click', function( $event ) {
 				$event.preventDefault();
 				$( this ).removeClass( 'expanded' );
-				// $()
-				// var nextitem = $(this).next('dd').attr('id');
-				// $(this).siblings('dd').each(function() {
-														  
-				// 	if ( $(this).attr('id') != nextitem ) {
-				// 		$(this).slideUp('normal')
-				// 	} else {
-				// 		$(this).slideToggle('normal')
-				// 	}
-				// });
 			});					   
 		});
 	}
-	
-	
-	/**
-	 * OUR STAFF SLIDING PANELS
-	 */
-	// if ( $('body').attr('class') == 'ourstaff' ) {
-		
-	// 	var currentPanel;
-	// 		if (location.hash) { 
-	// 			currentPanel = location.hash.substring(1);
-	// 		} else {
-	// 			currentPanel = 'joann_g';
-	// 		}
-	
-	// 	$(".ourstaff .panel").each(function() {	
-									   
-	// 			if ( $(this).attr('id') != currentPanel ) {
-	// 				$(this).children('dl').hide();
-	// 			}					   
-	// 	});
-		
-		
-	// 	$("#sidenav .ourstaff ul li a").each(function() {					   
-	// 			$(this).click(function(event) {	
-	// 				event.preventDefault();
-	// 					hrefHash = $(this).attr("href");
-	// 					//setTimeout( setHash, 1000 );
-	// 						$(hrefHash).siblings().children('dl').slideUp(1000);
-	// 						$(hrefHash).children('dl').slideToggle(1000);
-	// 			});					   
-	// 	});
-	
-	// function toggleFlash(fi) {
-	// 	var h = fi.getAncestor();
-	// 	var currentToggle = $(h).parent();
-	// 		$(currentToggle).siblings().children('dl').slideUp(1000);
-	// 		$(currentToggle).children('dl').slideToggle(1000);
-	// }
 	
 	function setHash() {
 		window.location.hash = hrefHash;

@@ -7,7 +7,9 @@
 	require_once( './data/project-data.php' );
 	$projects = getProjects();
 	$p = $_REQUEST[ 'p' ];
-	$project = $projects->$p;
+	
+	if ( isset( $projects->$p ) )
+		$project = $projects->$p;
 	
 	if ( !isset( $project ) )
 	{

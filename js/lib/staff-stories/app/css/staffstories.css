@@ -1,23 +1,30 @@
 li {
   list-style: none;
 }
-.ss-list .people .qualifications span:after {
-  content: ',';
-}
-.ss-list .people .qualifications span:last-child:after {
-  content: ',';
-}
+
 .ss-list .people .list-person {
-  border: 1px solid #c4c4c4;
   padding: 10px 5px;
 }
-.ss-list .people .list-person:first-child {
+
+#sidenav li.list-person {
+	background: none;
+	cursor: pointer;
+}
+
+#sidenav .ss-list .people .list-person:first-child {}
+
+#sidenav .ss-list .people .list-person:last-child {
   border-bottom: none;
 }
-.personal-bio dt {
-  margin-top: 10px;
-  font-size: 20px;
+
+.personal-bio {
+	margin-top: 10px;
 }
+
+.personal-bio dt {
+  font-size: 12px;
+}
+
 .personal-bio:first-child {
   margin-top: 0;
 }

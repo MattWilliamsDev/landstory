@@ -16,9 +16,9 @@ a:hover {
 img {
 	border: none;
 }
-html, body {
+/*html, body {
 	height: 100%;
-}
+}*/
 body {
 	font: 12px/1.5em "Lucida Grande", Helvetica, Arial, sans-serif;
 	color: #5e6e65;
@@ -391,11 +391,12 @@ HOMEPAGE
 	padding: 6px 8px;
 	font-weight: bold;
 	line-height: 1em;
-	margin-top: 2px;
 }
 
 #home .panel-default .panel-heading a {
 	font-size: 12px;
+	display: block;
+	padding: 5px 0;
 }
 
 #home .panel-default .panel-heading a:hover {
@@ -404,23 +405,23 @@ HOMEPAGE
 }
 
 .center-cropped {
-  width: 620px;
-  height: 304px;
-  background-position: center center;
-  background-repeat: no-repeat;
-  overflow: hidden;
+	width: 620px;
+	height: 304px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	overflow: hidden;
 }
 
 /* Set the image to fill its parent and make transparent */
 .center-cropped img {
-  min-height: 100%;
-  min-width: 100%;
-  /* IE 8 */
-  -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
-  /* IE 5-7 */
-  filter: alpha(opacity=0);
-  /* modern browsers */
-  opacity: 0;
+	min-height: 100%;
+	min-width: 100%;
+	/* IE 8 */
+	-ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=0)";
+	/* IE 5-7 */
+	filter: alpha(opacity=0);
+	/* modern browsers */
+	opacity: 0;
 }
 
 #home #pager a,

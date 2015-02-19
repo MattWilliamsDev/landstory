@@ -264,9 +264,6 @@ $GLOBALS['project_data'] = '{
 			, {
 				"uri": "terrehaute_3.jpg"
 			}
-			, {
-				"uri": "terrehaute_4.jpg"
-			}
 		]
 		, "alias": [ "terre_haute", "cso" ]
 	}

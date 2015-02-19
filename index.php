@@ -6,9 +6,9 @@
 	<?php $_projects = getProjects() ?>
 </head>
 <body id="home">
-	<!-- <div id="intro">
+	<div id="intro">
 		<div class="logo"></div>
-	</div> -->
+	</div>
 	
 	<div id="container">
 		<?php include 'global/topnav.php'; ?>
@@ -95,22 +95,12 @@
 						<div id="collapseProjects" class="panel-collapse collapse" role="tabpanel">
 							<div class="panel-body">
 								<ul class="circle-list">
-									<li><a href="/our_projects/project.php?p=madison_ave">Madison Avenue Gateway</a> | Muncie, Indiana</li>
-									<li><a href="/our_projects/project.php?p=lewis_clark">Lewis &amp; Clark Trail</a> | Clarksville, Indiana</li>
 									<li><a href="/our_projects/project.php?p=new_albany">Main Street Improvements Streetscape</a> | New Albany, Indiana</li>
-									<li><a href="/our_projects/project.php?p=iupui_lockfield_gardens">IUPUI Lockfield Green Recreational Area</a> | Indianapolis, Indiana</li>
-									<li><a href="/our_projects/project.php?p=iu_east_quadrangle">IU East Quadrangle Improvement</a> | Richmond, Indiana</li>
-									<li><a href="/our_projects/project.php?p=brownsburg_trail">Green Street Trail &amp; Trailhead</a> | Brownsburg, Indiana</li>
-									<li><a href="/our_projects/project.php?p=corydon">Historic Sites Master Plan</a> | Corydon, Indiana</li>
-									<li><a href="/our_projects/project.php?p=tenth_st">10th Street Corridor</a> | Noblesville, Indiana</li>
-									<li><a href="/our_projects/project.php?p=terre_haute">Terre Haute CSO</a> | Terre Haute, Indiana</li>
 									<li><a href="/our_projects/project.php?p=mdcc">Medical Diagnosis Corporate Campus Site Design</a> | Indianapolis, Indiana</li>
-									<li><a href="/our_projects/project.php?p=fall_creek">Fall Creek Trail</a> | Indianapolis, Indiana</li>
-									<li><a href="/our_projects/project.php?p=cannelton">Downtown Revitalization Plan</a> | Cannelton, Indiana</li>
-									<li><a href="/our_projects/project.php?p=highway_20">US Hwy 20 Corridor Study</a> | Portage, Indiana</li>
-									<li><a href="/our_projects/project.php?p=discovery_trail">Santa Claus‐Lincoln Discovery Trail</a> | Santa Claus, Indiana</li>
-									<li><a href="/our_projects/project.php?p=firestone">Firestone Reuse Site</a> | Noblesville, Indiana</li>
-									<li><a href="/our_projects/project.php?p=corydon">Corydon Capitol State Historic Site</a> | Corydon, Indiana</li>
+									<li><a href="/our_projects/project.php?p=white_art_plaza">JW Marriott White Art Plaza</a>  |  Indianapolis, Indiana</a></li>
+									<li><a href="/our_projects/project.php?p=legacy_trail">Legacy Trail</a> | Lexington, Kentucky</li>
+									<li><a href="/our_projects/project.php?p=lucas_oil">Lucas Oil Stadium</a>  | Indianapolis, Indiana</li>
+									<li><a href="/our_projects/project.php?p=irvington">Irvington Neighborhood</a> | Indianapolis, Indiana</li>
 								</ul>
 							</div>
 						</div>
