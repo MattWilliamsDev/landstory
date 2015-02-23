@@ -1023,6 +1023,9 @@ $GLOBALS['project_data'] = '{
 			, {
 				"uri": "duneskankakee_4.jpg"
 			}
+			, {
+				"uri": "duneskankakee_5.jpg"
+			}
 		]
 	}
 	, "whitewater": {
