@@ -22,7 +22,6 @@ define( function( require ) {
 		}
 		, listQualifications: function() {
 			var qualifications = this.model.get( 'qualifications' ) || [];
-			console.log( 'qualifications', qualifications );
 			var string = '';
 			if ( qualifications.length > 1 ) {
 				_.each( qualifications, function( item, index ) {
