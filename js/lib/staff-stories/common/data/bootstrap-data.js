@@ -9,30 +9,30 @@ define( function( require ) {
                     , 'last': 'Green'
                     , 'middle': 'K.'
                 }
-                , 'intro': 'Joann Green is President and Owner of Landstory. A registered Landscape Architect in Indiana, Joann has been a principal Landscape Architect with Landstory since 1992. Her 36 years of experience extends to a broad array of project types (parks, trails, streetscapes, urban revitalization plans, large scale industrial and institutional site design) for private and public sector clients on a local, state, regional and national level. Born and raised in Indianapolis, she holds a Landscape Architecture degree from Purdue University. Joann\'s background leading up to ownership of Landstory involved project management and department head positions with two large A&E firms in Indianapolis. She prides in being involved with every Landstory project providing design and technical oversight, project management and on-going client communications.'
+                , 'intro': 'Joann Green is President and owner of Landstory. A registered Landscape Architect in Indiana, Joann has been a principal Landscape Architect with Landstory since 1992. Her 36 years of experience extends to a broad array of project types (parks, trails, streetscapes, urban revitalization plans, large scale industrial and institutional site design) for private and public sector clients on a local, state, regional and national level. Born and raised in Indianapolis, she holds a Landscape Architecture degree from Purdue University. Joann\'s background involved project management and department head positions with two large A&E firms in Indianapolis. She takes pride in being involved with every Landstory project providing design and technical oversight, project management and on-going client communication.'
                 , 'qa': [
                     {
                         'question': 'Why you\'re passionate about Landscape Architecture'
-                        , 'answer': 'The potential of its outcomes - environmental, social, aesthetic, cultural. Its ability to affect the environment and people\'s lives in a very direct, meaningful and positive way.'
+                        , 'answer': 'The potential of its positive outcomes - environmental, social, aesthetic, cultural, affecting people\'s lives in very direct, meaningful and positive ways.'
                     }
                     , {
                         'question': 'First job'
                         , 'answer': 'Stretch & Sew, Indianapolis Beginning in 1971, the age of polyester knit!'
                     }, {
                         'question': 'One thing most people don\'t know about me'
-                        , 'answer': 'Played the guitar beginning at age 10 for 15 years.  For the last six years I\'ve become a metalsmith, designing and fabricating art jewelry.'
+                        , 'answer': 'Played the guitar beginning at age 10 for 15 years.  For the last six years I\'ve been learning metalsmithing and have become a jewelry artist.'
                     }
                     , {
                         'question': 'Favorite restaurant(s)'
-                        , 'answer': 'Sakura, Indianapolis, & Mayan Café, Louisville'
+                        , 'answer': 'Sakura, Indianapolis & Mayan Café, Louisville'
                     }
                     , {
                         'question': 'Favorite travel'
-                        , 'answer': 'London, England - unparalleled history, culture, residential & commercial development, open space, green space, riverfront, architecture. Embodies everything that makes urban centers great.'
+                        , 'answer': 'London, England - unparalleled history, culture, residential & commercial development, open space, green space, architecture. Embodies everything that makes urban centers great.'
                     }
                     , {
                         'question': 'Best advice'
-                        , 'answer': 'From my dad: \"It\'s not the mistakes you make, it\'s the grace to admit them, to do whatever it takes to fix them, and to have the willingness to learn from them\".'
+                        , 'answer': '\"From my dad: \'It\'s not the mistakes you make, it\'s the grace to admit them, to do whatever it takes to fix them, and have the willingness to learn from them\'.\"'
                     }
                 ]
                 , 'qualifications': [
@@ -158,19 +158,19 @@ define( function( require ) {
             }
             , {
                 'name': {
-                    'first': 'Douglas'
+                    'first': 'Doug'
                     , 'last': 'Decker'
                     , 'middle': 'R.'
                 }
-                , 'intro': 'Doug holds a Bachelor\'s Degree in Landscape Architecture and a B.S. in Environmental design from Ball State University. Dough\'s extensive experience has afforded him a multitude of clients and projects large, small and everything in-between. His INDOT design capabilities include certifications as an Employee in Responsible Charge (ERC) and environmental certifications including NEPA training and Categorical Exclusion preparation credentials.'
+                , 'intro': 'Doug holds a Bachelor\'s Degree in Landscape Architecture and a B.S. in Environmental design from Ball State University. Doug\'s extensive experience has afforded him a multitude of clients and projects large, small and everything in-between. His INDOT design capabilities include certifications as an Employee in Responsible Charge (ERC) and environmental certifications including NEPA training and Categorical Exclusion preparation credentials.'
                 , 'qa': [
                     {
                         'question': 'Why you\'re passionate about LA'
-                        , 'answer': 'Opportunities to positively influence, nurture and improve people\'s quality of life.'
+                        , 'answer': 'Opportunities to positively influence, nurture and improve people\'s quality of life and the natural and built environment.'
                     }
                     , {
                         'question': 'One thing people don\'t know about me'
-                        , 'answer': 'I\'m an Army brat, born in Paris, France when my dad was stationed overseas and lived there for 7.'
+                        , 'answer': 'I\'m an Army brat, born in Paris, France when my dad was stationed overseas and lived there for 7 years.'
                     }
                     , {
                         'question': 'Favorite Indianapolis restaurant'
@@ -178,14 +178,14 @@ define( function( require ) {
                     }
                     , {
                         'question': 'Favorite travel'
-                        , 'answer': 'No place in particular, half the fun is getting there.'
+                        , 'answer': '\"No place in particular. Half the fun is getting there.\"'
                     }
                     , {
                         'question': 'Best advice'
-                        , 'answer': '\'Many hands make light work\' and \'if you see something that needs to be done – do it.\''
+                        , 'answer': '\"Many hands make light work\" and \"if you see something that needs to be done – do it.\"'
                     }
                 ]
-                , 'qualifications': [ 'PLA', 'ASLA', 'CSI', 'LEED AP / Project Manager' ]
+                , 'qualifications': [ 'PLA', 'CDT', 'LEED AP / Project Manager' ]
                 , 'email': 'ddecker@landstoryla.com'
                 , 'education': [
                     {
@@ -270,7 +270,7 @@ define( function( require ) {
                     , 'middle': ''
                 }
                 , 'email': 'shendress@landstoryla.com'
-                , 'intro': 'Shea graduated with a degree in Landscape Architecture from Ball State University in 2006. He moved to Atlanta, GA after graduation to work with HGOR, a landscape architecture firm, and joined Landstory ƒin early 2014. Shea recently became a licensed/registered Landscape Architect in Indiana.'
+                , 'intro': 'Shea graduated with a degree in Landscape Architecture from Ball State University in 2006. He moved to Atlanta, GA after graduation to work with HGOR, a landscape architecture firm, and joined Landstory in early 2014. Shea recently became a licensed/registered Landscape Architect in Indiana.'
                 , 'qa': [
                     {
                         'question': 'Why you\'re passionate about LA'
@@ -321,15 +321,15 @@ define( function( require ) {
                     , 'middle': ''
                 }
                 , 'email': 'cmoore@landstoryla.com'
-                , 'intro': 'Chris attended Purdue University. Boiler Up! He has gained valuable experience in the private and public sectors. Much of his work has focused on parks, trails, and streetscapes but he also brings design experience in the realm of public and private open space planning, master planned communities, and resorts. He\'s been involved in all stages of the design process including schematic design, design development and construction documentation. Chris takes pride in his technical ability, delivering our clients the highest quality documentation through implementation.'
+                , 'intro': 'Chris attended Purdue University. He has gained valuable Landscape Architecture experience in the private and public sectors. Much of his work has focused on parks, trails, and streetscapes and design experience in the realm of public and private open space planning, master planned communities, and resorts. He\'s been involved in all stages of the design process including schematic design, design development and construction documentation. Chris takes pride in his technical ability, delivering our clients the highest quality documentation all the way through to implementation and construction completion.'
                 , 'qa': [
                     {
                         'question': 'Why you\'re passionate about LA'
-                        , 'answer': 'Growing up in The Woodlands, Texas, most days were spent with my brothers exploring on our bikes through the natural timberland landscape. It wasn\'t until much later when I was introduced to landscape architecture that I understood why The Woodlands was special and that as a landscape architect I have the opportunity to create the "sense of place", inherent in The Woodlands.'
+                        , 'answer': 'Growing up in The Woodlands, Texas, most days were spent with my brothers exploring on our bikes through the natural timberland landscape. It wasn\'t until much later when I was introduced to Landscape Architecture that I understood why The Woodlands was special and that, as a landscape architect, I have the opportunity to create spaces that provide the feeling I experienced.'
                     }
                     , {
                         'question': 'One thing people don\'t know about me'
-                        , 'answer': 'I have an affinity for 80\'s pop culture. Back to the Future, National Lampoon\'s Vacation, Nintendo, Dukes of Hazard, Hot for Teacher, Hypercolor tshirts, and Swatch watches.'
+                        , 'answer': '\"I have an affinity for 80\'s pop culture. Back to the Future, National Lampoon\'s Vacation, Nintendo, Dukes of Hazzard, Hot for Teacher, Hypercolor tshirts, and Swatch watches.\"'
                     }
                     , {
                         'question': 'My first job'
@@ -337,7 +337,7 @@ define( function( require ) {
                     }
                     , {
                         'question': 'Favorite restaurant'
-                        , 'answer': 'Fuddruckers\'s. To this day the smell takes be back to a time when everything was simpler'
+                        , 'answer': '\"Fuddruckers\". To this day, the smell takes me back to a time when everything was simpler.'
                     }
                 ]
                 , 'qualifications': [

@@ -50,6 +50,7 @@
 						</li>
 
 						<li>
+							<h4 class="project-name">City of Noblesville</h4>
 							<blockquote>
 								<p>
 									"Landstory has served the City of Noblesville providing a variety of landscape architectural services for the last 5 years…their responsiveness, broad and creative talent and attention to detail is unparalleled. Joann Green's direct and consistent involvement in each of our projects has also proven invaluable."
@@ -65,6 +66,7 @@
 						</li>
 
 						<li>
+							<h4 class="project-name">New Albany Main Street Improvements</h4>
 							<blockquote>
 								<p>
 									"Clark Dietz has a long standing and excellent working relationship with Landstory. I personally had the
@@ -75,7 +77,6 @@
 								</p>
 								<footer>
 									<span class="author">
-										New Albany Main Street Improvements<br>
 										Wes Christmas, PE<br>
 										Clark Dietz 
 									</span>

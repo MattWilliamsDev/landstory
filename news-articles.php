@@ -34,7 +34,7 @@ $news_articles = json_decode('[
 		]
 	}
 	, {
-		"title": "Look out for these new landstory projects in your neighborhood"
+		"title": "Look out for these new Landstory projects in your neighborhood"
 		, "body": ""
 		, "lists": [
 			{
@@ -45,9 +45,9 @@ $news_articles = json_decode('[
 					, "On-Call Master Plan Services | Noblesville, Indiana"
 					, "Phase II, Santa Claus Trail | Santa Claus, Indiana"
 					, "Phase III, Legacy Trail | Lexington, Kentucky"
-					, "White River Greenway / 10th Street Trail | Indianapolis, IN"
-					, "Forte Mixed Use Development | Indianapolis, IN"
-					, "Indianapolis Dept. of Public Works / Indy Parks | Indianapolis, IN"
+					, "White River Greenway / 10th Street Trail | Indianapolis, Indiana"
+					, "Forte Mixed Use Development | Indianapolis, Indiana"
+					, "Indianapolis Dept. of Public Works / Indy Parks | Indianapolis, Indiana"
 				]
 			}
 			, {
@@ -55,7 +55,6 @@ $news_articles = json_decode('[
 				, "items": [
 					"Eagle Creek Trail | Indianapolis, Indiana"
 					, "Phase I Santa Claus Trail | Santa Claus, Indiana"
-					, "Corydon Courthouse Square | Corydon, Indiana"
 					, "10th Street Corridor | Noblesville, Indiana"
 					, "Medical Diagnostics Corporate Campus | Indianapolis, Indiana"
 					, "Illinois Tollway | Chicago, Illinois"
@@ -66,6 +65,7 @@ $news_articles = json_decode('[
 				, "items": [
 					"Brownsburg Trail &amp; Trailhead | Brownsburg, Indiana"
 					, "Lewis &amp; Clark Trail | Clarksville, Indiana"
+					, "Corydon Courthouse Square | Corydon, Indiana"
 				]
 			}
 			, {

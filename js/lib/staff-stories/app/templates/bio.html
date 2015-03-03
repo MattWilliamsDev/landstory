@@ -1,7 +1,7 @@
 {{# if name }}
 <h2 class="name">
 	{{ fullName }}<br>
-	<small class="qualifications">{{# each qualifications }}<span>{{ . }}</span> {{/ each }}</small>
+	<small class="qualifications">{{{ qualificationsList }}}</small>
 </h2>
 
 <dl class="personal-bio dl-horizontal">
@@ -37,7 +37,7 @@
 	{{/ if }}
 	
 	{{# if registration }}
-	<dt>Registrations</dt>
+	<dt>Registration</dt>
 	<dd>
 		<ul class="registration">
 			{{# each registration }}

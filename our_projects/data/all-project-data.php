@@ -8,7 +8,7 @@ $GLOBALS['project_data'] = '{
 		, "storyline": "When Indianapolis was selected to host the big game in 2011, new public spaces were needed for visitors and spectators alike. Our focus became the public plaza along West Washington Street. The plaza formed by the facades of the JW Marriott, Fairfield Inn and Springhill Suites, incorporated three important Indiana state symbols; the flower, tree and bird. A forty foot stylized red cardinal, the state bird, overlooks the plaza perched on a decorative tulip branch, the state tree. The tulip tree is reflected in the decorative pavement surrounding the cardinal sculpture. Parallel to the street is a segmented water wall depicting fields of peonies, the state flower. But for the best view go seven floors up and check out the unique entrance to the JW Marriott where the forms of the surface pavement are oriented to reinforce views of significant facilities nearby, including the Indiana State Office Building, the Eiteljorg Museum and White River State Park."
 		, "left": {
 			"items": [
-				"Landscape design is elegant but simplified through use of massing native and ornamental grasses and other plant material to enhance the pedestrian experience and allow views of the development"
+				"Consisting of elegant, simple landscape through use of native and ornamental grasses and other plant material to enhance the pedestrian experience and allow views into the development"
 				, "Bosques of trees provide shade and orient visitors to entry points"
 				, "Surface land forms provide public greenspace and placement for public art"
 				, "Public Artist: Jeff Laramore"
@@ -17,8 +17,8 @@ $GLOBALS['project_data'] = '{
 		, "right": {
 			"heading": "Project Benefits &amp; Results"
 			, "items": [
-				"Furthers business by attracting visitors to tell the story about Indiana\'s state tree, bird and flower"
-				, "Provides income opportunities resulting from outdoor events and performances utilizing a raised platform as a stage"
+				"Attracts visitors by telling the story about Indiana\'s state tree, bird and flower"
+				, "Provides revenue opportunities resulting from outdoor events and performances utilizing a raised platform as a stage"
 			]
 		}
 		, "images": [
@@ -102,9 +102,6 @@ $GLOBALS['project_data'] = '{
 			}
 			, {
 				"uri": "/images/projects/site_design/iu_simon_cancer_center/detail_1.jpg"
-			}
-			, {
-				"uri": "/images/projects/site_design/iu_simon_cancer_center/detail_2.jpg"
 			}
 			, {
 				"uri": "/images/projects/site_design/iu_simon_cancer_center/detail_3.jpg"
@@ -200,7 +197,7 @@ $GLOBALS['project_data'] = '{
 	}
 	, "capitol_state_historic_site": {
 		"location": "Corydon, Indiana"
-		, "project_name": "Corydon Historic Sites Master Plan and Phase I"
+		, "project_name": "Corydon, Indiana Historic Sites Master Plan and Phase I"
 		, "category": "site_design"
 		, "storyline": "<p><strong>Master Plan:</strong><br>Corydon hosts hundreds of visitors every year as the first state capital of Indiana. And with all of those visitors it\'s necessary to have a well-connected, easy to maneuver city center. Wayfinding elements, visitor and school bus parking and pedestrian and traffic pattern assessment were all components of a master plan study prepared in 2010 that included First State Capitol Building and Square, the First Governor\'s Residence, First State Office Building and the Constitution Elm Memorial. Our process included site assessment and analysis, program definition, concept development and implementation strategies.</p><p><strong>Phase I Implementation:</strong><br>Funding became a reality so the Landstory team worked closely with the newly formed Indiana State Museum and Historic Sites to identify their implementation priorities. It certainly was not a shock to learn the first project was going to be improvements to Indiana\'s first courthouse and surrounding historic town square...all in time for the state bicentennial celebration in 2016!</p>"
 		, "left": {
@@ -216,6 +213,20 @@ $GLOBALS['project_data'] = '{
 				, "Rain gardens to accommodate and mitigate on-site surface storm runoff and improve aesthetics"
 			]
 		}
+		, "images": [
+			{
+				"uri": "corydon.jpg"
+			}
+			, {
+				"uri": "corydon_1.jpg"
+			}
+			, {
+				"uri": "corydon_4.jpg"
+			}
+			, {
+				"uri": "corydon_downtown_3.jpg"
+			}
+		]
 		, "images": [
 			{
 				"uri": "corydon.jpg"
@@ -264,6 +275,12 @@ $GLOBALS['project_data'] = '{
 			, {
 				"uri": "terrehaute_3.jpg"
 			}
+			, {
+				"uri": "terrehaute_4.jpg"
+			}
+			, {
+				"uri": "terrehaute_5.jpg"
+			}
 		]
 		, "alias": [ "terre_haute", "cso" ]
 	}
@@ -271,7 +288,7 @@ $GLOBALS['project_data'] = '{
 		"location": "Indianapolis, Indiana"
 		, "project_name": "Hudnut Plaza"
 		, "category": "site_design"
-		, "storyline": "Like a tired pair of jeans, full of holes, faded, and out of style, the landscape of this important downtown Indianapolis space needed to be replaced.  Spurred on by the partial demolition of the plaza caused by construction of the Simon Headquarters building, a new planting plan was developed specifying low-maintenance, native plants.  We can\'t think of a better place to experience a true urban garden and walk off one of the famous omelets and butter-soaked sourdough toast from neighboring Cafe Patachou."
+		, "storyline": "Like a tired pair of jeans, full of holes, faded, and out of style, the landscape of this important downtown Indianapolis space needed a facelift.  Spurred on by the partial demolition of the plaza caused by construction of the Simon Headquarters building, a new planting plan was developed specifying low-maintenance, native plants.  We can\'t think of a better place to experience a true urban garden and walk off one of the famous omelets and butter-soaked sourdough toast from neighboring Cafe Patachou."
 		, "left": {
 			"items": [
 				"Reconstruction of the public garden in Hudnut Plaza, downtown Indianapolis"
@@ -299,6 +316,40 @@ $GLOBALS['project_data'] = '{
 			}
 		]
 		, "alias": "capital_commons"
+	}
+	, "lockfield_gardens": {
+		"location": "Indianapolis, Indiana"
+		, "project_name": "IUPUI Lockfield Gardens"
+		, "category": "site_design"
+		, "storyline": "Common green space is essential for college students to clear their minds after hours of tedious school work and as a place to go—away from the confines of the dorm room or apartment. The Lockfield Gardens at IUPUI campus in downtown Indianapolis provide much needed outdoor recreational space. Landstory\'s design for the space included a lighted, half-court basketball and sand volleyball courts, open green areas for informal recreation and throwing the Frisbee or sunbathing. Custom, decorative concrete seating areas allow for impromptu student gatherings, study areas, Facebooking or Instagramming. Fencing, rain gardens, site furnishings and plantings give structure to the space and enhance and serve to delineate the varied use areas."
+		, "left": {
+			"items": [
+				"Collaborative effort with campus security and residential services included placement and operation of wired cameras, court access control and emergency phones"
+				, "Project was completed in the fall of 2014"
+			]
+		}
+		, "right": {
+			"heading": "Project Benefits &amp; Results"
+			, "items": [
+				"Project resulted in much needed outdoor recreation space adjacent to a new dormitory"
+				, "Project enables opportunities for expanded recreation activities and special event programming for unused existing green space"
+				, "Walkways replace and formalize former ‘cow paths\' used by pedestrians passing through space between adjacent parking and university facilities"
+			]
+		}
+		, "images": [
+			{
+				"uri": "iupuilockfield.jpg"
+			}
+			, {
+				"uri": "iupuilockfield_1.jpg"
+			}
+			, {
+				"uri": "iupuilockfield_2.jpg"
+			}
+		]
+		, "alias": [
+			"iupui"
+		]
 	}
 	, "white_river": {
 		"location": "Indianapolis, Indiana"
@@ -338,7 +389,7 @@ $GLOBALS['project_data'] = '{
 	}
 	, "franklin_greenway": {
 		"location": "Franklin, Tennessee"
-		, "project_name": "Tennessee Greenways & Open Space Plan"
+		, "project_name": "Franklin Greenways & Open Space Plan"
 		, "category": "parks_recreation"
 		, "category_display": "parks__recreation"
 		, "storyline": "Founded in 1799, the City of Franklin was the site of one of the bloodiest battles in the Civil War.  Now a major tourist destination, Franklin has been dubbed the Los Angeles / Hollywood of the south and has some of the best country cookin\' in the U.S.   Running with the thoughts of historic tourism, second-to-none hospitality and way of life, country music, and cookin\', Landstory set out to develop a Greenways and Open Space Master Plan connecting all of these ideas.  Planning for development of a contiguous, functional, sustainable, recreational, educational open space and greenway network had its own unique set of challenges.  Utilizing the Harpeth River, scenic country roads and extensive public open space, Landstory developed a seamless greenway/trail system."
@@ -414,9 +465,6 @@ $GLOBALS['project_data'] = '{
 			}
 			, {
 				"uri": "westfield_2.jpg"
-			}
-			, {
-				"uri": "westfield_3.jpg"
 			}
 		]
 		, "alias": "westfield"
@@ -508,10 +556,6 @@ $GLOBALS['project_data'] = '{
 			, {
 				"uri": "iupuilockfield_2.jpg"
 			}
-		]
-		, "alias": [
-			"lockfield_gardens"
-			, "iupui"
 		]
 	}
 	, "evansville_parks": {
@@ -664,7 +708,7 @@ $GLOBALS['project_data'] = '{
 		, "project_name": "Irvington Neighborhood"
 		, "category": "streetscapes"
 		, "category_display": "corridors__streetscapes"
-		, "storyline": "Recognized for its rich arts &amp; crafts architecture and significant location along the Old National Road (US 40), Landstory developed the concept for the streetscape to tell the story of this wonderful historic neighborhood.  Colors, images, forms reminiscent of the Arts &amp; Crafts movement were incorporated in all aspects of the design along with the original brick paved streets unearthed in the medians. Significant design elements include customized amenities, lighting, signage and stylized crosswalks. Before implementation, local developers got wind of the vision and moved forward with construction of a new Starbuck\'s along with several other projects throughout the commercial district. In our world, that\'s called building faith."
+		, "storyline": "Recognized for its rich arts &amp; crafts architecture and significant location along the Old National Road (US 40), Landstory developed the concept for the streetscape to tell the story of this wonderful historic neighborhood.  Colors, images, and forms reminiscent of the Arts &amp; Crafts movement were incorporated in all aspects of the design along with the original brick paved streets unearthed in the medians. Significant design elements include customized amenities, lighting, signage and stylized crosswalks. Before implementation, local developers got wind of the vision and moved forward with construction of a new Starbuck\'s along with several other projects throughout the commercial district. In our world, that\'s called building faith."
 		, "left": {
 			"items": [
 				"New walks"
@@ -940,9 +984,6 @@ $GLOBALS['project_data'] = '{
 		}
 		, "images": [
 			{
-				"uri": "lewisclark.jpg"
-			}
-			, {
 				"uri": "lewisclark_1.jpg"
 			}
 			, {
@@ -1140,7 +1181,7 @@ $GLOBALS['project_data'] = '{
 	}
 	, "franklin_greenways": {
 		"location": "Franklin, Tennessee"
-		, "project_name": "Tennessee Greenways & Open Space Plan"
+		, "project_name": "Franklin Greenways & Open Space Plan"
 		, "category": "trails_greenways"
 		, "category_display": "trails__greenways"
 		, "storyline": "Founded in 1799, the City of Franklin was the site of one of the bloodiest battles in the Civil War. Now a major tourist destination, Franklin has been dubbed the Los Angeles / Hollywood of the south. Running with the thoughts of historic tourism, second-to-none hospitality and way of life, country music, and amazing \'country-cookin\', Landstory set out to develop a Greenways and Open Space Master Plan connecting all of these ideas. Planning for development of a contiguous, functional, sustainable, recreational, educational open space and greenway network had its own unique set of challenges. Utilizing the Harpeth River, scenic country roads and extensive public open space, Landstory developed a seamless greenway/trail system."
@@ -1185,7 +1226,7 @@ $GLOBALS['project_data'] = '{
 	}
 	, "corydon": {
 		"location": "Corydon, Indiana"
-		, "project_name": "Corydon Historic Sites Master Plan and Phase I"
+		, "project_name": "Corydon, Indiana Historic Sites Master Plan and Phase I"
 		, "category": "downtown_revitalization"
 		, "storyline": "<p><strong>Master Plan:</strong><br>Corydon hosts hundreds of visitors every year as the first state capital of Indiana. And with all of those visitors it\'s necessary to have a well-connected, easy to maneuver city center. Wayfinding elements, visitor and school bus parking and pedestrian and traffic pattern assessment were all components of a master plan study prepared in 2010 that included First State Capitol Building and Square, the First Governor\'s Residence, First State Office Building and the Constitution Elm Memorial. Our process included site assessment and analysis, program definition, concept development and implementation strategies.</p><p><strong>Phase I Implementation:</strong><br>Funding became a reality so the Landstory team worked closely with the newly formed Indiana State Museum and Historic Sites to identify their implementation priorities. It certainly was not a shock to learn the first project was going to be improvements to Indiana\'s first courthouse and surrounding historic town square...all in time for the state bicentennial celebration in 2016!</p>"
 		, "left": {
@@ -1219,7 +1260,7 @@ $GLOBALS['project_data'] = '{
 	}
 	, "cannelton": {
 		"location": "Cannelton, Indiana"
-		, "project_name": "Cannelton"
+		, "project_name": "Cannelton, Indiana"
 		, "category": "downtown_revitalization"
 		, "storyline": "The picturesque, southern Indiana town of Cannelton quietly rests along the banks of the Ohio River. As with many small remote towns, Cannelton fell victim to local commercial disinvestment as government services and industry left. The once bustling downtown was in need of a boost to help revitalize the business district. Because of our winning track record of working with small towns and cities around Indiana, Landstory was selected as part of the planning team to develop a plan for revitalizing their historic downtown. Analysis of existing conditions included identification of potential development opportunities, concept preparation, streetscape recommendations and an action plan. The proposed business district design concept and visual character featured a phased approach with preliminary budgets."
 		, "left": {
@@ -1255,7 +1296,7 @@ $GLOBALS['project_data'] = '{
 	}
 	, "crothersville": {
 		"location": "Crothersville, Indiana"
-		, "project_name": "Crothersville"
+		, "project_name": "Crothersville, Indiana"
 		, "category": "downtown_revitalization"
 		, "storyline": "At 1.4 square miles and home to less than 2000 residents, the small town of Crothersville, Indiana is known for its historic charm and hometown hospitality. Centrally located between Louisville, Kentucky and Indianapolis, Crothersville was looking to improve the quality of life for its residents while looking for ways to expand their economic development potential in the downtown business district. Landstory was part of a team of consultants responsible for the development of a comprehensive master plan. Landstory\'s role was to analyze and inventory the existing parks and open spaces. Environmental recommendations included the creation of a Parks and Recreation Board, identification of community gateways, the creation and expansion of a connected trail network, a proposed location for a new community park and an establishment of a development ordinance."
 		, "left": {
@@ -1286,7 +1327,7 @@ $GLOBALS['project_data'] = '{
 	}
 	, "veedersburg": {
 		"location": "Veedersburg, Indiana"
-		, "project_name": "Veedersburg"
+		, "project_name": "Veedersburg, Indiana"
 		, "category": "downtown_revitalization"
 		, "storyline": "Did you know that 10% of the original bricks laid at the Indianapolis Speedway were from Veedersburg, Indiana? The town was once famous for its bricks but has since grown to a community of farmers, manufacturing but currently known as \"The Hub\" of Fountain County, due west of Indianapolis. Like many small towns in Indiana, Veedersburg wanted to rejuvenate their downtown business district with improvements focused on enhancing the community connectivity to local, regional and cultural assets. Landstory implemented a study focused on these goals. Existing abandoned rail lines, once the lifeline of manufacturing in the area, were emphasized for their connectivity potential. Community cultural and historical elements would be interpreted and highlighted by a Heritage Walk. And special attention was given to gateways into the town as a way to boost local and regional visibility of the rich history of Veedersburg."
 		, "left": {

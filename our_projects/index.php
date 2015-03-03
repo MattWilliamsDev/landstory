@@ -22,7 +22,7 @@
 				<h2 class="section-title">
 					<a href="/our_projects">Projects</a>
 				</h2>
-				<ul class="grid clearfix">
+				<ul class="project-list grid clearfix">
 					<li>
 						<a href="/our_projects/category.php?c=site_design">
 							<img src="/lib/images/thumbs/white_art_plaza.jpg" />

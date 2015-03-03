@@ -34,5 +34,5 @@
 	</ul>
 	
 	<h1><a href="/">Landstory</a></h1>
-	<p id="tagline">Landscape Architecture/Planning/Community Design</p>	
+	<p id="tagline">Landscape Architecture/Planning</p>
 </div>

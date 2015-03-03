@@ -556,7 +556,7 @@ THUMB GRIDS
 	padding-top: 10px;
 	height: 43px;
 	border-bottom: 1px solid #aeb6b2;
-	background: url(../images/grn_arrow.gif) no-repeat bottom right;
+	/*background: url(../images/grn_arrow.gif) no-repeat bottom right;*/
 }
 #main ul.grid {
 	padding-bottom: 48px;
