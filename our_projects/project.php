@@ -44,7 +44,7 @@
 			<?php require_once( 'sidenav.php' ); ?>
 			<div id="main">
 					<h2>
-						<a href="/our_projects/<?php echo $c ?>"><?php echo d( $c ) ?></a> / 
+						<a href="/our_projects/<?php echo $c ?>"><?php echo formatCategoryName( $project->category_display ) ?></a> / 
 						<a href="/our_projects/<?php echo $c ?>/<?php echo $p ?>.php"><?php echo $project->project_name ?></a>
 					</h2>
 
