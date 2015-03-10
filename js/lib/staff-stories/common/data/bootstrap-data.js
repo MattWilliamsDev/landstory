@@ -199,8 +199,10 @@ define( function( require ) {
                         'title': 'Registered Landscape Architect'
                         , 'state': 'Indiana & Illinois'
                     }
-                    , {
-                        'title': 'LEED AP Registration'
+                ]
+                , 'certifications': [
+                    {
+                        'title': 'LEED AP'
                         , 'year': '2009'
                     }
                     , {

@@ -17,10 +17,12 @@ define( function( require ) {
 		, tagName: 'li'
 		, events: {
 			'click': 'updateActivePerson'
+			, 'render': 'checkIsActive'
 		}
 		, initialize: function( options ) {
 			this.model = options.model;
 			this.appModel = options.appModel;
+			this.isActive = options.isActive || false;
 		}
 		, updateActivePerson: function( $event ) {
 			if ( $event ) {
@@ -28,6 +30,11 @@ define( function( require ) {
 				$event.stopPropagation();
 			}
 			this.appModel.set( 'activePerson', this.model );
+			this.isActive = true;
+			this.trigger( 'updatedActivePerson', this.model );
+		}
+		, checkIsActive: function() {
+			this.$el.toggleClass( 'selected', this.isActive );
 		}
 	});
 

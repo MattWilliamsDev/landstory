@@ -199,7 +199,7 @@ $GLOBALS['project_data'] = '{
 		"location": "Corydon, Indiana"
 		, "project_name": "Corydon, Indiana Historic Sites Master Plan and Phase I"
 		, "category": "site_design"
-		, "storyline": "<p><strong>Master Plan:</strong><br>Corydon hosts hundreds of visitors every year as the first state capital of Indiana. And with all of those visitors it\'s necessary to have a well-connected, easy to maneuver city center. Wayfinding elements, visitor and school bus parking and pedestrian and traffic pattern assessment were all components of a master plan study prepared in 2010 that included First State Capitol Building and Square, the First Governor\'s Residence, First State Office Building and the Constitution Elm Memorial. Our process included site assessment and analysis, program definition, concept development and implementation strategies.</p><p><strong>Phase I Implementation:</strong><br>Funding became a reality so the Landstory team worked closely with the newly formed Indiana State Museum and Historic Sites to identify their implementation priorities. It certainly was not a shock to learn the first project was going to be improvements to Indiana\'s first courthouse and surrounding historic town square...all in time for the state bicentennial celebration in 2016!</p>"
+		, "storyline": "<p><strong>Master Plan:</strong><br>Corydon hosts hundreds of visitors every year as the first state capital of Indiana. And with all of those visitors it\'s necessary to have a well-connected, accessible city center. Wayfinding elements, visitor and school bus parking and pedestrian and traffic pattern assessment were all components of a master plan study prepared in 2010 that included First State Capitol Building and Square, the First Governor\'s Residence, First State Office Building and the Constitution Elm Memorial. Our process included site assessment and analysis, program definition, concept development and implementation strategies.</p><p><strong>Phase I Implementation:</strong><br>In 2014, funding became a reality. The Landstory team worked closely with the newly formed Indiana State Museum and Historic Sites to identify their implementation priorities. It certainly was not a shock to learn the first project was going to be improvements to Indiana\'s first courthouse and surrounding historic town square...all in time for the state bicentennial celebration in 2016!</p>"
 		, "left": {
 			"items": [
 				"Redesigned courthouse entry plaza"
@@ -209,7 +209,6 @@ $GLOBALS['project_data'] = '{
 		, "right": {
 			"items": [
 				"Miscellaneous improvements to the gazebo"
-				, "New storage building"
 				, "Rain gardens to accommodate and mitigate on-site surface storm runoff and improve aesthetics"
 			]
 		}
@@ -246,11 +245,11 @@ $GLOBALS['project_data'] = '{
 		"location": "Terre Haute, Indiana"
 		, "project_name": "Terre Haute CSO"
 		, "category": "site_design"
-		, "storyline": "This was a rare opportunity to maximize return on investment, combining a CSO (combined sewer overflow) project with park and recreational use and reclaim an existing industrial site. Reclaiming spaces while bringing people closer to nature is a vital element in Landscape Architecture. Landstory was approached by the City of Terre Haute to re-imagine this 70 acre former site as a new park, jointly functioning as a CSO project site located adjacent to I-70 and the Wabash River. Landstory\'s concept plan leverages the initial CSO long term control improvements to provide much needed passive recreational opportunities. Full implementation of recreation park improvements will enable visitors to access the Wabash River directly through trails, boardwalks and canoe launch points. Picnic areas, overlooks and interpretive education allow for interactive experience opportunities."
+		, "storyline": "This was a rare opportunity to maximize return on investment, combining a CSO (combined sewer overflow) project with park and recreational use and reclaim an existing industrial site. Reclaiming spaces while bringing people closer to nature is a vital element in Landscape Architecture. Landstory was approached by the City of Terre Haute and a local engineering firm to re-imagine this 70-acre former site as a new park, jointly functioning as a CSO project site located adjacent to I-70 and the Wabash River. Landstory\'s concept plan leverages the initial CSO long term control improvements to provide much needed passive recreational opportunities. Recreation improvements will enable visitors to access the Wabash River directly through trails, boardwalks and canoe launch points. Picnic areas, overlooks and interpretive education allow for a balance of active and passive recreation activities."
 		, "left": {
 			"items": [
 				"Emphasis on passive, natural and recreational opportunities adjacent to state fish and wildlife area"
-				, "Design implements key elements of riverfront master plan and includes regional trail connections improves existing sludge containment lagoons into a 25 acre recreational lake"
+				, "Design implements key elements of riverfront master plan and includes regional trail connections improves existing sludge containment lagoons into a 25-acre recreational lake"
 				, "Initial phase of CSO project"
 			]
 		}
@@ -258,8 +257,8 @@ $GLOBALS['project_data'] = '{
 			"heading": "Project Benefits &amp; Results"
 			, "items": [
 				"Implementation of park elements on former industrial site reused primarily for sewer plan improvements maximizes public visibility and use"
-				, "Park improvements with sewer plant and improvements including modifications to sewer improvements such as treatment and storage to allow public use of site"
-				, "Integration of existing water feature provides central focus of park improvements enabling needed water-based recreation"
+				, "Park and recreation elements integrated with sewer plant improvements including modifications to treatment and storage to allow public use of site"
+				, "Integration of existing water feature provides central focal point and much needed water-based recreation"
 			]
 		}
 		, "images": [
@@ -344,7 +343,7 @@ $GLOBALS['project_data'] = '{
 				"uri": "iupuilockfield_1.jpg"
 			}
 			, {
-				"uri": "iupuilockfield_2.jpg"
+				"uri": "iupuilockfield_3.jpg"
 			}
 		]
 		, "alias": [
@@ -438,13 +437,13 @@ $GLOBALS['project_data'] = '{
 		, "project_name": "Westfield Parks & Recreation Master Plan"
 		, "category": "parks_recreation"
 		, "category_display": "parks__recreation"
-		, "storyline": "When the growing city of Westfield, Indiana, located 20 miles north of Indianapolis, needed a master plan for their Parks &amp; Recreation department they turned to Landstory. The firm\'s expertise in park and recreation planning combined with trails and greenways planning and design resulted in a strong park and recreation system plan identifying potential trails linking parks, neighborhoods and community destinations. Collaboration with the community involved an internet public opinion survey, stakeholder meetings, staff interviews and public input meetings...with meaningful results. Facility recommendations included expansion of active and passive recreation opportunities, improved utilization of existing park lands, development of conservation areas, a regional park and a trail network for pedestrian connectivity."
+		, "storyline": "When the growing city of Westfield, Indiana, located 20 miles north of Indianapolis, needed a Parks &amp; Recreation master plan, they turned to Landstory. The firm\'s expertise in park and recreation planning, combined with trail and greenway planning and design, resulted in a system plan identifying potential trail-linkage opportunities. Collaboration with the community involved an internet public opinion survey, stakeholder meetings, staff interviews and public input meetings...with meaningful results. Facility recommendations included expansion of active and passive recreation opportunities, improved utilization of existing park lands, development of conservation areas, a regional park and a trail network for pedestrian connectivity."
 		, "left": {
 			"items": [
-				"Operation recommendations: increased programming and promotion to increase park stature, specific staffing, general fund allocation and budget expenditure"
+				"Operation recommendations: increased programming and promotion to increase park stature, staffing needs, general budget allocation and expenditures"
 				, "Market analysis included: future department visibility, programming, brand identity, and financial considerations"
-				, "Budget recommendations to ensure revenues remain in park department control"
-				, "Planning recommendations: linear parks to expand and improve utilization of existing and proposed trails, natural corridors and rights of way and provided improved connectivity"
+				, "Recommendations to ensure revenues remain under parks department control"
+				, "Primary planning recommendations: linear parks to expand and improve utilization of existing and proposed trails, natural corridors and rights of way and provided improved connectivity"
 			]
 		}
 		, "right": {
@@ -452,7 +451,7 @@ $GLOBALS['project_data'] = '{
 			, "items": [
 				"Park and recreation planning recommendations enable improved local opportunities for regional trail network, incorporating linear parks as part of trail corridors"
 				, "Identification of public funding requirements enabled improved integration of parks and recreation as catalyst and a central focus on economic development"
-				, "Creation of new neighborhood and regional parks to provide significant benefits to community residents and attract new residents"
+				, "Creation of new neighborhood and regional parks and trails to provide significant benefits to community residents and attract new residents"
 
 			]
 		}
@@ -554,7 +553,7 @@ $GLOBALS['project_data'] = '{
 				"uri": "iupuilockfield_1.jpg"
 			}
 			, {
-				"uri": "iupuilockfield_2.jpg"
+				"uri": "iupuilockfield_3.jpg"
 			}
 		]
 	}
@@ -639,20 +638,19 @@ $GLOBALS['project_data'] = '{
 		, "project_name": "New Albany Main Street Improvements"
 		, "category": "streetscapes"
 		, "category_display": "corridors__streetscapes"
-		, "storyline": "As they say, \"It\'s all in the details\". The City of New Albany engaged Landstory to develop a vision for their historic main street corridor, Mansion Row. Broadened pedestrian ways included new sidewalks, planted medians, lighting, and gateway elements. Including custom designed gateway monuments, decorative pavement, custom address markers and landscape, Landstory delivered. Segments of original limestone curbs were excavated placed on their sides in the median as edge treatments to lend authenticity to the streetscape while preserving this important New Albany relic."
+		, "storyline": "As they say, \"It\'s all in the details\". The City of New Albany engaged a consultant team that included Landstory to develop a vision for their historic main street corridor, Mansion Row. Broadened pedestrian ways included new sidewalks, planted medians, lighting, and gateway elements. Including custom designed gateway monuments, decorative pavement, custom address markers and landscape, Landstory delivered a contextual and unique streetscape solution. Segments of original limestone curbs were excavated and placed creatively in the median as edge treatments to lend authenticity to the streetscape while preserving this important New Albany relic."
 		, "left": {
 			"items": [
 				"1-mile of streetscape improvements"
-				, "Custom gateway monuments detailed with materials and patterns reminiscent of the surrounding arch and of New Albany\'s industrial past"
-				, "Brick crosswalks at 5th and 15th Streets"
-				, "Planted median"
-				, "LED lighting"
+				, "Custom gateway monuments detailed with materials and patterns reminiscent of the surrounding architecture and New Albany\'s industrial past"
+				, "Brick crosswalks at key intersections only"
 			]
 		}
 		, "right": {
 			"items": [
-				"Decorative street &amp; address and markers"
-				, "Signage &amp; monuments celebrating New Albany\'s industrial heritage"
+				"Planted median"
+				, "LED accent and pedestrian lighting"
+				, "Customized street &amp; address markers"
 			]
 		}
 		, "images": [
@@ -708,7 +706,7 @@ $GLOBALS['project_data'] = '{
 		, "project_name": "Irvington Neighborhood"
 		, "category": "streetscapes"
 		, "category_display": "corridors__streetscapes"
-		, "storyline": "Recognized for its rich arts &amp; crafts architecture and significant location along the Old National Road (US 40), Landstory developed the concept for the streetscape to tell the story of this wonderful historic neighborhood.  Colors, images, and forms reminiscent of the Arts &amp; Crafts movement were incorporated in all aspects of the design along with the original brick paved streets unearthed in the medians. Significant design elements include customized amenities, lighting, signage and stylized crosswalks. Before implementation, local developers got wind of the vision and moved forward with construction of a new Starbuck\'s along with several other projects throughout the commercial district. In our world, that\'s called building faith."
+		, "storyline": "Recognized for its rich Arts &amp; Crafts architecture and significant location along the Old National Road (US 40), Landstory developed the concept for the streetscape to tell the story of this wonderful historic neighborhood.  Colors, images, and forms reminiscent of the Arts &amp; Crafts movement were incorporated in all aspects of the design along with the original brick paved streets unearthed in the medians. Significant design elements include customized amenities, lighting, signage and stylized crosswalks. Before implementation, local developers got wind of the vision and moved forward with construction of a new Starbuck\'s along with several other projects throughout the commercial district. In our world, that\'s called building faith."
 		, "left": {
 			"items": [
 				"New walks"
@@ -786,11 +784,11 @@ $GLOBALS['project_data'] = '{
 		, "project_name": "US Highway 20 Corridor"
 		, "category": "streetscapes"
 		, "category_display": "corridors__streetscapes"
-		, "storyline": "A 3.5 mile segment along US Hwy 20 in Portage, Indiana has experienced a myriad of issues and slow degradation of this winding, four-lane federal truck route.  Undesirable land uses, poor access control and pedestrian connectivity, and very little aesthetics qualities have plagued this corridor for many years.  Many existing facilities are in a varied state of disrepair and deterioration and suffering from the scourge of neglect. Landstory was charged with developing the aesthetic vision for the corridor through the creation of design standards, application of complete streets methodologies, and identifying opportunities for local and regional pedestrian connectivity. Recommendations included ways to tell the area\'s unique story through pedestrian-friendly design and placement of gateways, hardscapes, landscapes, trails, sidewalks, miscellaneous furnishings, and signage. Protection and utilization of the intermittent natural areas and wetlands throughout the area were also critical in the recommendation.  Protection and utilization of the intermittent natural areas and wetlands throughout the corridor were also critical in the recommendation."
+		, "storyline": "A 3.5 mile segment along US Hwy 20 in Portage, Indiana has experienced a myriad of issues and slow degradation of this winding, four-lane federal truck route.  Undesirable land uses, poor access control and pedestrian connectivity, and minimal aesthetic value have plagued this corridor for many years.  Many existing facilities are in a varied state of disrepair and deterioration and suffering from the scourge of neglect. Landstory was charged with developing the aesthetic vision for the corridor through the creation of design standards, application of complete streets methodologies, and identifying opportunities for local and regional pedestrian connectivity. Recommendations included ways to tell the area\'s unique story through pedestrian-friendly design and placement of gateways, hardscapes, landscapes, trails, sidewalks, miscellaneous furnishings, and signage. Protection and utilization of the intermittent natural areas and wetlands throughout the area were also critical in the recommendation.  Recommendation to protect and utilize the intermittent natural areas and wetlands throughout the corridor were also included."
 		, "left": {
 			"items": [
 				"Key parcels and properties identified for community to purchase and establish appropriate land uses/zoning"
-				, "Created design standards, application of complete streets methodologies, and identified opportunities for local and regional pedestrian connectivity"
+				, "Created design standards, application of complete streets methodologies and identified opportunities for local and regional pedestrian connectivity"
 				, "Recommendations included pedestrian-friendly design and placement of gateways hardscape, landscape design, trails, sidewalks, miscellaneous furnishings and signage"
 				, "Protection and utilization of the intermittent natural areas and wetlands throughout the corridor"
 			]
@@ -810,6 +808,15 @@ $GLOBALS['project_data'] = '{
 			}
 			, {
 				"uri": "us20_1.jpg"
+			}
+			, {
+				"uri": "us20_3.jpg"
+			}
+			, {
+				"uri": "us20_4.jpg"
+			}
+			, {
+				"uri": "us20_5.jpg"
 			}
 		]
 		, "alias": "hwy20"

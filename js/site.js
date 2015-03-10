@@ -118,21 +118,15 @@ $( document ).ready( function() {
 	}
 	
 	function fadeOutIntro() {
-		$( '#intro' ).fadeTo( 2500, 0, showContainer );
+		$( '#intro' ).fadeTo( 1500, 0, showContainer );
+		// $( '#intro' ).fadeOut( 1500 );
 	}
 	
-	if ( $( 'body' ).attr( 'id' ) == 'home' ) {
+	if ( $( 'body' ).attr( 'id' ) === 'home' ) {
 		
-		$.jCookie( 'initlogo', null );
-		
-		if ( !$.jCookie( 'initlogo' ) ) {
-			var date = new Date();
-			date.setTime( date.getTime() + ( 1 * 24 * 60 * 60 * 1000 ) );
-				
-			$.jCookie( 'initlogo', true, date );
-			
-			$( '#intro .logo' ).fadeIn( 'slow' ).fadeTo( 3500, 1, fadeOutIntro );
-			
+		if ( !$.cookie( 'initLogo' ) || $.cookie( 'initLogo' ) === '0' || $.cookie( 'initLogo' ) === 0 ) {
+			$.cookie( 'initLogo', 1, { expires: 7, path: '/' });
+			$( '#intro .logo' ).fadeIn( 'slow' ).fadeTo( 1500, 1, fadeOutIntro );
 		} else {
 			$( '#intro' ).remove();
 		}

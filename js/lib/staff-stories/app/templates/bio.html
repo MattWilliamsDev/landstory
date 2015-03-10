@@ -48,6 +48,21 @@
 		</ul>
 	</dd>
 	{{/ if }}
+
+	{{# if certifications }}
+	<dt>Certifications</dt>
+	<dd>
+		<ul class="certifications">
+			{{# each certifications }}
+			<li>
+				{{ title }}{{# if state }}, {{ state }}{{/ if }}{{# if year }} - {{ year }}{{/ if }}
+			</li>
+			{{/ each }}
+		</ul>
+	</dd>
+	{{/ if }}
+
+	
 	
 	{{# if participation }}
 	<dt>Community Participation</dt>
