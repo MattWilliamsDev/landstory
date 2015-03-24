@@ -5,6 +5,11 @@
 // var demi = { src: '/swf/demi.swf' };
 // sIFR.activate(demi);
 		
+var CONST = {
+	FADE_IN: 3000 // ms
+	, FADE_OUT: 1500 // ms
+	, COOKIE_EXPIRATION: 1 // days
+};
 		
 /**
  * CALLED BY CYCLE PAGER
@@ -22,6 +27,9 @@ function onAfter( curr, next, opts ) {
 $( document ).ready( function() {
 	// VARIABLES
 	var hrefHash;
+
+	console.time( 'ready' );
+	console.time( 'removed' );
 
 	// sIFR CONFIG
 	// sIFR.replace(demi, {
@@ -114,19 +122,21 @@ $( document ).ready( function() {
 	 * HOMEPAGE
 	 */
 	function showContainer() {
+		console.timeEnd( 'removed' );
 		$( '#intro' ).remove();
 	}
 	
 	function fadeOutIntro() {
-		$( '#intro' ).fadeTo( 1500, 0, showContainer );
+		console.timeEnd( 'ready' );
+		$( '#intro' ).fadeTo( CONST.FADE_OUT, 0, showContainer );
 		// $( '#intro' ).fadeOut( 1500 );
 	}
 	
 	if ( $( 'body' ).attr( 'id' ) === 'home' ) {
 		
 		if ( !$.cookie( 'initLogo' ) || $.cookie( 'initLogo' ) === '0' || $.cookie( 'initLogo' ) === 0 ) {
-			$.cookie( 'initLogo', 1, { expires: 7, path: '/' });
-			$( '#intro .logo' ).fadeIn( 'slow' ).fadeTo( 1500, 1, fadeOutIntro );
+			$.cookie( 'initLogo', 1, { expires: CONST.COOKIE_EXPIRATION, path: '/' });
+			$( '#intro .logo' ).fadeIn( CONST.FADE_IN ).fadeTo( CONST.FADE_IN, 1, fadeOutIntro );
 		} else {
 			$( '#intro' ).remove();
 		}
